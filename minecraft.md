@@ -21,6 +21,6 @@
 - [Sildurs Shaders](https://sildurs-shaders.github.io)
 
 ### my setup:
-MultiMC with 2 instances:
+MultiMC with 2 instances (folders on my 2nd SSD).  To ensure Minecraft isn't using a 32-bit Java, I place a 64-bit `javaw.exe` in a folder and tell MultiMC where to find it. And I tell it to give Java up to 4GB (I think).
   1. Fabric / Optifine / Optifabric / Mod Menu / MiniHUD -- SEUS shaders -- I get 30-100 FPS.
   2. Sodium / Lithium / Phosphor / Mod Menu / MiniHUD / LambDynamicLights -- I get like 500 FPS (but I use vsync).
