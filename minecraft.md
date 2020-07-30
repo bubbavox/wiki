@@ -19,3 +19,8 @@
 ### shader packs
 - [SEUS](https://www.sonicether.com/seus/)
 - [Sildurs Shaders](https://sildurs-shaders.github.io)
+
+### my setup:
+MultiMC with 2 instances:
+  1. Fabric / Optifine / Optifabric / Mod Menu / MiniHUD -- SEUS shaders -- I get 30-100 FPS.
+  2. Sodium / Lithium / Phosphor / Mod Menu / MiniHUD / LambDynamicLights -- I get like 500 FPS (but I use vsync).
