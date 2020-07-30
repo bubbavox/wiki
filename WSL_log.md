@@ -1,4 +1,4 @@
-# wsl_log
+## WSL_log
 
 2020-07-30
 ### Ubuntu setup:
