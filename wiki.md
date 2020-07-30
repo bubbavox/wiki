@@ -1,3 +1,4 @@
 - [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)
 - [MDwiki](https://dynalon.github.io/mdwiki/#!index.md) - *A CMS/Wiki which takes its input in Markdown, built in HTML5/Javascript, runs 100% on the client.*
+- [GitHub wiki](https://docs.github.com/en/github/building-a-strong-community/documenting-your-project-with-wikis)
 - [Gollum](https://github.com/gollum/gollum) - *A simple, Git-powered wiki with a sweet API and local frontend.* 
