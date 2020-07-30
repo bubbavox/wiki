@@ -18,10 +18,10 @@
     and [flowchart.js](http://flowchart.js.org/)
 
 ### Other stuff:
-[MDwiki](https://dynalon.github.io/mdwiki/#!index.md) - *A CMS/Wiki completely built in HTML5/Javascript and runs 100% on the client.*
+* [MDwiki](https://dynalon.github.io/mdwiki/#!index.md) - *A CMS/Wiki completely built in HTML5/Javascript and runs 100% on the client.*
   
-[zero-md](https://zerodevx.github.io/zero-md/) - *Ridiculously simple markdown displayer* - 
-[demo](https://zerodevx.github.io/zero-md/demo/)
+* [zero-md](https://zerodevx.github.io/zero-md/) - *Ridiculously simple markdown displayer* - 
+    [demo](https://zerodevx.github.io/zero-md/demo/)
 
-[lorem-markdownum](https://github.com/jaspervdj/lorem-markdownum) - *a lorem ipsum generator for markdown.*
+* [lorem-markdownum](https://github.com/jaspervdj/lorem-markdownum) - *a lorem ipsum generator for markdown.*
    
