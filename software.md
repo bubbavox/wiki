@@ -4,7 +4,7 @@
 - [Typora](https://typora.io/) - desktop markdown editor (cross-platform)
 
 #### coding
-- [VSCode] - see [VSCode]
+- [VSCode] - see [vscode]
 - [Brackets]
 
 #### communication
