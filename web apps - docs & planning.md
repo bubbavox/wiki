@@ -3,8 +3,9 @@
 - [Gitbook]
 - [Workflowy]
 - [Github Pages]
-- [Github Wiki]
-- [MDwiki]
 - [StackEdit]
 
-**wikis** - see also [wiki.md](wiki.md)
+**wikis** - see [wiki.md](wiki.md)
+- [Github Wiki]
+- [MDwiki]
+- [Gollum]
