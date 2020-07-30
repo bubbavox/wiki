@@ -7,7 +7,7 @@
 [spec]
 
 ### Markdown editors:
-* [StackEdit](https://stackedit.io/app#) - online markdown editor by [benweet](https://github.com/benweet)
+* [StackEdit](https://stackedit.io/app#) - online markdown editor by the handsome [benweet](https://github.com/benweet)
   * uses [mermaid](https://mermaid-js.github.io) diagrams & charts
   * can be added to a website with [stackedit.js](https://benweet.github.io/stackedit.js/)
   
