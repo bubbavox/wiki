@@ -1,6 +1,7 @@
 GitHub-flavored Markdown - 
 [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) - 
-[guide] - 
+[guide1](https://guides.github.com/features/mastering-markdown/) - 
+[guide2]
 [spec]
 
 [StackEdit](https://stackedit.io/app#) - online markdown editor by [benweet](https://github.com/benweet)
