@@ -3,6 +3,10 @@
 - [StackEdit](https://stackedit.io/app#) - **online** markdown editor by [benweet](https://github.com/benweet)
 - [Typora](https://typora.io/) - desktop markdown editor (cross-platform)
 
+#### coding
+- [VSCode] - see [VSCode]
+- [Brackets]
+
 #### communication
 - [Discord]
 - [Slack](https://slack.com/)
