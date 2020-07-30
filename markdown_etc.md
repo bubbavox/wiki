@@ -7,5 +7,6 @@ GitHub-flavored Markdown -
   - uses [mermaid](https://mermaid-js.github.io) diagrams & charts
   - can be added to a website with [stackedit.js](https://benweet.github.io/stackedit.js/)
   
-[zero-md](https://zerodevx.github.io/zero-md/) - "Ridiculously simple markdown displayer"
+[zero-md](https://zerodevx.github.io/zero-md/) - "Ridiculously simple markdown displayer" - 
+[demo](https://zerodevx.github.io/zero-md/demo/)
    
