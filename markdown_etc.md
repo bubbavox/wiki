@@ -9,4 +9,6 @@ GitHub-flavored Markdown -
   
 [zero-md](https://zerodevx.github.io/zero-md/) - "Ridiculously simple markdown displayer" - 
 [demo](https://zerodevx.github.io/zero-md/demo/)
+
+[lorem-markdownum](https://github.com/jaspervdj/lorem-markdownum)
    
