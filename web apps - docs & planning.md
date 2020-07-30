@@ -7,4 +7,4 @@
 - [MDwiki]
 - [StackEdit]
 
-##wikis## - see also wiki.md
+**wikis** - see also [wiki.md](wiki.md)
