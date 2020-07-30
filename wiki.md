@@ -1,5 +1,8 @@
 - [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)
 - [MDwiki](https://dynalon.github.io/mdwiki/#!index.md) - *A CMS/Wiki which takes its input in Markdown, built in HTML5/Javascript, runs 100% on the client.*
 - [GitHub wiki](https://docs.github.com/en/github/building-a-strong-community/documenting-your-project-with-wikis)
+  - example: [FastLED wiki](https://github.com/FastLED/FastLED/wiki/Overview)
+- [GitBook]
+  - example: [EQEmu wiki](https://eqemu.gitbook.io/server/)
 - [Gollum](https://github.com/gollum/gollum) - *A simple, Git-powered wiki with a sweet API and local frontend.* 
   - [Static Site Generator for Gollum Wikis](https://github.com/dreverri/gollum-site) (updated 2014)
