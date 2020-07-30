@@ -3,6 +3,11 @@
 - [StackEdit](https://stackedit.io/app#) - **online** markdown editor by [benweet](https://github.com/benweet)
 - [Typora](https://typora.io/) - desktop markdown editor (cross-platform)
 
+#### communication
+- [Discord]
+- [Slack](https://slack.com/)
+- [Zoom]
+
 #### PC test & benchmark
 - [RealBench]
 - [AIDA64]
