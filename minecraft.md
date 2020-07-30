@@ -7,7 +7,7 @@
   [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) - "a lightweight, experimental modding toolchain for Minecraft." Good docs.
 - [Forge](https://forums.minecraftforge.net/)
 ### rendering mods (choose 1)
-- [Optifine](https://optifine.net) - (Check preview versions) Necessary for most current shaderpacks. Manages rendering & improves performance.  Greatly expands graphics config options. Currently compatible with Fabric via [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) but [the future is uncertain](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
+- [Optifine](https://optifine.net) - (Check preview versions) Necessary for most current shaderpacks. Manages rendering & improves performance.  Greatly expands graphics config options. Historically compatible with Forge. Currently compatible with Fabric via [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) but [the future looks bleak](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
 - [Sodium]() - Newcomer, Fabric-compatible, with a focus on boosting performance.  Simplifies graphics config.
 - [Canvas]() - Up and coming, optimized for fancy rendering via the Fabric API (maybe no shaderpacks yet available though)
 
