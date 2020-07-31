@@ -1,6 +1,6 @@
 # minecraft notes
 
-[MultiMC Launcher](https://multimc.org/) - Alternative launcher.  Java config, multiple instances, custom install locations, built-in Fabric / Forge installers, etc.  I have 2 instances -- one with Optifine & shaders, and one more performance-focused.  I use MultiMC's "central mods" folder (access via toolbar) as the location for most mod files, and then place mods unique to each instance, in the respective instance's `mods` folder.
+[MultiMC Launcher](https://multimc.org/) - Alternative launcher.  Java config, multiple instances, custom install locations, built-in Fabric / Forge installers, etc.  I have 2 instances -- one with Optifine & shaders, and one more performance-focused.  See my usage notes [below](minecraft.md#my-setup).
 
 ### mod APIs / toolchains (choose 1)
 - [Fabric Loader](https://fabricmc.net/) + 
@@ -21,6 +21,6 @@
 - [Sildurs Shaders](https://sildurs-shaders.github.io)
 
 ### my setup:
-First installed Minecraft Launcher as usual.  Then MultiMC, adding 2 instances (choosing folders on my 2nd SSD).  To ensure Minecraft isn't using a 32-bit Java, I place a 64-bit `javaw.exe` in a folder and tell MultiMC where to find it. And I tell it to give Java up to 4GB (I think). I use MultiMC's "central mods" folder (access via toolbar) as the location for most mod files, and then place mods unique to each instance, in the respective instance's `mods` folder.  I have two instances set up:
+First installed Minecraft Launcher as usual.  Then MultiMC, adding 2 instances (choosing folders on my 2nd SSD).  To ensure Minecraft isn't using a 32-bit Java, I place a 64-bit `javaw.exe` in a folder and tell MultiMC where to find it. And I tell it to give Java up to 4GB.  I place mod files in MultiMC's "central mods folder", and then manage each instance's mods via its _Loader Mods_ menu. I have 2 instances set up:
   1. Fabric / Optifine / Optifabric / Mod Menu / MiniHUD -- SEUS shaders -- I get 30-100 FPS.
   2. Sodium / Lithium / Phosphor / Mod Menu / MiniHUD / LambDynamicLights -- I get like 500 FPS (but I use vsync).
