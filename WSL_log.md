@@ -26,6 +26,6 @@
   - added `chruby ruby-2.7.1` to `~/.profile` ( stock Ubuntu doesn't use `.bash_profile` )
 #### SSH setup:
 - deleted old keys on github
-- generated new SSH key ( [guide] ), w/ custom filename: `~/.ssh/id_200730`, set password
+- generated new SSH key ( [guide] ) w/ custom filename `~/.ssh/id_200730`; set password
 - set `ssh-agent` to auto-launch with bash ( [guide] ):
   - 
