@@ -15,7 +15,7 @@
   sudo apt install -y build-essential
   ```
 #### ruby setup:
-- install chruby per [readme]
+- installed chruby per [readme]
   - used `setup.sh` instead of `make`
   - added `source /usr/local/share/chruby/chruby.sh` to `~/.bashrc`.
 - installed ruby-install per [readme]
