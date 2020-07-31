@@ -15,10 +15,10 @@
   sudo apt install -y build-essential
   ```
 #### ruby setup:
-- installed chruby per [readme]
+- installed [chruby](https://github.com/postmodern/chruby) per readme
   - used `setup.sh` instead of `make`
   - added `source /usr/local/share/chruby/chruby.sh` to `~/.bashrc`.
-- installed ruby-install per [readme]
+- installed [ruby-install](https://github.com/postmodern/ruby-install) per readme
 - installed ruby 2.7.1 __as root__ (installs into `/opt/rubies`):
   `sudo ruby-install ruby 2.7.1`
 - restarted shell
