@@ -26,6 +26,9 @@
   - added `chruby ruby-2.7.1` to `~/.profile` ( stock Ubuntu doesn't use `.bash_profile` )
 #### SSH setup:
 - deleted old keys on github
-- generated new SSH key ( [guide] ) w/ custom filename `~/.ssh/id_200730`; set password
-- set `ssh-agent` to auto-launch with bash ( [guide] ):
-  - 
+- generated new SSH key ( [guide](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) ) w/ custom filename `~/.ssh/id_200730`; set password
+- started `ssh-agent` with `eval $(ssh-agent -s)` and added key with `ssh-add ~/.ssh/200730` (non-default filename of my key)
+- set `ssh-agent` to auto-launch with bash ( [guide](https://docs.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases) ):
+  - added [code block](https://docs.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows) from previous link into `~/.profile`
+- added __public__ key to GitHub:
+  - printed key to shell with `cat ~/.ssh/200730.pub` and copy/pasted to [github SSH page](https://github.com/settings/keys)
