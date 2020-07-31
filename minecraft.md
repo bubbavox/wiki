@@ -21,9 +21,9 @@
 - [Sildurs Shaders](https://sildurs-shaders.github.io)
 
 ### my setup:
-  - First I installed Minecraft Launcher as usual, and created a 1.16.1 installation.  
+  - First I installed Minecraft Launcher as usual, and created a 1.16.1 installation.  Then quit the Launcher. 
   - Then I installed a fresh version of [Java 64-bit](https://www.java.com/en/download/manual.jsp). 
-  - Then I installed MultiMC, and created 2 instances (creating new folders on my 2nd SSD). 
+  - Then I installed MultiMC: `D:/Games/MultiMC`, and created 2 instances (creating new folders within `../MultiMC/instances` ).  
   - optional & maybe unnecessary: To ensure Minecraft isn't using a 32-bit Java exe, I place a copy of the 64-bit `javaw.exe` in a folder and tell MultiMC where to find it. Caveat: this copy of java won't be auto-updated.
   - I configured MultiMC to give Java up to 6GB RAM -- probably excessive.
   - I place mod files in MultiMC's "central mods folder", and then manage each instance's mods via its _Loader Mods_ menu.    
