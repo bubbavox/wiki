@@ -26,9 +26,9 @@
   - added `chruby ruby-2.7.1` to `~/.profile` ( stock Ubuntu doesn't use `.bash_profile` )
 #### SSH setup:
 - deleted old keys on github
-- [generated new SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) w/ custom filename `~/.ssh/id_200730`; set password
-- started `ssh-agent` with `eval $(ssh-agent -s)` and added key with `ssh-add ~/.ssh/200730` (non-default filename of my key)
+- [generated new SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) w/ `ssh-keygen -t rsa -b 4096 -C "adrianhwhite@gmail.com"` ; set password
+- started `ssh-agent` with `eval $(ssh-agent -s)` and added new key with `ssh-add ~/.ssh/id_rsa`
 - [set ssh-agent to auto-launch with bash](https://docs.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases):
   - added [code block](https://docs.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows) from guide to `~/.profile`
 - [added __public__ key to GitHub](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account):
-  - printed key to shell with `cat ~/.ssh/200730.pub` and copy/pasted to my [github SSH page](https://github.com/settings/keys)
+  - printed key to shell & copied to Windows clipboard with `cat ~/.ssh/id_rsa.pub | clip.exe` and copy/pasted to my [github SSH page](https://github.com/settings/keys)
