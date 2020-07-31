@@ -1,7 +1,7 @@
 ## WSL_log
 
 2020-07-30
-#### Installed WSL2 ( [guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) )
+#### Installed WSL2 ( [guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) ) on Windows 10 build 2004
 #### Ubuntu setup:
 - installed Ubuntu 20.04 via Microsoft Store
 - updated:
