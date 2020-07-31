@@ -2,6 +2,7 @@
 
 #### pages with somethings on them:
 - [content management systems](CMS.md)
+- [remote -- SSH/SFTP](remote.md]
 - [markdown](markdown.md)
 - [wiki](wiki.md)
 - [software](software.md)
