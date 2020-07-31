@@ -15,7 +15,7 @@
 - [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) -- offers a config for other installed mods
 - [MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud) -- I find this one essential.  Requires [MaLiLib](https://www.curseforge.com/minecraft/mc-mods/malilib)
 - [custom window title](https://www.curseforge.com/minecraft/mc-mods/custom-window-title) - useful for sending AutoHotkey scripts to a uniquely titled window.
-- __Optifine replacement mods:__ (again, see [this page](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754))
+- __Optifine replacement mods:__ again, see [this page](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).  These are mostly single-purpose mods that perform some of the many features built in to Optifine.
 ### shader packs
 - [SEUS](https://www.sonicether.com/seus/)
 - [Sildurs Shaders](https://sildurs-shaders.github.io)
