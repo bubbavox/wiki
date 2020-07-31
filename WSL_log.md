@@ -16,7 +16,7 @@
   ```
 #### ruby setup:
 - installed [chruby](https://github.com/postmodern/chruby) per readme
-  - used `setup.sh` instead of `make`
+  - used install script `setup.sh` instead of `make`
   - added `source /usr/local/share/chruby/chruby.sh` to `~/.bashrc`.
 - installed [ruby-install](https://github.com/postmodern/ruby-install) per readme
 - installed ruby 2.7.1 __as root__ (installs into `/opt/rubies`):
