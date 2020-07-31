@@ -29,4 +29,4 @@
   - I place mod files in MultiMC's "central mods folder", and then manage each instance's mods via its _Loader Mods_ menu.    
   - I have 2 instances set up:
     - 1.16.1 Fabric / Optifine / Optifabric / Mod Menu / MiniHUD -- SEUS shaders -- I get 30-100 FPS.
-    - 1.16.1 Sodium / Lithium / Phosphor / Mod Menu / MiniHUD / LambDynamicLights -- I get like 500 FPS (but I use vsync).
+    - 1.16.1 Sodium / Lithium / Phosphor / Mod Menu / MiniHUD / LambDynamicLights -- I get like 500 FPS.
