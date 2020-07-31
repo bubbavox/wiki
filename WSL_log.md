@@ -9,7 +9,7 @@
   sudo apt update
   sudo apt upgrade
   ```
-- installed basic packages:
+- installed some basics:
   ```
   sudo apt install -y curl libssl-dev wget
   sudo apt install -y build-essential
