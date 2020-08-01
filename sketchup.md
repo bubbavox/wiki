@@ -68,7 +68,7 @@ shift-W     | Make Component
 ctrl-R      | Make Unique
 A           | Hide Rest of Model
 shift-Q     | Update Scene
-shift-T     | Trim
+shift-T     | Trim (Eneroth Solid Tools)
 alt-Z       | Zoom Extents
 E           | UI - Toggle Entity Info (I use a loose tray window for Entity Info)
 alt-A       | UI - Show Outliner Tab
