@@ -1,6 +1,6 @@
 ### work in progress
 
-#### pages with somethings on them:
+#### pages with actual content:
 - [sketchup](sketchup.md)
 - [content management systems](CMS.md)
 - [remote (SSH, SFTP)](remote.md)
