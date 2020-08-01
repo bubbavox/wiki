@@ -4,7 +4,7 @@
 ## contents
 
 [extensions](#extensions) \
-[keyboard shortcuts](#keyboard-shortcuts) \
+[controls](#controls) \
 [setup](#setup) \
 [saving & restoring settings](#saving--restoring-settings) \
 [proxy modelling](#proxy-modelling)
@@ -42,7 +42,7 @@ And here are some interesting extensions I haven't tried yet:
 - FredoCorner / Round corners
 - Push Line
 
-## keyboard shortcuts
+## controls
 I use a [WASD][WASD] hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
 
 I've swapped a couple of keys around on the keyboard, using [SharpKeys]: \
