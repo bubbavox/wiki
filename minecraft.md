@@ -31,3 +31,13 @@
   - I have 2 instances set up:
     - 1.16.1 Fabric / Optifine / Optifabric / Mod Menu / MiniHUD -- SEUS shaders -- I get 30-100 FPS.
     - 1.16.1 Sodium / Lithium / Phosphor / Mod Menu / MiniHUD / LambDynamicLights -- I get like 500 FPS.
+    
+ ### tips & tricks
+  - F3+T - reloads resource packs, audio devices, and who knows what else
+  - F3+P - toggle pause on lost focus
+  - F3+O - shader options (if applicable)
+  - __inventory tricks:__
+    - ctrl+Q - drop stack at cursor (hold down for multiple stacks)
+    - double-click with item on cursor - transfer all stacks of that item
+    
+  
