@@ -1,15 +1,12 @@
 
 # SketchUp notes
+[extensions](#extensions) \
 [keyboard shortcuts] \
-[extensions] \
 [proxy modelling]
 
-### Proxy modeling
-- [Video: Sketchup Skill-Builder - proxy with native SU tools](https://youtu.be/2VZj-odqx68)
-- [Article: Always Use Proxy Components in Sketchup for Faster Rendering](http://sketchup-ur-space.com/2017/dec/always-use-proxy-components-in-sketchup-for-faster-rendering.html)
-- [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
+### extensions
 
-### Keyboard shortcuts
+### keyboard shortcuts
 My essential tools / commands, and the keyboard shortcut I have assigned to each.  I use a WASD hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
 
 I've swapped a couple of keys around on the keyboard, using <a href="https://www.randyrants.com/category/sharpkeys/">SharpKeys</a>:
@@ -48,3 +45,8 @@ alt-S       | UI - Show Layers Tab
 alt-D       | UI - Show Scenes Tab
   
 </details>
+
+### Proxy modeling
+- [Video: Sketchup Skill-Builder - proxy with native SU tools](https://youtu.be/2VZj-odqx68)
+- [Article: Always Use Proxy Components in Sketchup for Faster Rendering](http://sketchup-ur-space.com/2017/dec/always-use-proxy-components-in-sketchup-for-faster-rendering.html)
+- [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
