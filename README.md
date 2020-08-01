@@ -6,6 +6,6 @@
 - [remote (SSH, SFTP)](remote.md)
 - [markdown](markdown.md)
 - [wiki](wiki.md)
-- [software](software.md)
+- [software_windows](software_windows.md)
 - [WSL](WSL.md)
 - [minecraft](minecraft.md)
