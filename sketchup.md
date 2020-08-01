@@ -7,7 +7,7 @@
 ### extensions
 
 ### keyboard shortcuts
-My essential tools / commands, and the keyboard shortcut I have assigned to each.  I use a WASD hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
+My essential tools / commands, and the keyboard shortcut I have assigned to each.  I use a [WASD][WASD] hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
 
 I've swapped a couple of keys around on the keyboard, using <a href="https://www.randyrants.com/category/sharpkeys/">SharpKeys</a>:
   - `Control` <--> `Caps`
@@ -52,3 +52,5 @@ alt-D       | UI - Show Scenes Tab
 - [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
 
 [back to top](https://github.com/bubbavox/notes_public/blob/master/sketchup.md#sketchup-notes)
+
+[WASD]: /images/WASD.jpg
