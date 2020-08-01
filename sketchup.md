@@ -18,134 +18,33 @@ I've swapped a couple of keys around on the keyboard, using <a href="https://www
 Still trying to figure out an effective way to have shortcuts for <i>Flip Along</i>...\
 <details>
   <summary>View table of shortcuts:</summary>
-<table style="border-collapse: collapse; border: none;"><colgroup><col width="57"></col><col width="79"></col><col width="488"></col></colgroup><tbody>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-space</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Selection tool</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-V</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Move</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-C</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Line</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-D</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Push/Pull</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Q</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Rotate</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-S</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Scale</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-R</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Rectangle</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-shift-C</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Circle</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-shift-R</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Offset</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-B</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Paint Bucket (hold ALT to sample material)</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-shift-E</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Eraser</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Z</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Undo</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-shift-Z</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Redo</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-shift-V</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Paste in Place</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-W</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Make Group</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-shift-W</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Make Component</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-ctrl-R</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Make Unique</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-A</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Hide Rest of Model</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-shift-Q</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Update Scene</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-shift-T</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Trim</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-alt-Z</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-Zoom Extents</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-E</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-UI - Toggle Entity Info (I use a loose tray window for Entity Info)</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-alt-A</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-UI - Show Outliner Tab</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-alt-S</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-UI - Show Layers Tab</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-alt-D</div>
-</td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
-UI - Show Scenes Tab</div>
-</td></tr>
-<tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td></tr>
-</tbody></table>
-
+  
+command | key binding
+--------|------------
+space | Selection tool
+V | Move
+C | Line
+D | Push/Pull
+Q | Rotate
+S | Scale
+R | Rectangle
+shift-C | Circle
+shift-R | Offset
+B | Paint Bucket (hold ALT to sample material)
+shift-E | Eraser
+Z | Undo
+shift-Z | Redo
+shift-V | Paste in Place
+W | Make Group
+shift-W | Make Component
+ctrl-R | Make Unique
+A | Hide Rest of Model
+shift-Q | Update Scene
+shift-T | Trim
+alt-Z | Zoom Extents
+E | UI - Toggle Entity Info (I use a loose tray window for Entity Info)
+alt-A | UI - Show Outliner Tab
+alt-S | UI - Show Layers Tab
+alt-D | UI - Show Scenes Tab
+  
 </details>
-
