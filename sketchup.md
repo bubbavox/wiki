@@ -5,8 +5,9 @@
 [proxy modelling](#proxy-modelling)
 
 testing embedded 3D model:\
+<html>
 <iframe src="https://3dwarehouse.sketchup.com/embed/7e968057-b5a0-4f52-8953-2820d2d5cb94" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="580" height="326" allowfullscreen></iframe>
-
+</html>
 ### extensions
 
 Some of my favorite plugins:  
