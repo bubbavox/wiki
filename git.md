@@ -14,9 +14,7 @@
     - ~~`git pull git@github.com:bubbavox/notes_public.git`~~
   - ~~Set github repo as ... _upstream branch?_ ... _tracked remote?_ :~~
     - ~~`git push -u git@github.com:bubbavox/notes_public.git`~~
-  - Realized none of that was necessary, and did a simple fresh clone in WSL shell:
-    - `cd /mnt/d/_work/_code`
-    - `git clone git@github.com:bubbavox/notes_public.git`
-    
-  
-
+  - Realized none of that was necessary; did a simple, fresh `clone`:
+    - WSL shell:
+      - `cd /mnt/d/_work/_code`
+      - `git clone git@github.com:bubbavox/notes_public.git`

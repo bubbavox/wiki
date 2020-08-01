@@ -1,8 +1,12 @@
 
 # SketchUp notes
+
+## contents
+
 [extensions](#extensions) \
 [keyboard shortcuts](#keyboard-shortcuts) \
 [setup](#setup) \
+[saving & restoring settings](#saving--restoring-settings) \
 [proxy modelling](#proxy-modelling)
 
 ## extensions
@@ -46,7 +50,7 @@ I've swapped a couple of keys around on the keyboard, using [SharpKeys]
   - `Esc` <--> `~`
   
 <details>
-  <summary><b>my keyboard shortcuts:</b></summary>
+  <summary>my keyboard shortcuts:</summary>
   
 command     | key binding
 ------------|------------
@@ -80,11 +84,10 @@ alt-D       | UI - Show Scenes Tab
 
 ## setup
 
-### saving & restoring settings - SketchUp:
-
-### saving & restoring settings - LayOut:
+## saving & restoring settings
 
 ## proxy modeling
+
 - [Video: Sketchup Skill-Builder - proxy with native SU tools](https://youtu.be/2VZj-odqx68)
 - [Article: Always Use Proxy Components in Sketchup for Faster Rendering](http://sketchup-ur-space.com/2017/dec/always-use-proxy-components-in-sketchup-for-faster-rendering.html)
 - [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
