@@ -1,5 +1,5 @@
 
-# SketchUp notes
+# SketchUp notes (work in progress)
 
 ## contents
 
