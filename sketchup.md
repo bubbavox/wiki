@@ -2,7 +2,7 @@
 # SketchUp notes
 [keyboard shortcuts] \
 [extensions] \
-[proxy modelling] \
+[proxy modelling]
 
 ### Proxy modeling
 - [Video: Sketchup Skill-Builder - proxy with native SU tools](https://youtu.be/2VZj-odqx68)
