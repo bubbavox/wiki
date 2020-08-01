@@ -14,7 +14,7 @@ My essential tools / commands, and the keyboard shortcut I have assigned to each
 <br />
 I've swapped a couple of keys around on the keyboard, using <a href="https://www.randyrants.com/category/sharpkeys/">SharpKeys</a>:
   - `Control` <--> `Caps`
-  - `Esc` <--> `~`
+  - `Esc` <--> `~`\
 Still trying to figure out an effective way to have shortcuts for <i>Flip Along</i>...&nbsp; <br />
 <br />
 <table style="border-collapse: collapse; border: none;"><colgroup><col width="57"></col><col width="79"></col><col width="488"></col></colgroup><tbody>
