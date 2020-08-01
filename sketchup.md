@@ -17,7 +17,7 @@ I've swapped a couple of keys around on the keyboard, using <a href="https://www
   - `Esc` <--> `~`\
 Still trying to figure out an effective way to have shortcuts for <i>Flip Along</i>...\
 <details>
-  <summary>__View table of shortcuts:__</summary>
+  <summary>View table of shortcuts:</summary>
   
 command | key binding
 --------|------------
