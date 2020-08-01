@@ -15,8 +15,9 @@ My essential tools / commands, and the keyboard shortcut I have assigned to each
 I've swapped a couple of keys around on the keyboard, using <a href="https://www.randyrants.com/category/sharpkeys/">SharpKeys</a>:
   - `Control` <--> `Caps`
   - `Esc` <--> `~`\
-Still trying to figure out an effective way to have shortcuts for <i>Flip Along</i>...&nbsp; <br />
-<br />
+Still trying to figure out an effective way to have shortcuts for <i>Flip Along</i>...\
+<details>
+  <summary>View table of shortcuts:</summary>
 <table style="border-collapse: collapse; border: none;"><colgroup><col width="57"></col><col width="79"></col><col width="488"></col></colgroup><tbody>
 <tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><div dir="ltr" style="line-height: 1.2; margin-bottom: 0pt; margin-top: 0pt;">
 space</div>
@@ -146,4 +147,5 @@ UI - Show Scenes Tab</div>
 <tr style="height: 0pt;"><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td><td style="padding: 2pt 2pt 2pt 2pt; vertical-align: bottom;"><br /></td></tr>
 </tbody></table>
 
+</details>
 
