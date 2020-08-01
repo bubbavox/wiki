@@ -11,7 +11,7 @@
 
 ### Keyboard shortcuts
 My essential tools / commands, and the keyboard shortcut I have assigned to each.  I use a WASD hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
-<br />
+
 I've swapped a couple of keys around on the keyboard, using <a href="https://www.randyrants.com/category/sharpkeys/">SharpKeys</a>:
   - `Control` <--> `Caps`
   - `Esc` <--> `~`\
