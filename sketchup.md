@@ -14,10 +14,10 @@ My essential tools / commands, and the keyboard shortcut I have assigned to each
 
 I've swapped a couple of keys around on the keyboard, using <a href="https://www.randyrants.com/category/sharpkeys/">SharpKeys</a>:
   - `Control` <--> `Caps`
-  - `Esc` <--> `~`\
-Still trying to figure out an effective way to have shortcuts for <i>Flip Along</i>...\
+  - `Esc` <--> `~`
+  
 <details>
-  <summary>View table of shortcuts:</summary>
+  <summary><b>View table of shortcuts:</b></summary>
   
 command     | key binding
 ------------|------------
