@@ -1,6 +1,6 @@
 # minecraft notes
 
-[MultiMC Launcher](https://multimc.org/) - Alternative launcher.  Java config, multiple instances, custom install locations, built-in Fabric / Forge installers, etc.  I have 2 instances -- one with Optifine & shaders, and one more performance-focused.  See my usage notes [below](minecraft.md#my-setup).
+[MultiMC Launcher](https://multimc.org/) - Alternative launcher.  Java config, multiple instances, custom install locations, built-in Fabric / Forge installers, etc.  I have 2 instances -- one with Optifine & shaders, and one performance-focused, using Sodium.  See my usage notes [below](minecraft.md#my-setup).
 
 ### mod APIs / toolchains (choose 1)
 - [Fabric Loader](https://fabricmc.net/) + 
@@ -8,7 +8,7 @@
 - [Forge](https://forums.minecraftforge.net/) - old school. The official way to use Optifine + shaders, and many mods.
 ### rendering mods (choose 1)
 - [Optifine](https://optifine.net) - (Check preview versions) Necessary for most current shaderpacks. Manages rendering & improves performance.  Greatly expands graphics config options. Historically compatible with Forge. Currently compatible with Fabric via [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) but [the future looks bleak](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
-- [Sodium]() - Newcomer, Fabric-compatible, with a focus on boosting performance.  Simplifies graphics config.
+- [Sodium]() - Newcomer, Fabric-compatible, with a focus on boosting performance.  Graphics config is almost _too_ simple.
 - [Canvas]() - Up and coming, optimized for fancy rendering via the Fabric API (maybe no shaderpacks yet available though)
 
 ### Fabric mods (Forge versions may also be available)
