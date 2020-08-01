@@ -27,6 +27,11 @@
 - [GPU-Z]
 - [CoreTemp]
 
+## Firefox extensions
+- [Tree Style Tab]
+- [uBlock Origin]
+- [Raindrop]
+
 ## unsorted
 -   [WinThumbsPreloader] - preloads thumbnails in a selected folder
 -   Bvckup2
