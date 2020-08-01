@@ -21,30 +21,30 @@ Still trying to figure out an effective way to have shortcuts for <i>Flip Along<
   
 command | key binding
 --------|------------
-space | Selection tool
-V | Move
-C | Line
-D | Push/Pull
-Q | Rotate
-S | Scale
-R | Rectangle
+space   | Selection tool
+V       | Move
+C       | Line
+D       | Push/Pull
+Q       | Rotate
+S       | Scale
+R       | Rectangle
 shift-C | Circle
 shift-R | Offset
-B | Paint Bucket (hold ALT to sample material)
+B       | Paint Bucket (hold ALT to sample material)
 shift-E | Eraser
-Z | Undo
+Z       | Undo
 shift-Z | Redo
 shift-V | Paste in Place
-W | Make Group
+W       | Make Group
 shift-W | Make Component
-ctrl-R | Make Unique
-A | Hide Rest of Model
+ctrl-R  | Make Unique
+A       | Hide Rest of Model
 shift-Q | Update Scene
 shift-T | Trim
-alt-Z | Zoom Extents
-E | UI - Toggle Entity Info (I use a loose tray window for Entity Info)
-alt-A | UI - Show Outliner Tab
-alt-S | UI - Show Layers Tab
-alt-D | UI - Show Scenes Tab
+alt-Z   | Zoom Extents
+E       | UI - Toggle Entity Info (I use a loose tray window for Entity Info)
+alt-A   | UI - Show Outliner Tab
+alt-S   | UI - Show Layers Tab
+alt-D   | UI - Show Scenes Tab
   
 </details>
