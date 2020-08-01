@@ -53,4 +53,4 @@ alt-D       | UI - Show Scenes Tab
 
 [back to top](https://github.com/bubbavox/notes_public/blob/master/sketchup.md#sketchup-notes)
 
-[WASD]: /images/WASD.jpg
+[WASD]: https://raw.githubusercontent.com/bubbavox/notes_public/master/images/WASD.jpg
