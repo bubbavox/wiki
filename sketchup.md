@@ -2,9 +2,10 @@
 # SketchUp notes
 [extensions](#extensions) \
 [keyboard shortcuts](#keyboard-shortcuts) \
+[setup](#setup) \
 [proxy modelling](#proxy-modelling)
 
-### extensions
+## extensions
 
 Some of my favorite plugins:  
 
@@ -37,7 +38,7 @@ And here are some interesting extensions I haven't tried yet:
 - FredoCorner / Round corners
 - Push Line
 
-### keyboard shortcuts
+## keyboard shortcuts
 I use a [WASD][WASD] hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
 
 I've swapped a couple of keys around on the keyboard, using [SharpKeys]
@@ -77,7 +78,13 @@ alt-D       | UI - Show Scenes Tab
   
 </details>
 
-### Proxy modeling
+## setup
+
+### saving & restoring settings - SketchUp:
+
+### saving & restoring settings - LayOut:
+
+## proxy modeling
 - [Video: Sketchup Skill-Builder - proxy with native SU tools](https://youtu.be/2VZj-odqx68)
 - [Article: Always Use Proxy Components in Sketchup for Faster Rendering](http://sketchup-ur-space.com/2017/dec/always-use-proxy-components-in-sketchup-for-faster-rendering.html)
 - [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
