@@ -45,9 +45,9 @@ And here are some interesting extensions I haven't tried yet:
 ## keyboard shortcuts
 I use a [WASD][WASD] hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
 
-I've swapped a couple of keys around on the keyboard, using [SharpKeys]
-  - `Control` <--> `Caps`
-  - `Esc` <--> `~`
+I've swapped a couple of keys around on the keyboard, using [SharpKeys]: \
+`Control` <--> `Caps` \
+`Esc` <--> `~`
   
 <details>
   <summary>my keyboard shortcuts:</summary>
@@ -83,8 +83,18 @@ alt-D       | UI - Show Scenes Tab
 </details>
 
 ## setup
+folders \
+shortcuts \
+interface \
+extensions \
+backups
 
 ## saving & restoring settings
+shortcuts & folders \
+interface \
+extensions \
+interface \
+Layout
 
 ## proxy modeling
 
