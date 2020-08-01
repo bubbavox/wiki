@@ -1,7 +1,9 @@
 
 # SketchUp notes
 [keyboard shortcuts]
+
 [extensions]
+
 [proxy modelling]
 
 ### Proxy modeling
