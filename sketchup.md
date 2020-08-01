@@ -7,14 +7,14 @@
 ### extensions
 
 ### keyboard shortcuts
-My essential tools / commands, and the keyboard shortcut I have assigned to each.  I use a [WASD][WASD] hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
+I use a [WASD][WASD] hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
 
 I've swapped a couple of keys around on the keyboard, using [SharpKeys]
   - `Control` <--> `Caps`
   - `Esc` <--> `~`
   
 <details>
-  <summary><b>View table of shortcuts:</b></summary>
+  <summary><b>my keyboard shortcuts:</b></summary>
   
 command     | key binding
 ------------|------------
