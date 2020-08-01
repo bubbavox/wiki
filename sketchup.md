@@ -1,8 +1,8 @@
 
 # SketchUp notes
 [extensions](#extensions) \
-[keyboard shortcuts] \
-[proxy modelling]
+[keyboard shortcuts](#keyboard-shortcuts) \
+[proxy modelling](#proxy-modelling)
 
 ### extensions
 
