@@ -9,7 +9,7 @@
 ### keyboard shortcuts
 My essential tools / commands, and the keyboard shortcut I have assigned to each.  I use a [WASD][WASD] hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
 
-I've swapped a couple of keys around on the keyboard, using <a href="https://www.randyrants.com/category/sharpkeys/">SharpKeys</a>:
+I've swapped a couple of keys around on the keyboard, using [SharpKeys]
   - `Control` <--> `Caps`
   - `Esc` <--> `~`
   
@@ -51,6 +51,7 @@ alt-D       | UI - Show Scenes Tab
 - [Article: Always Use Proxy Components in Sketchup for Faster Rendering](http://sketchup-ur-space.com/2017/dec/always-use-proxy-components-in-sketchup-for-faster-rendering.html)
 - [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
 
-[back to top](https://github.com/bubbavox/notes_public/blob/master/sketchup.md#sketchup-notes)
+[back to top](#sketchup-notes)
 
 [WASD]: https://raw.githubusercontent.com/bubbavox/notes_public/master/images/WASD.jpg
+[SharpKeys]: https://www.randyrants.com/category/sharpkeys/
