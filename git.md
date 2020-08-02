@@ -22,4 +22,4 @@ function lazygit() {
     git push
 }
 ```
-then just `$ lazygit "my first lazygit"`
+then simply `$ lazygit "my first lazygit"`
