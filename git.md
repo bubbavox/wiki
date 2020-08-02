@@ -18,3 +18,7 @@
     - WSL shell:
       - `cd /mnt/d/_work/_code`
       - `git clone git@github.com:bubbavox/notes_public.git`
+
+[guide: custom git commands](http://thediscoblog.com/blog/2014/03/29/custom-git-commands-in-3-steps/)
+
+[SO thread: custom git functions](https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one)
