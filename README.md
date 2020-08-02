@@ -1,6 +1,6 @@
 # work in progress
 
-## pages with actual content:
+## some contents:
 
 - [bash](bash.md)
 - [content management systems](CMS.md)
