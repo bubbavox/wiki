@@ -10,6 +10,8 @@
     - `git clone git@github.com:bubbavox/notes_public.git`
   - This creates local repo `/mnt/d/_work/_code/notes_public/` and I can push / pull with just `git push` or `git pull`.
 
+[guide: Understanding Git - ELI5](https://hackernoon.com/understanding-git-fcffd87c15a3)
+
 [guide: custom git commands](http://thediscoblog.com/blog/2014/03/29/custom-git-commands-in-3-steps/)
 
 [thread: "git add, commit and push commands in one?"](https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one)
@@ -23,3 +25,4 @@ function lazygit() {
 }
 ```
 then simply `$ lazygit "my first lazygit"`
+

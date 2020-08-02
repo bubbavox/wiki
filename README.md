@@ -1,11 +1,15 @@
-### work in progress
+#work in progress
 
-#### pages with actual content:
-- [sketchup](sketchup.md)
+## pages with actual content:
+
+- [bash](bash.md)
 - [content management systems](CMS.md)
-- [remote (SSH, SFTP)](remote.md)
+- [git](git.md)
 - [markdown](markdown.md)
-- [wiki](wiki.md)
-- [software_windows](software_windows.md)
-- [WSL](WSL.md)
 - [minecraft](minecraft.md)
+- [remote (SSH, SFTP)](remote.md)
+- [sketchup](sketchup.md)
+- [software](software.md)
+- [wiki](wiki.md)
+- [WSL](WSL.md)
+
