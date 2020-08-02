@@ -22,3 +22,13 @@
 [guide: custom git commands](http://thediscoblog.com/blog/2014/03/29/custom-git-commands-in-3-steps/)
 
 [SO thread: custom git functions](https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one)
+
+for example:
+```
+function lazygit() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+```
+`lazygit "my first lazygit"`
