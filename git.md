@@ -8,8 +8,7 @@
   - Realized I just needed a simple `clone`:
     - `cd /mnt/d/_work/_code`
     - `git clone git@github.com:bubbavox/notes_public.git`
-  - This creates local repo `/mnt/d/_work/_code/notes_public/` \
-      and I can push / pull with just `git push` or `git pull`.
+  - This creates local repo `/mnt/d/_work/_code/notes_public/` and I can push / pull with just `git push` or `git pull`.
 
 [guide: custom git commands](http://thediscoblog.com/blog/2014/03/29/custom-git-commands-in-3-steps/)
 
