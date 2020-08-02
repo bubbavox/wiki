@@ -2,7 +2,9 @@
 
 [linux shell wiki](https://bash.cyberciti.biz/guide/Main_Page) \
 [shell scripting tutorial](https://bash.cyberciti.biz/guide/$1) \
-[.bashrc prompt (PS1) generator](http://bashrcgenerator.com/) - EZ-mode, drag and drop
+
+## bash customization:
+[.bashrc prompt (PS1) generator](http://bashrcgenerator.com/) - EZ-mode, drag-and-drop tool for custom prompts (incl. colors)
 [Bash tips: Colors and formatting (ANSI/VT100 Control sequences)](https://misc.flogisoft.com/bash/tip_colors_and_formatting) \
 [How to Customize (and Colorize) Your Bash Prompt](https://www.howtogeek.com/307701/how-to-customize-and-colorize-your-bash-prompt/)
 
