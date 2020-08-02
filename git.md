@@ -23,7 +23,7 @@
 
 [SO thread: custom git functions](https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one)
 
-for example:
+for example, I added the following to `~/.bashrc`:
 ```
 function lazygit() {
     git add .
