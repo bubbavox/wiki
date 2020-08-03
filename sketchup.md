@@ -113,7 +113,7 @@ alt-D       | UI - Show Scenes Tab
 - In *Window > Preferences* I set all folders (except templates) to a location within my design project directory.
 - templates: unchangeable location: `%appdata%\SketchUp\SketchUp 2020\SketchUp\Templates\`
 ### interface
-[screenshot](assets/sketchup_screenshot_UI.png)
+[screenshot](https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/sketchup_screenshot_UI.png)
 - I separate the trays into 4 or 5 tabs, and assign keybinds to the most important ones.  Some workflows might have different priorities, but this is my typical setup:
   - Entity Info - I put this one in a small floating window, and toggle it with a keybind (E)
   - Main - Materials, Styles, Components
