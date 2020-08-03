@@ -11,7 +11,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
       splash_pos_y := 0       
       start_text := "script started"
       stop_text := "script stopped"
-      win_title := "Minecraft* 1.16"  ; title of your window -- enough characters to distinguish it; e.g. "Minecra"
+      win_title := "Minecraft"  ; title of your window -- enough characters to distinguish it; e.g. "Minecra"
 
 
 F8::
