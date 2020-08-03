@@ -2,8 +2,6 @@
 
 ## software
 
-### video editing software
-
 [Adobe Premiere Pro] \
 [DaVinci Resolve](https://www.blackmagicdesign.com/nz/products/davinciresolve/) \
 [Shotcut](https://shotcut.org/) - simple; free \
