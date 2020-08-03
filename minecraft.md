@@ -86,8 +86,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #MaxThreadsPerHotkey 3
 
-;;; CONFIGURATION:i
-      click_delay := 140000       ; milliseconds
+;;; CONFIGURATION:
+      click_delay := 140000     ; milliseconds
       splash_pos_x := 400       ; top left would be x = 0, y = 0
       splash_pos_y := 0       
       start_text := "script started"
@@ -98,8 +98,8 @@ F8::
     toggle:=!toggle
       if toggle
       {
-        SplashTextOn, 100, 50, AHK, % start_text    		; Width, Height, Title, Text
-        WinMove, AHK, , % splash_pos_x, % splash_pos_y     	; Move the splash window, Title, , x, y
+        SplashTextOn, 100, 50, AHK, % start_text    		  ; Width, Height, Title, Text
+        WinMove, AHK, , % splash_pos_x, % splash_pos_y    ; Move the splash window, Title, , x, y
       }
       else
       {
