@@ -45,7 +45,9 @@
 ### item sorter
 - [tutorials @ wiki](https://minecraft.gamepedia.com/Tutorials/Hopper)
 - [video - compact sorter (2015)](https://www.youtube.com/watch?v=bx4VULALtqE)
-- my mining station sorter:
+
+<details>
+<summary>my mining station's sorter categories:</summary>
   1. cobblestone
   2. stone
   3. diorite
@@ -64,6 +66,7 @@
   16. unsorted:
     - emerald
     - all ores
+</details>
 
 ## AutoHotkey scripts
 
@@ -79,7 +82,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #MaxThreadsPerHotkey 3
 
-;;; CONFIGURATION:
+;;; CONFIGURATION:i
       click_delay := 140000       ; milliseconds
       splash_pos_x := 400       ; top left would be x = 0, y = 0
       splash_pos_y := 0       
