@@ -40,4 +40,8 @@
     - ctrl+Q - drop stack at cursor (hold down for multiple stacks)
     - double-click with item on cursor - transfer all stacks of that item
     
-  
+### contraptions
+
+#### item sorting
+- [Hopper tutorials @ wiki](https://minecraft.gamepedia.com/Tutorials/Hopper)
+- [video: compact sorter (2015)](https://www.youtube.com/watch?v=bx4VULALtqE)
