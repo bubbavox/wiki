@@ -1,26 +1,3 @@
-[WASD]: https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/WASD.jpg
-[SharpKeys]: https://www.randyrants.com/category/sharpkeys/
-
-[Eneroth Solid Tools]: https://extensions.sketchup.com/pl/content/eneroth-solid-tools
-[CleanUp³]: https://extensions.sketchup.com/en/content/cleanup%C2%B3
-[TT\_Lib²]: https://extensions.sketchup.com/content/tt_lib%C2%B2
-[Solid Inspector²]: https://extensions.sketchup.com/en/content/solid-inspector%C2%B2
-[Material Replacer]: https://extensions.sketchup.com/en/content/material-replacer
-[Auto Invisible Layer]: https://extensions.sketchup.com/en/content/auto-invisible-layer
-[Turn Off Layer In All Scenes (TOLIAS)]: https://sketchucation.com/forums/viewtopic.php?f=80&t=66243
-[Material Tools]: https://extensions.sketchup.com/en/content/material-tools
-[Axes Tools]: https://extensions.sketchup.com/en/content/axes-tools
-[Eneroth Component Replacer]: https://extensions.sketchup.com/en/content/eneroth-component-replacer
-[FredoScale]: https://extensions.sketchup.com/en/content/fredoscale
-[FredoGhost]: https://sketchucation.com/plugin/2191-fredoghost
-[LibFredo]: https://extensions.sketchup.com/en/content/libfredo6
-
-[Selection Toys]: https://sketchucation.com/plugin/738-tt_selection_toys
-[Architect Tools]: https://extensions.sketchup.com/extension/0e2b5a47-add9-47c7-894b-9be1e046cfba/architect-tools
-[TrueBend]: https://extensions.sketchup.com/extension/c9135b56-4492-449e-ac63-8c26b734ba39/truebend
-[ClothWorks]: https://sketchucation.com/plugin/2053-clothworks
-[Eneroth Fractal Terrain Eroder]: https://extensions.sketchup.com/extension/a609a3c3-4066-42b9-98aa-9d4ecdb19287/eneroth-fractal-terrain-eroder
-[Profile Builder]: https://profilebuilder4sketchup.com
 
 # SketchUp notes (work in progress)
 
@@ -28,7 +5,7 @@
 
 [extensions](#extensions) \
 [controls](#controls) \
-[setup](#setup) \
+[my setup](#my-setup) \
 [saving & restoring settings](#saving--restoring-settings) \
 [workflows](#workflows) \
 . . . [proxy modelling](#proxy-modelling) \
@@ -152,3 +129,27 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 [back to top](#sketchup-notes)
 
 
+
+[WASD]: https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/WASD.jpg
+[SharpKeys]: https://www.randyrants.com/category/sharpkeys/
+
+[Eneroth Solid Tools]: https://extensions.sketchup.com/pl/content/eneroth-solid-tools
+[CleanUp³]: https://extensions.sketchup.com/en/content/cleanup%C2%B3
+[TT\_Lib²]: https://extensions.sketchup.com/content/tt_lib%C2%B2
+[Solid Inspector²]: https://extensions.sketchup.com/en/content/solid-inspector%C2%B2
+[Material Replacer]: https://extensions.sketchup.com/en/content/material-replacer
+[Auto Invisible Layer]: https://extensions.sketchup.com/en/content/auto-invisible-layer
+[Turn Off Layer In All Scenes (TOLIAS)]: https://sketchucation.com/forums/viewtopic.php?f=80&t=66243
+[Material Tools]: https://extensions.sketchup.com/en/content/material-tools
+[Axes Tools]: https://extensions.sketchup.com/en/content/axes-tools
+[Eneroth Component Replacer]: https://extensions.sketchup.com/en/content/eneroth-component-replacer
+[FredoScale]: https://extensions.sketchup.com/en/content/fredoscale
+[FredoGhost]: https://sketchucation.com/plugin/2191-fredoghost
+[LibFredo]: https://extensions.sketchup.com/en/content/libfredo6
+
+[Selection Toys]: https://sketchucation.com/plugin/738-tt_selection_toys
+[Architect Tools]: https://extensions.sketchup.com/extension/0e2b5a47-add9-47c7-894b-9be1e046cfba/architect-tools
+[TrueBend]: https://extensions.sketchup.com/extension/c9135b56-4492-449e-ac63-8c26b734ba39/truebend
+[ClothWorks]: https://sketchucation.com/plugin/2053-clothworks
+[Eneroth Fractal Terrain Eroder]: https://extensions.sketchup.com/extension/a609a3c3-4066-42b9-98aa-9d4ecdb19287/eneroth-fractal-terrain-eroder
+[Profile Builder]: https://profilebuilder4sketchup.com
