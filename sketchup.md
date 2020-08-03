@@ -110,7 +110,7 @@ Layout
 
 [back to top](#sketchup-notes)
 
-[WASD]: https://raw.githubusercontent.com/bubbavox/notes_public/master/images/WASD.jpg
+[WASD]: https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/WASD.jpg
 [SharpKeys]: https://www.randyrants.com/category/sharpkeys/
 
 

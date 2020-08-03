@@ -42,5 +42,96 @@
     
 ## contraptions
 
-- [item sorter - tutorials @ wiki](https://minecraft.gamepedia.com/Tutorials/Hopper)
-- [item sorter - video - compact sorter (2015)](https://www.youtube.com/watch?v=bx4VULALtqE)
+### item sorter
+- [tutorials @ wiki](https://minecraft.gamepedia.com/Tutorials/Hopper)
+- [video - compact sorter (2015)](https://www.youtube.com/watch?v=bx4VULALtqE)
+- my mining station sorter:
+  1. cobblestone
+  2. stone
+  3. diorite
+  4. granite
+  5. andesite
+  6. dirt
+  7. gravel
+  8. coal
+  9. iron
+  10. gold
+  11. redstone dust
+  12. lapis lazuli
+  13. diamond
+  14. flint
+  15. obsidian
+  16. unsorted:
+    - emerald
+    - all ores
+
+## AutoHotkey scripts
+
+auto-click: download script
+<details>
+<summary>see code</summary>
+```
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+#MaxThreadsPerHotkey 3
+
+;;; CONFIGURATION:
+      click_delay := 140000       ; milliseconds
+      splash_pos_x := 400       ; top left would be x = 0, y = 0
+      splash_pos_y := 0       
+      start_text := "script started"
+      stop_text := "script stopped"
+      win_title := "Minecraft* 1.16"  ; title of your window -- enough characters to distinguish it; e.g. "Minecra"
+
+
+F8::
+    toggle:=!toggle
+      if toggle
+      {
+        SplashTextOn, 100, 50, AHK, % start_text    		; Width, Height, Title, Text
+        WinMove, AHK, , % splash_pos_x, % splash_pos_y     	; Move the splash window, Title, , x, y
+      }
+      else
+      {
+        SplashTextOn, 100, 50, AHK, % stop_text
+        WinMove, AHK, , % splash_pos_x, % splash_pos_y
+        Sleep, 3000
+        SplashTextOff
+      }
+      while toggle
+      {
+          ControlClick,, % win_title,,,,NA
+          Sleep, 2000
+          SplashTextOff
+          ControlClick,, % win_title,,,,NA
+          Sleep, 2000
+          ControlClick,, % win_title,,,,NA
+          Sleep, % click_delay
+      }
+  Return
+
+
+; version 1:
+; F7::
+  ;   toggle:=!toggle
+  ;     if toggle
+  ;     {
+  ;       TrayTip, , started AHK script
+  ;     }
+  ;     else
+  ;     {
+  ;       TrayTip, , stopped AHK script
+  ;     }
+  ;     while toggle
+  ;     {
+  ;         ControlClick,, Minecraft 1.15,,,,NA
+  ;         Sleep 1000
+  ;         ControlClick,, Minecraft 1.15,,,,NA
+  ;         Sleep 100000
+  ;     }
+  ; Return
+  ```
+</details>
