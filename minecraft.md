@@ -43,5 +43,5 @@
 ## contraptions
 
 ### item sorting
-- [Hopper tutorials @ wiki](https://minecraft.gamepedia.com/Tutorials/Hopper)
-- [video: compact sorter (2015)](https://www.youtube.com/watch?v=bx4VULALtqE)
+- [item sorter - tutorials @ wiki](https://minecraft.gamepedia.com/Tutorials/Hopper)
+- [item sorter - video - compact sorter (2015)](https://www.youtube.com/watch?v=bx4VULALtqE)
