@@ -48,24 +48,28 @@
 
 <details>
 <summary>my mining station's sorter categories:</summary>
-  1. cobblestone
-  2. stone
-  3. diorite
-  4. granite
-  5. andesite
-  6. dirt
-  7. gravel
-  8. coal
-  9. iron
-  10. gold
-  11. redstone dust
-  12. lapis lazuli
-  13. diamond
-  14. flint
-  15. obsidian
-  16. unsorted:
-    - emerald
-    - all ores
+<ol>
+  <li> cobblestone
+  <li> stone
+  <li> diorite
+  <li> granite
+  <li> andesite
+  <li> dirt
+  <li> gravel
+  <li> coal
+  <li>iron
+  <li>  gold
+  <li>  redstone dust
+  <li>  lapis lazuli
+  <li>  diamond
+  <li>  flint
+  <li>  obsidian
+  <li>  unsorted:
+  <ul>
+    <li> emerald
+    <li> all ores
+  </ul>
+</ol>
 </details>
 
 ## AutoHotkey scripts
