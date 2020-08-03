@@ -39,25 +39,3 @@ F8::
           Sleep, % click_delay
       }
   Return
-
-
-; version 1:
-; F7::
-  ;   toggle:=!toggle
-  ;     if toggle
-  ;     {
-  ;       TrayTip, , started AHK script
-  ;     }
-  ;     else
-  ;     {
-  ;       TrayTip, , stopped AHK script
-  ;     }
-  ;     while toggle
-  ;     {
-  ;         ControlClick,, Minecraft 1.15,,,,NA
-  ;         Sleep 1000
-  ;         ControlClick,, Minecraft 1.15,,,,NA
-  ;         Sleep 100000
-  ;     }
-  ; Return
-

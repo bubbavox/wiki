@@ -67,7 +67,8 @@
 
 ## AutoHotkey scripts
 
-auto-click: download script
+auto-click: 
+[download script](assets/MC_clicker_2_1.16.ahk)
 <details>
 <summary>see code</summary>
 <pre><code>
@@ -85,7 +86,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
       start_text := "script started"
       stop_text := "script stopped"
       win_title := "Minecraft* 1.16"  ; title of your window -- enough characters to distinguish it; e.g. "Minecra"
-
 
 F8::
     toggle:=!toggle
@@ -113,25 +113,5 @@ F8::
       }
   Return
 
-
-; version 1:
-; F7::
-  ;   toggle:=!toggle
-  ;     if toggle
-  ;     {
-  ;       TrayTip, , started AHK script
-  ;     }
-  ;     else
-  ;     {
-  ;       TrayTip, , stopped AHK script
-  ;     }
-  ;     while toggle
-  ;     {
-  ;         ControlClick,, Minecraft 1.15,,,,NA
-  ;         Sleep 1000
-  ;         ControlClick,, Minecraft 1.15,,,,NA
-  ;         Sleep 100000
-  ;     }
-  ; Return
   </code></pre>
 </details>
