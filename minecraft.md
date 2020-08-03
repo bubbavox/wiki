@@ -70,7 +70,7 @@
 auto-click: download script
 <details>
 <summary>see code</summary>
-```
+<pre><code>
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -133,5 +133,5 @@ F8::
   ;         Sleep 100000
   ;     }
   ; Return
-  ```
+  </code></pre>
 </details>
