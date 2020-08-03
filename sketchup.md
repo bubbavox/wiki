@@ -1,5 +1,5 @@
 
-# SketchUp notes (work in progress)
+# SketchUp notes
 
 ## contents
 
@@ -125,8 +125,6 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 - [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
 
 ### conceptual design
-
-[back to top](#sketchup-notes)
 
 
 
