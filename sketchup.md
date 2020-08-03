@@ -116,7 +116,7 @@ alt-D       | UI - Show Scenes Tab
 [screenshot](https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/sketchup_screenshot_UI.png)
 - I separate the trays into 4 or 5 tabs, and assign keybinds to the most important ones.  Some workflows might have different priorities, but this is my typical setup:
   - Entity Info - I put this one in a small floating window, and toggle it with a keybind (E)
-  - Main - Materials, Styles, Components
+  - Main - Materials, Styles, Components, Shadows, Fog, Soften Edges
   - Outliner (alt + A)
   - Tags (alt + S)
   - Scenes (alt + D)
