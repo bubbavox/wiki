@@ -45,7 +45,7 @@ And here are some interesting extensions I haven't tried yet:
 - Push Line
 
 ## controls
-I use a [WASD][WASD] hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
+I use a <a href="https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/WASD.jpg" target="_blank">WASD</a> hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
 
 I've swapped a couple of keys around on the keyboard, using [SharpKeys]: \
 `Control` <--> `Caps` \
@@ -90,7 +90,7 @@ alt-D       | UI - Show Scenes Tab
 - In *Window > Preferences* I set all folders (except templates) to a location within my design project directory.
 - templates: unchangeable location: `%appdata%\SketchUp\SketchUp 2020\SketchUp\Templates\`
 ### interface
-[screenshot](https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/sketchup_screenshot_UI.png)
+<a href="https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/sketchup_screenshot_UI.png" target="_blank">screenshot</a>
 - I separate the trays into 4 or 5 tabs, and assign keybinds to the most important ones.  Some workflows might have different priorities, but this is my typical setup:
   - Entity Info - I put this one in a small floating window, and toggle it with a keybind (E)
   - Main - Materials, Styles, Components, Shadows, Fog, Soften Edges
@@ -128,7 +128,6 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 
 
 
-[WASD]: https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/WASD.jpg
 [SharpKeys]: https://www.randyrants.com/category/sharpkeys/
 
 [Eneroth Solid Tools]: https://extensions.sketchup.com/pl/content/eneroth-solid-tools
