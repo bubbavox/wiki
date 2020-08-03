@@ -1,4 +1,4 @@
-# work in progress
+# unmanaged content seeks content management system...
 
 ## some contents:
 
