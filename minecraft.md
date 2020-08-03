@@ -67,7 +67,7 @@
 
 ## AutoHotkey scripts
 
-auto-click: uses F8
+auto-click: F8 stops/starts -- clicks thrice every 140 seconds. \
 [download script](assets/MC_clicker_2_1.16.ahk)
 <details>
 <summary>see code</summary>
