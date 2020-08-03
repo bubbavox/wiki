@@ -45,9 +45,12 @@ And here are some interesting extensions I haven't tried yet:
 - Push Line
 
 ## controls
+
+The way we control the software has a huge impact on the experience and the speed of modeling.  When I try and use SketchUp on someone else's computer, it's maddeningly slow.
+
 I use a <a href="https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/WASD.jpg" target="_blank">WASD</a> hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
 
-I've swapped a couple of keys around on the keyboard, using [SharpKeys]: \
+To further ergonomify, I've swapped a couple of keys around on the keyboard, using [SharpKeys]: \
 `Control` <--> `Caps` \
 `Esc` <--> `~`
   
