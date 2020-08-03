@@ -10,6 +10,7 @@
 - [remote (SSH, SFTP)](remote.md)
 - [sketchup](sketchup.md)
 - [software](software.md)
+- [video editing](video_editing.md)
 - [wiki](wiki.md)
 - [WSL](WSL.md)
 
