@@ -1,6 +1,9 @@
+# wiki
+
 [WikiMatrix](https://www.wikimatrix.org/) - wiki comparison site \
 - [comparison of dokuwiki / mediawiki / wiki.js / xwiki](https://www.wikimatrix.org/compare/dokuwiki+mediawiki+wiki-js+xwiki)
 
+wiki platforms: \
 - [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)
 - [GitHub wiki](https://docs.github.com/en/github/building-a-strong-community/documenting-your-project-with-wikis)
   - example: [FastLED wiki](https://github.com/FastLED/FastLED/wiki/Overview)
