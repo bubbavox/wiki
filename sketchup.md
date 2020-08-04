@@ -7,7 +7,7 @@
 [controls](#controls) \
 [my setup](#my-setup) \
 [saving & restoring settings](#saving--restoring-settings) \
-[materials]
+[materials](#materials)
 [workflows](#workflows) \
 . . . [proxy modelling](#proxy-modelling) \
 . . . [conceptual design](#conceptual-design)
