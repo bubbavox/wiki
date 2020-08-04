@@ -152,11 +152,11 @@ In other words, if an entity is unpainted (painted with *default*), it's like an
   - `mouth` -- *default material*
     - `raw geometry` -- *default material*
 
->The `eyes` group contains several faces and edges (`raw geometry`).  If we tried to paint the `eyes` group black, it would have no visual effect, because there are nested entities with their own materials.
+The `eyes` group contains several faces and edges (`raw geometry`).  If we tried to paint the `eyes` group black, it would have no visual effect, because there are nested entities with their own materials.
 
->The `nose` group also contains `raw geometry`, all of which is unpainted -- i.e. has the *default material*. If we painted the `raw geometry` with some materials, it would override the *orange* applied to `nose`.
+The `nose` group also contains `raw geometry`, all of which is unpainted -- i.e. has the *default material*. If we painted the `raw geometry` with some materials, it would override the *orange* applied to `nose`.
 
->The `mouth` group is unpainted -- it has *default material* -- so it inherits the material from above.  Its parent group is `face`, which is painted *pink*, so `mouth` renders as *pink*.  Also note it's the only entity rendering *pink*.  If we painted the `mouth` group *gold*, it would override its parent material and render as *gold*.
+The `mouth` group is unpainted -- it has *default material* -- so it inherits the material from above.  Its parent group is `face`, which is painted *pink*, so `mouth` renders as *pink*.  Also note it's the only entity rendering *pink*.  If we painted the `mouth` group *gold*, it would override its parent material and render as *gold*.
 
 ### materials & components:
 
