@@ -142,7 +142,7 @@ If an entity (group, component, face, etc) contains different materials within i
 In other words, if an entity is unpainted (painted with *default*), it's like an invisible primer, which shows the material underneath, and can be painted over.  But if an entity is painted with a normal material, it won't stick to other materials, and likewise can't be painted over.
 
 Example: \
-(`raw geometry` refers to a collection of faces and edges)
+(`raw geometry` refers to one or more faces/edges)
 
 - `face` -- *pink*
   - `eyes` -- *default material*
