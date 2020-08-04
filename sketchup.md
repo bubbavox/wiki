@@ -7,6 +7,7 @@
 [controls](#controls) \
 [my setup](#my-setup) \
 [saving & restoring settings](#saving--restoring-settings) \
+[materials]
 [workflows](#workflows) \
 . . . [proxy modelling](#proxy-modelling) \
 . . . [conceptual design](#conceptual-design)
@@ -43,6 +44,8 @@ And here are some interesting extensions I haven't tried yet:
 - Joint Push Pull
 - FredoCorner / Round corners
 - Push Line
+- [Eneroth Material Extractor]
+- [TIG: SKM Tools, Material Tools, and Image Tools]
 
 ## controls
 
@@ -92,6 +95,7 @@ alt-D       | UI - Show Scenes Tab
 ### folders
 - In *Window > Preferences* I set all folders (except templates) to a location within my design project directory.
 - templates: unchangeable location: `%appdata%\SketchUp\SketchUp 2020\SketchUp\Templates\`
+- 
 ### interface
 <a href="https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/sketchup_screenshot_UI.png" target="_blank">screenshot</a>
 - I separate the trays into 4 or 5 tabs, and assign keybinds to the most important ones.  Some workflows might have different priorities, but this is my typical setup:
@@ -115,9 +119,56 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 
 ## saving & restoring settings
 - keyboard shortcuts & folder locations: these settings can be imported / exported to a single file, separately or combined.
-- interface customization: less straightforward.  I usually just start from scratch.  
-- extensions:
+- interface customization: not straightforward, if even possible.  If I'm reinstalling, I play it safe & start from scratch with UI
+- extensions: SketchUp installs extensions in `%appdata%\SketchUp\SketchUp 2020\SketchUp\Plugins`.  I just copy my backup `\Plugins` folder and SketchUp loads the plugins -- I have yet to experience issues with this process.
+- templates: Similar to extensions, templates are stored in `%appdata%\SketchUp\SketchUp 2020\SketchUp\Templates`.
 - Layout
+
+## materials
+[Material Replacer] - requires [TT\_Lib²] \
+[Material Tools] - requires [TT\_Lib²] \
+[batch convert jpgs to skm (sketchup materials)](https://sites.google.com/site/sagesuwiki/tutorials/plugins/tutorials/batch-convert-jpgs-to-skm) \
+[TIG: SKM Tools, Material Tools, and Image Tools] \
+[Eneroth Material Extractor]
+
+### nested materials & the *default* material:
+
+The *Default* material is a special material.  It's sort of a blank; a `nil` value for an object's material; an invisible placeholder (that by default displays as white on the front face, and blue on the back face.)
+
+If an entity (group, component, face, etc) contains different materials within its child entities, SketchUp has a way of prioritizing what materials are actually shown. 
+
+**My interpretation:**  If an entity is painted with a non-default material, it is rendered on each child entity unless that child entity has non-default material(s) of its own.
+
+In other words, if an entity is unpainted (painted with *default*), it's like an invisible primer, which shows the material underneath, and can be painted over.  But if an entity is painted with a normal material, it can't be painted over, and likewise won't stick to other materials.
+
+Example: \
+(`raw geometry` refers to a collection of faces and edges)
+
+- `face` -- *pink*
+  - `eyes` -- *default material*
+    - `raw geometry` -- *each face painted its own color*
+  - `nose` -- *orange*
+    - `raw geometry` -- *default material*
+  - `mouth` -- *default material*
+    - `raw geometry` -- *default material*
+
+The `eyes` group contains several faces and edges (`raw geometry`).  If we tried to paint the `eyes` group black, it would have no visual effect, because there are nested entities with their own materials.
+
+THe `nose` group also contains `raw geometry`, all of which is unpainted -- i.e. has the *default material*. If we painted the `raw geometry` with some materials, it would override the *orange* applied to `nose`.
+
+The `mouth` group is unpainted -- it has *default material* -- so it inherits the material from above.  Its parent group is `face`, which is painted *pink*, so `mouth` renders as *pink*.  Also note it's the only entity rendering *pink*.  If we painted the `mouth` group *gold*, it would override its parent material and render as *gold*.
+
+### materials & components:
+
+If you paint a component, it doesn't apply to that component's copies -- you're painting the instance of the component.  Here are 2 example heirarchies which let you easily paint all copies of a component in bulk.
+- workflow A:
+  - *component* - default material
+    - *raw geometry* - `custom material` (quickly paint all faces by holding `shift` while painting)
+- workflow B:
+  - *component* - default material
+    - *group* - `custom material`
+      - *raw geometry* - default material
+
 
 ## workflows
 
@@ -128,8 +179,6 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 - [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
 
 ### conceptual design
-
-
 
 [SharpKeys]: https://www.randyrants.com/category/sharpkeys/
 
@@ -153,3 +202,5 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 [ClothWorks]: https://sketchucation.com/plugin/2053-clothworks
 [Eneroth Fractal Terrain Eroder]: https://extensions.sketchup.com/extension/a609a3c3-4066-42b9-98aa-9d4ecdb19287/eneroth-fractal-terrain-eroder
 [Profile Builder]: https://profilebuilder4sketchup.com
+[TIG: SKM Tools, Material Tools, and Image Tools]: https://sketchucation.com/pluginstore?pln=SKMtools
+[Eneroth Material Extractor]: https://sketchucation.com/pluginstore?pln=ene_material_extractor
