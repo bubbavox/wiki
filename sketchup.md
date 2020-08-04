@@ -139,7 +139,7 @@ If an entity (group, component, face, etc) contains different materials within i
 
 **My interpretation:**  If an entity is painted with a non-default material, it is rendered on each child entity unless that child entity has non-default material(s) of its own.
 
-In other words, if an entity is unpainted (painted with *default*), it's like an invisible primer, which shows the material underneath, and can be painted over.  But if an entity is painted with a normal material, it can't be painted over, and likewise won't stick to other materials.
+In other words, if an entity is unpainted (painted with *default*), it's like an invisible primer, which shows the material underneath, and can be painted over.  But if an entity is painted with a normal material, it won't stick to other materials, and likewise can't be painted over.
 
 Example: \
 (`raw geometry` refers to a collection of faces and edges)
