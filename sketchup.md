@@ -125,11 +125,11 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 - Layout
 
 ## materials
-[Material Replacer] - requires [TT\_Lib²] \
-[Material Tools] - requires [TT\_Lib²] \
-[batch convert jpgs to skm (sketchup materials)](https://sites.google.com/site/sagesuwiki/tutorials/plugins/tutorials/batch-convert-jpgs-to-skm) \
-[TIG: SKM Tools, Material Tools, and Image Tools] \
-[Eneroth Material Extractor]
+plugin: [Material Replacer] - requires [TT\_Lib²] \
+plugin: [Material Tools] - requires [TT\_Lib²] \
+plugin: [TIG: SKM Tools, Material Tools, and Image Tools] \
+plugin: [Eneroth Material Extractor] \
+article: [batch convert jpgs to skm (sketchup materials)](https://sites.google.com/site/sagesuwiki/tutorials/plugins/tutorials/batch-convert-jpgs-to-skm)
 
 ### nested materials & the *default* material:
 
