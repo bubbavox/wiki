@@ -141,7 +141,7 @@ If an entity (group, component, face, etc) contains different materials within i
 
 In other words, if an entity is unpainted (painted with *default*), it's like an invisible primer, which shows the material underneath, and can be painted over.  But if an entity is painted with a normal material, it won't stick to other materials, and likewise can't be painted over.
 
-Example: \
+**Example:** \
 (`raw geometry` refers to one or more faces/edges)
 
 - `face` -- *pink*
@@ -152,11 +152,11 @@ Example: \
   - `mouth` -- *default material*
     - `raw geometry` -- *default material*
 
-The `eyes` group contains several faces and edges (`raw geometry`).  If we tried to paint the `eyes` group black, it would have no visual effect, because there are nested entities with their own materials.
+>The `eyes` group contains several faces and edges (`raw geometry`).  If we tried to paint the `eyes` group black, it would have no visual effect, because there are nested entities with their own materials.
 
-THe `nose` group also contains `raw geometry`, all of which is unpainted -- i.e. has the *default material*. If we painted the `raw geometry` with some materials, it would override the *orange* applied to `nose`.
+>The `nose` group also contains `raw geometry`, all of which is unpainted -- i.e. has the *default material*. If we painted the `raw geometry` with some materials, it would override the *orange* applied to `nose`.
 
-The `mouth` group is unpainted -- it has *default material* -- so it inherits the material from above.  Its parent group is `face`, which is painted *pink*, so `mouth` renders as *pink*.  Also note it's the only entity rendering *pink*.  If we painted the `mouth` group *gold*, it would override its parent material and render as *gold*.
+>The `mouth` group is unpainted -- it has *default material* -- so it inherits the material from above.  Its parent group is `face`, which is painted *pink*, so `mouth` renders as *pink*.  Also note it's the only entity rendering *pink*.  If we painted the `mouth` group *gold*, it would override its parent material and render as *gold*.
 
 ### materials & components:
 
