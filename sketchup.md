@@ -158,8 +158,7 @@ The `nose` group also contains `raw geometry`, all of which is unpainted -- i.e.
 
 The `mouth` group is unpainted -- it has *default material* -- so it inherits the material from above.  Its parent group is `face`, which is painted *pink*, so `mouth` renders as *pink*.  Also note it's the only entity rendering *pink*.  If we painted the `mouth` group *gold*, it would override its parent material and render as *gold*.
 
-### materials & components:
-
+### component materials workflow
 If you paint a component, it doesn't apply to that component's copies -- you're painting the instance of the component.  Here are 2 example heirarchies which let you easily paint all copies of a component in bulk.
 - workflow A:
   - *component* - default material
@@ -169,6 +168,20 @@ If you paint a component, it doesn't apply to that component's copies -- you're 
     - *group* - `custom material`
       - *raw geometry* - default material
 
+### managing materials
+#### collections
+Lorem markdownum tandem in multa pressus Lucifero telum tutissimus ignes. Ne
+Latina, atque flexile tutus vivosque superbus averserisque facit. Parentum non
+forma quae, aut sub vacuos iam sonus veniensque adventum Metione. Precando
+carinas.
+
+#### custom materials
+
+Ima dumque; [res](http://www.solvere-tamen.io/sed.html) bis requiescere ego tuo,
+ictu alter loqui di. Parantur amoris quoniam [umbris](http://incerto.io/colla),
+diverso, tuli primo Ladon cum? Aegea non Iuppiter dumque. Siccata et vestigia
+tantos quoque Ascalaphus apertas tamen, cognoscere. Tamen aequora sibi terra,
+in, Minervae, in.
 
 ## workflows
 
