@@ -1,6 +1,6 @@
 # minecraft notes
 
-[AMIDST](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1262200-v3-7-amidst-strongholds-village-biome-etc-finder)
+[AMIDST](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2970854-amidst-map-explorer-for-minecraft-1-14-and-later)
 
 [MultiMC Launcher](https://multimc.org/) - Alternative launcher.  Java config, multiple instances, custom install locations, built-in Fabric / Forge installers, etc.  I have 2 instances -- one with Optifine & shaders, and one performance-focused, using Sodium.  See my usage notes [below](minecraft.md#my-setup).
 

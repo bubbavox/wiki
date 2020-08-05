@@ -13,3 +13,6 @@
   - example: [EQEmu wiki](https://eqemu.gitbook.io/server/)
 - [Gollum](https://github.com/gollum/gollum) - *A simple, Git-powered wiki with a sweet API and local frontend.* 
   - [Static Site Generator for Gollum Wikis](https://github.com/dreverri/gollum-site) (updated 2014)
+- [TiddlyWiki](https://tiddlywiki.com/)
+- [DocuWiki](https://www.dokuwiki.org/dokuwiki)
+- [XWiki](https://www.xwiki.org/xwiki/bin/view/Documentation/)
