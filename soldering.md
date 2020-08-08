@@ -26,7 +26,7 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
   - Silicone Mat: [Kaisi 13.7x9.8 inch](https://www.amazon.com/dp/B07DGVJ17H/)
   - Flux Remover: [Tech Spray 1621-10S EcoLine Flux Remover, General Purpose Defluxer, 10 oz Can](https://www.amazon.com/dp/B0002BBWQ8)
 ### my gear wish list:
-  - Solder: Curious about multicore solder, and kester's alternative flux cores
+  - Solder: Curious about alternative fluxes (RMA, no-clean) and "multicore" solder
   
 ### solder:
   - Diameter: "0.031" jsolder is good for general usage. For SMD components which are smaller, 0.020" is recommended."
