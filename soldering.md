@@ -42,7 +42,6 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
 
 ### KSGER STM32
   - requires some tweaking -- see comments [here](https://www.amazon.com/dp/B07PQ1GJZ5) and [here](https://www.amazon.com/dp/B07PMZGPQQ)
-    - 
 
 ## how to solder
 
