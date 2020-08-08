@@ -33,10 +33,10 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
   - leaded: Typical Tin/Lead Ratio: 63/37 or 60/40
   - unleaded:
   - silver:
-  - rosin-core - basically, has a flux core.  use this for electronics
+  - rosin-core - 
   - acid core - don't use for electronics
 ### iron & tips:
-  - new tips need to be broken in for ~1hr?
+  - new tips might need to be broken in for ~1hr (digital station calibration?)
   - cone tip is versatile and precise
   - wedge tip good for batteries, medium wires, etc...
 
