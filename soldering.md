@@ -45,7 +45,8 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
 
 ## how to solder
 
-[nice how-to video](https://www.youtube.com/watch?v=M2Jf8cebwCs)
+[nice general how-to video](https://www.youtube.com/watch?v=M2Jf8cebwCs)
+[Soldering Tools & Techniques (focus on surface mount)](https://www.youtube.com/watch?v=PbQMw8VfHLQ)
 
   - prep iron:
     - keep clean
