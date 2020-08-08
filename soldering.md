@@ -10,7 +10,8 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
 
 ### my gear:
   - Multimeter: [Amprobe AM-510](https://www.amazon.com/gp/product/B007FZFTZO/)
-  - Iron: [KSGER STM32 V2.1S T12 Soldering Station](https://www.amazon.com/dp/B07PMZGPQQ) - see [important notes on KSGER STM32](#KSGER-STM32)
+  - Iron: [KSGER STM32 V2.1S T12 Soldering Station](https://www.amazon.com/dp/B07PMZGPQQ)
+    - see [important notes on KSGER STM32](#KSGER-STM32)
   - Stand: [Aven 17530](https://www.amazon.com/dp/B00LQG47V0)
   - Solder sucker: [Engineer SS-02](https://www.amazon.com/dp/B002MJMXD4)
     - Consider cutting the tip at an angle like [this](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/desoldering-pump-cut.jpg)
