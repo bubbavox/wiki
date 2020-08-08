@@ -6,7 +6,7 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
 [Kester Knowledge Base](https://www.kester.com/knowledge-base/knowledge-base)
 
 ## tools
-[soldering tools article @ keeb.io](https://docs.keeb.io/soldering-tools/)
+[soldering tools article @ keeb.io](https://docs.keeb.io/soldering-tools/) (custom mechanical keyboards site)
 
 ### my gear:
   - Multimeter: [Amprobe AM-510](https://www.amazon.com/gp/product/B007FZFTZO/)
