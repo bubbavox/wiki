@@ -9,13 +9,13 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
 [soldering tools article @ keeb.io](https://docs.keeb.io/soldering-tools/) (custom mechanical keyboards site)
 
 ### my gear:
-  - Multimeter: [Amprobe AM-510](https://www.amazon.com/gp/product/B007FZFTZO/)
   - Iron: [KSGER STM32 V2.1S T12 Soldering Station](https://www.amazon.com/dp/B07PMZGPQQ)
     - see [important notes on KSGER STM32](#KSGER-T12-STM32)
   - Stand: [Aven 17530](https://www.amazon.com/dp/B00LQG47V0)
   - Solder sucker: [Engineer SS-02](https://www.amazon.com/dp/B002MJMXD4)
     - Consider cutting the tip at an angle like [this](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/desoldering-pump-cut.jpg)
     - Get some bulk replacement silicon tubing
+  - Multimeter: [Amprobe AM-510](https://www.amazon.com/gp/product/B007FZFTZO/) - [manual](https://d2z7x98lxvbza7.cloudfront.net/resources/AM-510_Commercial-Residential-Multimeter_Manual.pdf?_ga=2.104363273.849264497.1567389016-1245258330.1566524400)
   - Solder:
     - [MG Chemicals 63/37 RA flux, 0.032" , 1/2 lb](https://www.amazon.com/dp/B005T8MWQI)
     - [Kester 44 (RA) 63/37 .020", 1 lb.](https://www.amazon.com/dp/B00068IJWC)
