@@ -11,7 +11,7 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
 ### my gear:
   - Multimeter: [Amprobe AM-510](https://www.amazon.com/gp/product/B007FZFTZO/)
   - Iron: [KSGER STM32 V2.1S T12 Soldering Station](https://www.amazon.com/dp/B07PMZGPQQ)
-    - see [important notes on KSGER STM32](#KSGER-STM32)
+    - see [important notes on KSGER STM32](#KSGER-T12-STM32)
   - Stand: [Aven 17530](https://www.amazon.com/dp/B00LQG47V0)
   - Solder sucker: [Engineer SS-02](https://www.amazon.com/dp/B002MJMXD4)
     - Consider cutting the tip at an angle like [this](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/desoldering-pump-cut.jpg)
@@ -27,6 +27,7 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
   - Flux Remover: [Tech Spray 1621-10S EcoLine Flux Remover, General Purpose Defluxer, 10 oz Can](https://www.amazon.com/dp/B0002BBWQ8)
 ### my gear wish list:
   - Solder: Curious about alternative fluxes (RMA, no-clean) and "multicore" solder
+  - https://www.banggood.com/DANIU-FG-100-Soldering-Iron-Tip-Thermometer-Temperature-Tester-0-700-p-952899.html?p=RO301526119192201810&custlinkid=700401&cur_warehouse=CN
   
 ### solder:
   - Diameter: "0.031" jsolder is good for general usage. For SMD components which are smaller, 0.020" is recommended."
@@ -40,9 +41,18 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
   - cone tip is versatile and precise
   - wedge tip good for batteries, medium wires, etc...
 
-### KSGER STM32
+### KSGER T12 STM32
   - requires some tweaking -- see comments [here](https://www.amazon.com/dp/B07PQ1GJZ5) and [here](https://www.amazon.com/dp/B07PMZGPQQ)
-
+  - [this guy](https://www.eevblog.com/forum/reviews/ksger-t12-stm32-v3-1s-soldering-station/msg3081300/#msg3081300) wants to make a DIY replacement board w/ mouser parts lists, etc
+  - [video](https://www.youtube.com/watch?v=eKQC9G5SYII) - good review & demonstration of features / flaws, fixes
+  - [his followup video](https://www.youtube.com/watch?v=Dy9WUtvdBUk) - more upgrades. still happy with it.
+  - [his modified aluminum iron](https://www.youtube.com/watch?v=TbEmq8sXOXA)
+  - [this guy](https://www.youtube.com/watch?v=cowgbwU3b5c) got a unit with a blown, leaky main 400v capacitor. [his followup fix](https://www.youtube.com/watch?v=cowgbwU3b5c).  [his ground fix](https://www.youtube.com/watch?v=-6IZ_sBgw8I)
+  - check for correct wiring
+  - check all solder joints for quality
+  - if needed, move clock battery from its cramped position
+  - heatsink nearly touching power trace, maybe grind or insulate
+  - add power led inside switch (see john salt's followup vid)
 ## how to solder
 
 [nice general how-to video](https://www.youtube.com/watch?v=M2Jf8cebwCs) \
