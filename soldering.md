@@ -9,7 +9,7 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
 [soldering tools article @ keeb.io](https://docs.keeb.io/soldering-tools/) (custom mechanical keyboards site)
 
 ### my gear:
-  - Iron: [KSGER STM32 V2.1S T12 Soldering Station](https://www.amazon.com/dp/B07PMZGPQQ)
+  - Iron: [KSGER STM32 V2.1S T12 Soldering Station](https://www.amazon.com/dp/B081LRCQJN)
     - see [important notes on KSGER STM32](#KSGER-T12-STM32)
   - Stand: [Aven 17530](https://www.amazon.com/dp/B00LQG47V0)
   - Solder sucker: [Engineer SS-02](https://www.amazon.com/dp/B002MJMXD4)
