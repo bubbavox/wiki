@@ -48,6 +48,7 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
   - [his followup video](https://www.youtube.com/watch?v=Dy9WUtvdBUk) - more upgrades. still happy with it.
   - [his modified aluminum iron](https://www.youtube.com/watch?v=TbEmq8sXOXA)
   - [this guy](https://www.youtube.com/watch?v=cowgbwU3b5c) got a unit with a blown, leaky main 400v capacitor. [his followup fix](https://www.youtube.com/watch?v=cowgbwU3b5c).  [his ground fix](https://www.youtube.com/watch?v=-6IZ_sBgw8I)
+  - [article (unread)](https://www.ptdreamer.com/chinese-stm32-oled-soldering-controller-reverse-engineer-custom-firmware/) - Chinese STM32 Oled soldering controller reverse engineer and custom firmware
   - check for correct wiring
   - check all solder joints for quality
   - if needed, move clock battery from its cramped position
