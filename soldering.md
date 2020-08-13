@@ -74,7 +74,8 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
     - surface-mount: 315
     - big PCB components -- ~ 370C (700F)
 
-## how to de-solder
-  - melt joints more easily with a little fresh solder 
+## desoldering
+- https://youtu.be/Z38WsZFmq8E
+- melt joints more easily with a little fresh solder 
 #### tiny stuff, surface mount, etc
   - temp ~ 315
