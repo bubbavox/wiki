@@ -15,7 +15,7 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
   - Solder sucker: [Engineer SS-02](https://www.amazon.com/dp/B002MJMXD4)
     - Consider cutting the tip at an angle like [this](https://s3.amazonaws.com/docs.keeb.io/assets/images/misc/desoldering-pump-cut.jpg)
     - Get some bulk replacement silicon tubing
-  - Multimeter: [Amprobe AM-510](https://www.amazon.com/gp/product/B007FZFTZO/) - [manual](https://d2z7x98lxvbza7.cloudfront.net/resources/AM-510_Commercial-Residential-Multimeter_Manual.pdf?_ga=2.104363273.849264497.1567389016-1245258330.1566524400)
+  - Multimeter: [Amprobe AM-530](https://www.amprobe.com/product/am-530/) - [manual](https://d2z7x98lxvbza7.cloudfront.net/resources/AM-520_AM-530_Multimeter_Manual.pdf?_ga=2.171007401.849264497.1567389016-1245258330.1566524400)
   - Solder:
     - [MG Chemicals 63/37 RA flux, 0.032" , 1/2 lb](https://www.amazon.com/dp/B005T8MWQI)
     - [Kester 44 (RA) 63/37 .020", 1 lb.](https://www.amazon.com/dp/B00068IJWC)
