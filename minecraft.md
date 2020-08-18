@@ -1,8 +1,8 @@
 # minecraft notes
 
-[AMIDST](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2970854-amidst-map-explorer-for-minecraft-1-14-and-later)
-
 [MultiMC Launcher](https://multimc.org/) - Alternative launcher.  Java config, multiple instances, custom install locations, built-in Fabric / Forge installers, etc.  I have 2 instances -- one with Optifine & shaders, and one performance-focused, using Sodium.  See my usage notes [below](minecraft.md#my-setup).
+
+[AMIDST map explorer](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2970854-amidst-map-explorer-for-minecraft-1-14-and-later)
 
 ## mod APIs / toolchains (choose 1)
 - [Fabric Loader](https://fabricmc.net/) + 
@@ -10,8 +10,10 @@
 - [Forge](https://forums.minecraftforge.net/) - old school. The official way to use Optifine + shaders, and many mods.
 ## rendering mods (choose 1)
 - [Optifine](https://optifine.net) - (Check preview versions) Necessary for most current shaderpacks. Manages rendering & improves performance.  Greatly expands graphics config options. Historically compatible with Forge. Currently compatible with Fabric via [OptiFabric](https://www.curseforge.com/minecraft/mc-mods/optifabric) but [the future looks bleak](https://gist.github.com/LambdAurora/1f6a4a99af374ce500f250c6b42e8754).
-- [Sodium]() - Newcomer, Fabric-compatible, with a focus on boosting performance.  Graphics config is almost _too_ simple.
-- [Canvas]() - Up and coming, optimized for fancy rendering via the Fabric API (maybe no shaderpacks yet available though)
+- [Sodium]() - Newcomer, Fabric-compatible, with a focus on boosting performance.  Graphics config is almost _too_ simple -- for example, I don't see a setting for resolution.  But performance is great.
+- [Canvas]() - Up and coming: *"Canvas is a rendering library for Fabric mods that offers visual improvements for players, and also implements an API mod authors can use to implement rendering effects that would not be possible with the vanilla renderer. Canvas also improves chunk-loading and frame rates on most hardware in most scenes..."*
+
+  "...*However, I don't expect third-party shaders to be available until Canvas is more feature complete.  Canvas does however come with a default shader pack that currently adds a bloom effect for most emissive blocks and wavy foliage was just added. More is coming soon.*
 
 ## Fabric mods (Forge versions may also be available)
 - [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) -- offers a config for other installed mods

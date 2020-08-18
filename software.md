@@ -33,13 +33,17 @@
 - [uBlock Origin]
 - [Raindrop]
 
-## unsorted
+## windows - unsorted
 - [WinThumbsPreloader] - preloads thumbnails in a selected folder
 - Bvckup2
-- SharpKeys
-- TouchCursor
+- SharpKeys - reassign keys
+- TouchCursor - add a function layer to chosen modifier key (I use spacebar and I'm totally addicted -- see 'SpaceFn')
 - [Windows Terminal]  
-- WinDirStat  
+- WinDirStat
+- [XYplorer](https://www.xyplorer.com/index.php) - File manager
+- [Total Commander](https://www.ghisler.com/index.htm) - File manager
+- [FreeCommander](https://freecommander.com/en/summary/) - File manager
+- [Clover](http://en.ejie.me/) - File manager (haven't tried it -- asian language installer)
     
 [WinThumbsPreloader]: https://github.com/bruhov/WinThumbsPreloader/
 [Windows Terminal]: https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701
