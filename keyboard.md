@@ -23,6 +23,21 @@ ANSI with split spacebar (3-way split). 86 keys.
 
 hand-carved wooden case
 
-### bluetooth
+### I/O
 
-maybe
+bluetooth + USB. still a big unknown.
+
+#### desired features:
+  - USB-out (pref USB-C) - so maybe USB "passthru" from the KBD75 USB-C out
+  - bluetooth low-energy out
+  - battery charging (while device is in use) ([relevant product?](https://www.adafruit.com/product/2465))
+
+#### I/O prospects:
+  - [Adafruit Feather nRF52840 Express](https://www.adafruit.com/product/4062)
+
+#### adafruit - bluetooth feathers:
+  - [general info](https://learn.adafruit.com/adafruit-feather/bluetooth-feathers)
+  - [adafruit product category: BLE](https://www.adafruit.com/category/727)
+
+#### battery:
+  - [adafruit product category: liion & lipoly](https://www.adafruit.com/category/138)

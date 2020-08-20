@@ -1,5 +1,5 @@
 
-# SketchUp notes
+# SketchUp
 
 ## contents
 
@@ -8,7 +8,8 @@
 [my setup](#my-setup) \
 [saving & restoring settings](#saving--restoring-settings) \
 [materials](#materials) \
-[workflows](#workflows) \
+[styles](#styles) \
+[techniques](#techniques) \
 . . . [proxy modelling](#proxy-modelling) \
 . . . [conceptual design](#conceptual-design)
 
@@ -19,7 +20,7 @@ Some of my favorite plugins:
 - [Eneroth Solid Tools] -- _"Solid tools designed to feel more native to SketchUp than the native solid tools."_
 - [CleanUp³] -- fix / purge / merge / repair -- requires [TT\_Lib²]
 - [Solid Inspector²] -- _"Select a group or component and activate the tool for an analysis of what would prevent it from being a solid manifold."_ An example usage: Solid Tools such as Trim require objects to be true solids.
-- [Material Replacer] -- _"Replace one material for another by picking material in the model"_ -- requires [TT\_Lib²]
+- [Material Replacer] -- _"Replace one material for another by picking material in the model"_ -- requires [TT\_Lib²] -- __Update: SketchUp has material replacement built-in ([docs](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material)) -- I haven't done a full feature comparison.__
 - [Auto Invisible Layer] -- When enabled, changes SketchUp's default behavior of new layers being enabled in all scenes.  Disabled by default at the start of each session.
 - [Turn Off Layer In All Scenes (TOLIAS)] --  Turns off the _active_ layer in all scenes.  I also made a version which turns ON a layer in all scenes (I think I just had to edit one line in the code).
 - [Material Tools] -- requires [TT\_Lib²]
@@ -93,9 +94,10 @@ alt-D       | UI - Show Scenes Tab
 ## my setup
 
 ### folders
-- In *Window > Preferences* I set all folders (except templates) to a location within my design project directory.
-- templates: unchangeable location: `%appdata%\SketchUp\SketchUp 2020\SketchUp\Templates\`
-- 
+- In *Window > Preferences* I set all folders (except templates) to a location within my design directory, on an SSD.
+- templates cannot be relocated from `%appdata%\SketchUp\SketchUp 2020\SketchUp\Templates\`
+- My desktop & laptop use the same folder structure (incl. drive letters), to ease syncing & backups. (Only one `Preferences.dat` backup file needed.)
+
 ### interface
 <a href="https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/sketchup_screenshot_UI.png" target="_blank">screenshot</a>
 - I separate the trays into 4 or 5 tabs, and assign keybinds to the most important ones.  Some workflows might have different priorities, but this is my typical setup:
@@ -113,6 +115,13 @@ alt-D       | UI - Show Scenes Tab
   - Views
   - [Eneroth Solid Tools]
   - [Solid Inspector²](https://extensions.sketchup.com/en/content/solid-inspector%C2%B2)
+
+### other settings
+  - Speedy styles:  For modelling (rather than for rendering or for Layout usage) I tweak the style for speed, disabling extra lines such as profiles.
+  - For most of my styles I set line weight to minimum because it helps with the problem of lines showing through thin solids.
+  - To make it easier on my eyes, I create a dark backdrop: I disable ground, set background to dark gray, and sky to black (which actually results in a gradient sky, black to light gray).
+  - I disable shadows on ground, in shadow options.  Even if ground is disabled in the style, shadows will still be rendered where it used to be.
+  - In an attempt to speed up startup time, I disable the welcome screen & auto-updates, and I put everything on SSD.
 
 ### backups
 By default, SketchUp autosaves to a temp file, and if the program crashes it offers to load that file.  For extra protection, I use [Bvckup2](https://bvckup2.com/) to save a timestamped copy of the current project folder every 15 minutes, up to 4 copies. I also use Bvckup2 to periodically copy my files to the cloud (OneDrive), and to a separate disk.
@@ -183,7 +192,7 @@ diverso, tuli primo Ladon cum? Aegea non Iuppiter dumque. Siccata et vestigia
 tantos quoque Ascalaphus apertas tamen, cognoscere. Tamen aequora sibi terra,
 in, Minervae, in.
 
-## workflows
+## techniques
 
 ### proxy modeling
 
