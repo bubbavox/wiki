@@ -20,7 +20,7 @@ Some of my favorite plugins:
 - [Eneroth Solid Tools] -- _"Solid tools designed to feel more native to SketchUp than the native solid tools."_
 - [CleanUp³] -- fix / purge / merge / repair -- requires [TT\_Lib²]
 - [Solid Inspector²] -- _"Select a group or component and activate the tool for an analysis of what would prevent it from being a solid manifold."_ An example usage: Solid Tools such as Trim require objects to be true solids.
-- [Material Replacer] -- _"Replace one material for another by picking material in the model"_ -- requires [TT\_Lib²] -- __Update: SketchUp has material replacement built-in ([docs](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material)) -- I haven't done a full feature comparison.__
+- [Material Replacer] -- _"Replace one material for another by picking material in the model"_ -- requires [TT\_Lib²] -- __SketchUp has ([material replacement built-in](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material)) but it seems to only work within a modelling context, i.e. within a group.__
 - [Auto Invisible Layer] -- When enabled, changes SketchUp's default behavior of new layers being enabled in all scenes.  Disabled by default at the start of each session.
 - [Turn Off Layer In All Scenes (TOLIAS)] --  Turns off the _active_ layer in all scenes.  I also made a version which turns ON a layer in all scenes (I think I just had to edit one line in the code).
 - [Material Tools] -- requires [TT\_Lib²]
@@ -191,6 +191,23 @@ ictu alter loqui di. Parantur amoris quoniam [umbris](http://incerto.io/colla),
 diverso, tuli primo Ladon cum? Aegea non Iuppiter dumque. Siccata et vestigia
 tantos quoque Ascalaphus apertas tamen, cognoscere. Tamen aequora sibi terra,
 in, Minervae, in.
+
+## axes
+
+Axes are an important tool, because they determine Sketchup's inferencing.  In other words, they determine the alignment or positioning of various tools, such as rotation, scaling, lines & shapes. There are multiple sets of axes within a model: In addition to the model axes (top-level context), each group or component has its own set of axes.  
+
+Axes can be adjusted: You can set the origin and the direction of each of the 3 axes.  And they are adjusted per context.  This gives you control over how SketchUp inferences within each group or component. 
+
+Examples:
+- 
+- If you need to scale a solid along a weird angle, you can set the axes to that weird angle, and it will update the scale tool handles accordingly.  
+
+- axes tool
+- align axes (to face)
+- reset axes
+- extension: [Curic Axes](https://extensions.sketchup.com/extension/3ed1f7d5-2950-49ad-a7c3-3779befffea1/curic-axes)
+- extension: [Axes Tools](https://extensions.sketchup.com/extension/446870d8-0755-4d0b-963d-7219ef236c7a/axes-tools)
+- extension: [Axes Manager](https://extensions.sketchup.com/extension/13e533c2-ebf7-4d86-805f-59dd2254564b/axes-manager)
 
 ## techniques
 

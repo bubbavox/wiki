@@ -4,13 +4,20 @@
 
 hot swappable 75% keyboard -- work in progress
 
+### to do
+
+- test hotswap sockets:
+  - test fit in all switch models
+  - test rotational position on switch pin, to determine installation method.
+  - example scenario:  if Kailh switches are found the most difficult fit, perhaps solder sockets while they are fit on Kailh switches, mounted to plate.
+
 ### PCB
 
 [KBDfans KBD75 Rev 2 USB-C](https://kbdfans.com/collections/75/products/kbdfans-75-pcb-75)
 
 ### hotswap sockets
 
-[Mill-max 7305-0-15-15-47-27-10-0](https://www.mouser.com/ProductDetail/Mill-Max/7305-0-15-15-47-27-10-0?qs=%2Fha2pyFadugftNJCRxiOOwqKNrTG4vZoDh9pyJZgPMI6W1rFOopWSlGzFvj96Axw)
+[Mill-max 7305-0-15-15-47-27-10-0](https://www.mouser.com/ProductDetail/?qs=QVz7UnnaAAGZJgZDI7Hd%2FA%3D%3D)
 
 **issue:** the F-row thru-holes are wider, for some reason, and soldering the sockets in will be less straightforward.  I might put the sockets on the switch pins, and mount the switches on the plate or the board, and then solder the sockets.
 
@@ -34,6 +41,7 @@ bluetooth + USB. still a big unknown.
 
 #### I/O prospects:
   - [Adafruit Feather nRF52840 Express](https://www.adafruit.com/product/4062)
+  - [Bluetooth Adapter (Handheld Scientific)](http://handheldsci.com/kb/)
 
 #### adafruit - bluetooth feathers:
   - [general info](https://learn.adafruit.com/adafruit-feather/bluetooth-feathers)
@@ -41,3 +49,9 @@ bluetooth + USB. still a big unknown.
 
 #### battery:
   - [adafruit product category: liion & lipoly](https://www.adafruit.com/category/138)
+
+## modification: GMMK TKL
+
+### wishlist:
+- replace micro USB port with USB-C
+- add in-line programmable microcontroller, maybe an adafruit bluetooth module with battery
