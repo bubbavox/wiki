@@ -14,6 +14,7 @@ This page is a log of my Minecraft activities, and a compendium of my research. 
 ### mod APIs / toolchains (needed for mods; choose 1):
 - [Fabric Loader](https://fabricmc.net/) + 
   [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) - "A lightweight, experimental modding toolchain for Minecraft." The hot sexy new thing. Good [docs](https://fabricmc.net/wiki/doku.php). Plenty of mods available at this point.
+- [LiteLoader](http://www.liteloader.com/) - Another hot sexy new thing that I haven't checked out yet.
 - [Forge](https://forums.minecraftforge.net/) - old school. In the past, this was the official way to use OptiFine, and thus 
 
 ### rendering mods (needed for shaders; choose 1):
