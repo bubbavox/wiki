@@ -6,11 +6,11 @@
 [Modifications](ranger.md#modifications) \
 [Engine](ranger.md#engine) \
 [Intake](ranger.md#intake) \
-[Exhaust \
-[Transmission \
-[Clutch \
-[Brakes \
-[Suspension
+[Exhaust](ranger.md#exhaust) \
+[Transmission](ranger.md#transmission) \
+[Clutch](ranger.md#clutch) \
+[Brakes](ranger.md#brakes) \
+[Suspension](ranger.md#suspension)
 
 ## Specifications
 - **Engine:** Ford Vulcan V6 (1998-99)
