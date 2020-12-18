@@ -1,16 +1,16 @@
 # 1999 Ford Ranger XLT 3.0L V6 5-speed
 
 ## **Contents:**
-Specifications \
-Problems \
-Modifications \
-Engine \
-Intake \
-Exhaust \
-Transmission \
-Clutch \
-Brakes \
-Suspension
+[Specifications](ranger.md#specifications) \
+[Problems](ranger.md#problems) \
+[Modifications](ranger.md#modifications) \
+[Engine](ranger.md#engine) \
+[Intake](ranger.md#intake) \
+[Exhaust \
+[Transmission \
+[Clutch \
+[Brakes \
+[Suspension
 
 ## Specifications
 - **Engine:** Ford Vulcan V6 (1998-99)
