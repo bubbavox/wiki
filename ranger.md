@@ -12,6 +12,8 @@
 [Brakes](ranger.md#brakes) \
 [Suspension](ranger.md#suspension)
 
+[parts search @ RockAuto](https://www.rockauto.com/en/catalog/ford,1999,ranger,3.0l+v6,1446380)
+
 ## Specifications
 - **Engine:** Ford Vulcan V6 (1998-99)
   - 182 cu in (3.0 L) OHV V6
@@ -34,7 +36,15 @@
 
 ## Engine
 ## Intake
-## Exhaust
+## Vacuum & Exhaust
+  [TRS Library - Exhaust](https://www.therangerstation.com/tech_library/Exhaust.shtml) \
+  [Vacuum Hose Diagram](https://www.therangerstation.com/tech_library/diagrams/95-99_Ranger_3-0_vacuum_hose_diagram.gif)
+  
+  Smoke Signals (from [TRS](https://www.therangerstation.com/tech_library/Exhaust.shtml)):
+  - Blue smoke from a tailpipe indicates that engine oil is being burned, and that unburned hydrocarbons (HC) are being released into the air.
+  - Black smoke from a tailpipe indicates that the air-fuel mixture is too rich to burn completely.
+  - White smoke is steam, and is normally visible on a cold day. However it can also indicate an internal engine coolant leak, especially if accompanied by a pungent odor.
+
 ## Transmission
 ## Clutch
 ## Brakes
