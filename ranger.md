@@ -15,7 +15,7 @@
 [parts search @ RockAuto](https://www.rockauto.com/en/catalog/ford,1999,ranger,3.0l+v6,1446380)
 
 ## Specifications
-- **Engine:** Ford Vulcan V6 (1998-99)
+- **Engine:** Ford Vulcan V6 (1998-99)wa
   - 182 cu in (3.0 L) OHV V6
   - 145 hp (108 kW); 178 lb⋅ft (241 N⋅m) (1998-1999 version)
   - [TheRangerStation](https://www.therangerstation.com/tech_library/3_0performance.shtml)
@@ -39,6 +39,7 @@
 ## Vacuum & Exhaust
   [TRS Library - Exhaust](https://www.therangerstation.com/tech_library/Exhaust.shtml) \
   [Vacuum Hose Diagram](https://www.therangerstation.com/tech_library/diagrams/95-99_Ranger_3-0_vacuum_hose_diagram.gif)
+  [Vacuum diagram abbreviations](https://www.therangerstation.com/tech_library/ford_vacuum_diagram_abbreviations_descriptions.shtml)
   
   Smoke Signals (from [TRS](https://www.therangerstation.com/tech_library/Exhaust.shtml)):
   - Blue smoke from a tailpipe indicates that engine oil is being burned, and that unburned hydrocarbons (HC) are being released into the air.
@@ -47,6 +48,9 @@
 
 ## Transmission
 ## Clutch
+
+As far as I can tell, the [OEM clutch # 7L596](https://parts.ford.com/shop/en/us/transmission/clutch-parts/kit-clutch-repair-7844563-1) I bought from fordparts.com ($187 + tax) is exactly identical to LUK 07140 ([$117 @ RockAuto](https://www.rockauto.com/en/moreinfo.php?pk=4698552&cc=1446380&jsn=780)) , except for the Ford logo
+
 ## Brakes
 ## Suspension
 
