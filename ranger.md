@@ -16,7 +16,7 @@
 [parts search @ RockAuto](https://www.rockauto.com/en/catalog/ford,1999,ranger,3.0l+v6,1446380)
 
 ## Specifications
-- **Engine:** Ford Vulcan V6 (1998-99)wa
+- **Engine:** Ford Vulcan V6 (1998-99)
   - 182 cu in (3.0 L) OHV V6
   - 145 hp (108 kW); 178 lb⋅ft (241 N⋅m) (1998-1999 version)
   - [TheRangerStation](https://www.therangerstation.com/tech_library/3_0performance.shtml)
@@ -68,6 +68,8 @@ As far as I can tell, the clutch contained in the Ford OEM clutch _kit_ ([# 7L59
 
 Ford Ranger & Mazda B-Series Pickup Clutch Hydraulic Release System Bleeding Procedures - [part 1](https://www.youtube.com/watch?v=HgNTDGwcjZc) - [part 2](https://youtu.be/91IYY_YENRw)
 [Bleeding External Clutch Hydraulic Release Systems with Bleed Screws](https://www.youtube.com/watch?v=8pZHTeLS4ik)
+
+**Special bleeding requirements:** *The mounting position of the master cylinder on the firewlal traps air in the rear portion of the cylinder.  Before bleeding, remove the master cylinder from the fireweall and position it so the reservoir end is higher than the push rod end.  This will enable air ot escape from the rear portion of the cylinders.  For addition info, refer to Ford bulletin #93-12-19*
 
 ## Brakes
 ## Suspension
