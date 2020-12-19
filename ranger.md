@@ -66,7 +66,7 @@ As far as I can tell, the clutch contained in the Ford OEM clutch _kit_ ([# 7L59
 
 [greasing the input shaft spline](https://www.sachsperformance.com/en/sachs-service-greasing-clutch-disc-hub-spline) -- grease only the input shaft, so that excess is pushed back and not forward.  Use very little -- don't want grease flinging onto disc.  Popular lube choice is a moly paste. "* a small quantity of heat-resistant, aging-resistant, high performance grease with MoS₂ (e.g. Castrol Olista Longtime 2 or 3*" [(source)](https://www.repxpert.com/en/mediadocument/LuK-0056/en)
 
-Ford Ranger & Mazda B-Series Pickup Clutch Hydraulic Release System Bleeding Procedures - [part 1](https://www.youtube.com/watch?v=HgNTDGwcjZc) - [part 2](https://youtu.be/91IYY_YENRw)
+Ford Ranger & Mazda B-Series Pickup Clutch Hydraulic Release System Bleeding Procedures - [part 1](https://www.youtube.com/watch?v=HgNTDGwcjZc) - [part 2](https://youtu.be/91IYY_YENRw) \
 [Bleeding External Clutch Hydraulic Release Systems with Bleed Screws](https://www.youtube.com/watch?v=8pZHTeLS4ik)
 
 **Special bleeding requirements:** *The mounting position of the master cylinder on the firewlal traps air in the rear portion of the cylinder.  Before bleeding, remove the master cylinder from the fireweall and position it so the reservoir end is higher than the push rod end.  This will enable air ot escape from the rear portion of the cylinders.  For addition info, refer to Ford bulletin #93-12-19*
