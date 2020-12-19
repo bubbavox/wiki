@@ -64,7 +64,7 @@ As far as I can tell, the clutch contained in the Ford OEM clutch _kit_ ([# 7L59
 
 [video - Self Adjusting Clutch Installation Without the Self Adjusting Clutch Tool Set](https://youtu.be/OdVagqumpbs)
 
-[greasing the input shaft spline](https://www.sachsperformance.com/en/sachs-service-greasing-clutch-disc-hub-spline) -- grease only the input shaft, so that excess is pushed back and not forward.  Use very little -- don't want grease flinging onto disc.  Popular lube choice is a moly paste. "*a small quantity of heat-resistant, aging-resistant, high performance grease with MoS₂ (e.g. Castrol Olista Longtime 2 or 3*" [(source)](https://www.repxpert.com/en/mediadocument/LuK-0056/en)
+[greasing the input shaft spline](https://www.sachsperformance.com/en/sachs-service-greasing-clutch-disc-hub-spline) -- grease only the input shaft, so that excess is pushed back and not forward.  Use very little -- don't want grease flinging onto disc.  Popular lube choice is a moly paste. Or... "*a small quantity of heat-resistant, aging-resistant, high performance grease with MoS₂ (e.g. Castrol Olista Longtime 2 or 3*" [(source)](https://www.repxpert.com/en/mediadocument/LuK-0056/en)
 
 Ford Ranger & Mazda B-Series Pickup Clutch Hydraulic Release System Bleeding Procedures - [part 1](https://www.youtube.com/watch?v=HgNTDGwcjZc) - [part 2](https://youtu.be/91IYY_YENRw) \
 [Bleeding External Clutch Hydraulic Release Systems with Bleed Screws](https://www.youtube.com/watch?v=8pZHTeLS4ik)
