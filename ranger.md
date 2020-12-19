@@ -49,7 +49,7 @@
 ## Transmission
 ## Clutch
 
-As far as I can tell, the [OEM clutch # 7L596](https://parts.ford.com/shop/en/us/transmission/clutch-parts/kit-clutch-repair-7844563-1) I bought from fordparts.com ($187 + tax) is exactly identical to LUK 07140 ([$117 @ RockAuto](https://www.rockauto.com/en/moreinfo.php?pk=4698552&cc=1446380&jsn=780)) , except for the Ford logo
+As far as I can tell, the clutch contained in the Ford OEM clutch _kit_ ([# 7L596](https://parts.ford.com/shop/en/us/transmission/clutch-parts/kit-clutch-repair-7844563-1)) is exactly identical to LUK 07140 ([clutch only -- $117 @ RockAuto](https://www.rockauto.com/en/moreinfo.php?pk=4698552&cc=1446380&jsn=780)), except for the Ford logo.  The slave cylinder contained in the Ford kit is mostly plastic, as is typical.  The kit also includes a pilot bearing.  I opted for a National pilot bearing # FC65354.
 
 ## Brakes
 ## Suspension
