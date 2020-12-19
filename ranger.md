@@ -4,6 +4,7 @@
 [Specifications](ranger.md#specifications) \
 [Problems](ranger.md#problems) \
 [Modifications](ranger.md#modifications) \
+[Regular maintenance](ranger.md#regular-maintenance) \
 [Engine](ranger.md#engine) \
 [Intake](ranger.md#intake) \
 [Exhaust](ranger.md#exhaust) \
@@ -34,6 +35,16 @@
   - See [TRS Page](https://www.therangerstation.com/tech_library/3_0performance.shtml)
   - Consider changing gear ratio to improve low end performance (e.g. 3.73's to 4.10's)
 
+## Regular maintenance
+
+  - grease transmission input shaft splines? -- very light coat (not enough to fling onto clutch disc).  Type of grease is a hot issue -- moly grease, "spline lube", brake parts grease...
+  - inspect U-joints:
+    - driveshaft
+  - inspect seals:
+    - oil pan gasket
+    - rear main seal
+    - transmission input / output
+
 ## Engine
 ## Intake
 ## Vacuum & Exhaust
@@ -50,6 +61,13 @@
 ## Clutch
 
 As far as I can tell, the clutch contained in the Ford OEM clutch _kit_ ([# 7L596](https://parts.ford.com/shop/en/us/transmission/clutch-parts/kit-clutch-repair-7844563-1)) is exactly identical to LUK 07140 ([clutch only -- $117 @ RockAuto](https://www.rockauto.com/en/moreinfo.php?pk=4698552&cc=1446380&jsn=780)), except for the Ford logo.  The slave cylinder contained in the Ford kit is mostly plastic, as is typical.  The kit also includes a pilot bearing.  I opted for a National pilot bearing # FC65354.
+
+[video - Self Adjusting Clutch Installation Without the Self Adjusting Clutch Tool Set](https://youtu.be/OdVagqumpbs)
+
+[greasing the input shaft spline](https://www.sachsperformance.com/en/sachs-service-greasing-clutch-disc-hub-spline) -- grease only the input shaft, so that excess is pushed back and not forward.  Use very little -- don't want grease flinging onto disc.  Popular lube choice is a moly paste. "* a small quantity of heat-resistant, aging-resistant, high performance grease with MoS₂ (e.g. Castrol Olista Longtime 2 or 3*" [(source)](https://www.repxpert.com/en/mediadocument/LuK-0056/en)
+
+Ford Ranger & Mazda B-Series Pickup Clutch Hydraulic Release System Bleeding Procedures - [part 1](https://www.youtube.com/watch?v=HgNTDGwcjZc) - [part 2](https://youtu.be/91IYY_YENRw)
+[Bleeding External Clutch Hydraulic Release Systems with Bleed Screws](https://www.youtube.com/watch?v=8pZHTeLS4ik)
 
 ## Brakes
 ## Suspension
