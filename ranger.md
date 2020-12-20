@@ -13,7 +13,7 @@
 [Transmission](ranger.md#transmission) \
 [Clutch](ranger.md#clutch) \
 [Brakes](ranger.md#brakes) \
-[Suspension](ranger.md#suspension)
+[Suspension](ranger.md#suspension) \
 [Electrical](ranger.md#electrical)
 
 -------------
