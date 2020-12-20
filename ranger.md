@@ -14,6 +14,7 @@
 [Clutch](ranger.md#clutch) \
 [Brakes](ranger.md#brakes) \
 [Suspension](ranger.md#suspension)
+[Electrical](ranger.md#electrical)
 
 -------------
 
@@ -147,5 +148,9 @@ As far as I can tell, the clutch included in the Ford OEM clutch _kit_ ([# 7L596
 -------------
 
 ## Suspension
+
+-------------
+
+## Electrical
 
 -------------
