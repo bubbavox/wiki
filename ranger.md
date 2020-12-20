@@ -17,7 +17,15 @@
 
 -------------
 
-[parts search @ RockAuto](https://www.rockauto.com/en/catalog/ford,1999,ranger,3.0l+v6,1446380)
+## Links
+
+[Library of Technical Info & Modifications @ TheRangerStation](https://www.therangerstation.com/tech_library/index.shtml) \
+[3rd generation rangers @ Wikipedia](https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)#Third_generation_(1998%E2%80%932012))
+
+### Parts:
+- [parts search @ RockAuto](https://www.rockauto.com/en/catalog/ford,1999,ranger,3.0l+v6,1446380) \
+- https://www.drivetrain.com/ \
+- https://www.monstertransmission.com/
 
 -------------
 
@@ -25,13 +33,10 @@
 - **Engine:** Ford Vulcan V6 (1998-99)
   - 182 cu in (3.0 L) OHV V6
   - 145 hp (108 kW); 178 lb⋅ft (241 N⋅m) (1998-1999 version)
-  - [TheRangerStation](https://www.therangerstation.com/tech_library/3_0performance.shtml)
-  - [Wikipedia](https://en.wikipedia.org/wiki/Ford_Vulcan_engine)
-  - [Build info @ TRS](https://www.therangerstation.com/tech_library/3_0-build.shtml)
+  - [Vulcan @ TheRangerStation](https://www.therangerstation.com/tech_library/3_0performance.shtml)
+  - [Vulcan @ Wikipedia](https://en.wikipedia.org/wiki/Ford_Vulcan_engine)
+  - [Rebuild info @ TRS](https://www.therangerstation.com/tech_library/3_0-build.shtml)
 - **Transmission:** Mazda 5-speed M5OD-R1 Manual
-
-- [Library of Technical Info & Modifications @ TheRangerStation](https://www.therangerstation.com/tech_library/index.shtml)
-- [3rd generation rangers @ Wikipedia](https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)#Third_generation_(1998%E2%80%932012))
 
 -------------
 
