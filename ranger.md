@@ -89,24 +89,56 @@
 
 ## Transmission
 
-*One thing to watch out for with the M5OD-R1 is the 3 rubber shift rail plugs at the top back of shift housing, these rot out and trans loses fluid over time which can cause premature failure. There are metal plug replacements for these.* \
+*One thing to watch out for with the M5OD-R1 is the 3 rubber shift rail plugs at the top back of shift housing, these rot out and trans loses fluid over time which can cause premature failure. There are metal plug replacements for these.*
 
-*All the power passes thru the input gears when accelerating, 1st, 2nd, and 3rd gears tend to be highest stress, and as said if a manual trans does have a problem then input gears can be suspected, especially if 4th still works.*
+*All the power passes thru the input gears when accelerating, 1st, 2nd, and 3rd gears tend to be highest stress, and... if a manual trans does have a problem then input gears can be suspected, especially if 4th still works.*
+
+**Input Shaft Seal Replacement:** *Workshop Manual 308-03-45*
+- Remove front bearing retainer plate (unbolt & pry at bottom tab).
+- Flip plate over and tap out the input shaft seal.
+- Clean everything and ensure oil holes are clear.
+- I lubed the machined hole around front bearing with a little ATF -- shrug
+- Clean mating surfaces.
+- I lubed the 2 metal shims & the fluid baffle with assembly lube
+- I sealed the machined flange with a thin bead of [anaerobic flange sealant](https://www.permatex.com/product-category/gasketing/anaerobic-gasket-makers-flange-sealants/).
+- Bolt bearing retainer plate with blue threadlocker, to 12-16 Lb-Ft (6 bolts, 12mm).
+
+**Output Shaft Seal Replacement:**
+
+- I used PB Blaster around the rusty old seal, then pried / tapped with a screwdriver til it popped.
+- Cleaned hole
+- Tapped new seal in evenly. I didn't lube the hole, but applied a film of assembly lube where seal meets driveshaft, shrug.
 
 -------------
 
 ## Clutch
 
-As far as I can tell, the clutch contained in the Ford OEM clutch _kit_ ([# 7L596](https://parts.ford.com/shop/en/us/transmission/clutch-parts/kit-clutch-repair-7844563-1)) is exactly identical to LUK 07140 ([clutch only -- $117 @ RockAuto](https://www.rockauto.com/en/moreinfo.php?pk=4698552&cc=1446380&jsn=780)), except for the Ford logo.  The slave cylinder contained in the Ford kit is mostly plastic, as is typical.  The kit also includes a pilot bearing.  I opted for a National pilot bearing # FC65354.
+As far as I can tell, the clutch included in the Ford OEM clutch _kit_ ([# 7L596](https://parts.ford.com/shop/en/us/transmission/clutch-parts/kit-clutch-repair-7844563-1)) is exactly identical to LUK 07140 ([clutch only -- $117 @ RockAuto](https://www.rockauto.com/en/moreinfo.php?pk=4698552&cc=1446380&jsn=780)), except for the Ford logo.  The slave cylinder contained in the Ford kit is mostly plastic, as is typical.  The kit also includes a pilot bearing.  I opted for a National pilot bearing # FC65354. 
 
-[video - Self Adjusting Clutch Installation Without the Self Adjusting Clutch Tool Set](https://youtu.be/OdVagqumpbs)
+**Bleeding:** 
+- Special note: *The mounting position of the master cylinder on the firewlal traps air in the rear portion of the cylinder.  Before bleeding, remove the master cylinder from the fireweall and position it so the reservoir end is higher than the push rod end.  This will enable air ot escape from the rear portion of the cylinders.  For addition info, refer to Ford bulletin #93-12-19*. 
+- good video about bleeding: [part 1](https://www.youtube.com/watch?v=HgNTDGwcjZc) - [part 2](https://youtu.be/91IYY_YENRw)
 
-[greasing the input shaft spline](https://www.sachsperformance.com/en/sachs-service-greasing-clutch-disc-hub-spline) -- grease only the input shaft, so that excess is pushed back and not forward.  Use very little -- don't want grease flinging onto disc.  Popular lube choice is a moly paste. Or... "*a small quantity of heat-resistant, aging-resistant, high performance grease with MoS₂ (e.g. Castrol Olista Longtime 2 or 3*" [(source)](https://www.repxpert.com/en/mediadocument/LuK-0056/en)
+**Self-adjusting clutch:**
+- [video - Installation Without the Self Adjusting Clutch Tool Set](https://youtu.be/OdVagqumpbs)
+- Ford Workshop manual 
 
-Ford Ranger & Mazda B-Series Pickup Clutch Hydraulic Release System Bleeding Procedures - [part 1](https://www.youtube.com/watch?v=HgNTDGwcjZc) - [part 2](https://youtu.be/91IYY_YENRw) \
-[Bleeding External Clutch Hydraulic Release Systems with Bleed Screws](https://www.youtube.com/watch?v=8pZHTeLS4ik)
-
-**Special bleeding requirements:** *The mounting position of the master cylinder on the firewlal traps air in the rear portion of the cylinder.  Before bleeding, remove the master cylinder from the fireweall and position it so the reservoir end is higher than the push rod end.  This will enable air ot escape from the rear portion of the cylinders.  For addition info, refer to Ford bulletin #93-12-19*
+**Replacing the clutch set, flywheel, pilot bearing, & slave cylinder:**
+- remove shifter lever, shifter base, & then plug the shifter hole with a rag or something.
+- lift truck.  secure truck from rolling (driveshaft will be disconnected).
+- disconnect battery.
+- remove driveshaft, first marking how it aligns with the rear differential (a mark along the length of driveshaft, continuing onto differential).  I needed a breaker bar for the 4 driveshaft bolts (12mm star I think).
+- unbolt starter (3 bolts).
+- disconnect various electrical connections from transmission.
+- unbolt crossmember from each side rail and remove 2 bolts in middle.
+- unbolt transmission's remaining 6 bolts (9 total).
+- partially remove exhaust if it's in the way of transmission removal.
+- remove transmission, moving back a few inches and lowering it with a jack.
+- remove clutch
+- remove pilot bearing with loaner puller or drive it out hydraulically with bread & grease. Yes, bread & grease. First, note position of pilot bearing in its hole -- then inspect for bearing wear on transmission's input shaft. I pulled bearing before removing flywheel, to avoid hammering near the new flywheel later.
+- remove flywheel
+- .....
+- [grease the input shaft spline](https://www.sachsperformance.com/en/sachs-service-greasing-clutch-disc-hub-spline) -- grease only the input shaft, so that excess is pushed back and not forward.  Use very little -- don't want grease flinging onto disc. Greasing is debated, consensus is a long-term moly grease. [LuK](https://www.repxpert.com/en/mediadocument/LuK-0056/en): *"a small quantity of heat-resistant, aging-resistant, high performance grease with MoS₂ (e.g. Castrol Olista Longtime 2 or 3)"*
 
 -------------
 
