@@ -133,7 +133,7 @@ As far as I can tell, the clutch included in the Ford OEM clutch _kit_ ([# 7L596
 - unbolt crossmember from each side rail and remove 2 bolts in middle.
 - unbolt transmission's remaining 6 bolts (9 total).
 - partially remove exhaust if it's in the way of transmission removal.
-- remove transmission, moving back a few inches and lowering it with a jack.
+- remove transmission, moving back a few inches and lowering it with a jack. It weighs about 90 lbs.
 - remove clutch
 - remove pilot bearing with loaner puller or drive it out hydraulically with bread & grease. Yes, bread & grease. First, note position of pilot bearing in its hole -- then inspect for bearing wear on transmission's input shaft. I pulled bearing before removing flywheel, to avoid hammering near the new flywheel later.
 - remove flywheel
