@@ -6,7 +6,10 @@
   
 #### Torque
   
-Typically a torque *range* is specified -- I like to stick to the middle, to allow for a miscalibrated torque wrench, or weak hardware.
+[Torque wrench education @ CDI](http://www.cditorque.com/education.html)
+[Calibrating a torque wrench](http://www.instructables.com/id/Fixing-and-Calibrating-a-Clicky-style-Torque-Wrenc)
+[Precision Instruments](http://www.torqwrench.com/) have a good reputation for their split beam torque wrenches.
+I use Tekton click micrometer torque wrenches, in 1/4" & 3/8"... someday I'll buy the Precision Instruments 1/2".
 
 #### Threadlocker
 #### Anti-Sieze, etc
