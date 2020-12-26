@@ -24,11 +24,13 @@
 [RangerForums](https://www.ranger-forums.com) \
 [Library of Technical Info & Modifications @ TheRangerStation](https://www.therangerstation.com/tech_library/index.shtml) \
 [3rd generation rangers @ Wikipedia](https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)#Third_generation_(1998%E2%80%932012))
+https://www.moderndriveline.com/category/how-tos/
 
 ### Parts:
 - [parts search @ RockAuto](https://www.rockauto.com/en/catalog/ford,1999,ranger,3.0l+v6,1446380)
 - https://www.drivetrain.com
 - https://www.monstertransmission.com
+- https://www.moderndriveline.com/
 
 -------------
 
@@ -37,6 +39,7 @@
   - 182 cu in (3.0 L) OHV V6
   - 145 hp (108 kW); 178 lb⋅ft (241 N⋅m) (1998-1999 version)
 - **Transmission:** Mazda 5-speed M5OD-R1 Manual
+  - 30-43 lb-ft fill/drain
 
 -------------
 
@@ -54,8 +57,9 @@
 
 ## Regular maintenance
 
-  - grease transmission input shaft splines? -- very light coat (not enough to fling onto clutch disc).  Type of grease is a hot issue -- moly grease, "spline lube", brake parts grease...
-  - inspect U-joints:
+  - transmission fluid - every 2 years
+  - check grease in output shaft grease boot?
+  - inspect/grease U-joints:
     - driveshaft
   - inspect seals:
     - oil pan gasket
@@ -90,9 +94,12 @@
 
 ## Transmission
 
-*One thing to watch out for with the M5OD-R1 is the 3 rubber shift rail plugs at the top back of shift housing, these rot out and trans loses fluid over time which can cause premature failure. There are metal plug replacements for these.*
-
 *All the power passes thru the input gears when accelerating, 1st, 2nd, and 3rd gears tend to be highest stress, and... if a manual trans does have a problem then input gears can be suspected, especially if 4th still works.*
+
+[Video- Pro transmission installation](https://www.youtube.com/watch?v=rH4Z-sCo9mk)
+
+**rubber shift rail plug replacement (3X)**
+*One thing to watch out for with the M5OD-R1 is the 3 rubber shift rail plugs at the top back of shift housing, these rot out and trans loses fluid over time which can cause premature failure. There are metal plug replacements for these. -- e.g. Dorman 555-108 (possibly discontinued) -- or tap & insert threaded pip plugs* [See this thread.](https://www.ranger-forums.com/drivetrain-tech-37/save-your-m5odr1-m5odr1hd-m5odr2-manual-transmission-123480/)... *"You're looking for a plug with a 0.625 (5/8) outside diameter, with a height of around 0.220. Those are the dimensions of the original Dorman plugs. If you can no longer find the Dorman option, search for engine freeze plugs using those dimensions. Try to find as close as possible on the height, outside dimension needs to be exact."*
 
 **Input Shaft Seal Replacement:** *Workshop Manual 308-03-45*
 - Remove front bearing retainer plate (unbolt & pry at bottom tab).
@@ -107,8 +114,10 @@
 **Output Shaft Seal Replacement:**
 
 - I used PB Blaster around the rusty old seal, then pried / tapped with a screwdriver til it popped.
-- Cleaned hole
-- Tapped new seal in evenly. I didn't lube the hole, but applied a film of assembly lube where seal meets driveshaft, shrug.
+- Cleaned hole, perhaps too roughly (used a little sandpaper on stubborn bits).  Hence the sealant used in next step.
+- Applied a small bead of Permatex Anaerobic Gasket Maker in the output hole, and carefully tapped in the new seal. (max gap 0.01" without primer)
+
+**Shifter Repair Kit** - M5R1 M5R2 Shifter Repair Kit -- bushing and boot replacement kit for M5ODR1, M5ODR1HD, and M5ODR2
 
 -------------
 
@@ -139,7 +148,7 @@ As far as I can tell, the clutch included in the Ford OEM clutch _kit_ ([# 7L596
 - remove pilot bearing with loaner puller or drive it out hydraulically with bread & grease. Yes, bread & grease. First, note position of pilot bearing in its hole -- then inspect for bearing wear on transmission's input shaft. I pulled bearing before removing flywheel, to avoid hammering near the new flywheel later.
 - remove flywheel
 - .....
-- [grease the input shaft spline](https://www.sachsperformance.com/en/sachs-service-greasing-clutch-disc-hub-spline) -- grease only the input shaft, so that excess is pushed back and not forward.  Use very little -- don't want grease flinging onto disc. Greasing is debated, consensus is a long-term moly grease. [LuK](https://www.repxpert.com/en/mediadocument/LuK-0056/en): *"a small quantity of heat-resistant, aging-resistant, high performance grease with MoS₂ (e.g. Castrol Olista Longtime 2 or 3)"*
+- [grease the input shaft spline](https://www.sachsperformance.com/en/sachs-service-greasing-clutch-disc-hub-spline) -- some pros say to never grease this, that it will ruin the clutch friction material.  If greasing, grease only the input shaft, so that excess is pushed back and not forward.  Use very little -- maybe a long-term moly grease. [LuK](https://www.repxpert.com/en/mediadocument/LuK-0056/en): *"a small quantity of heat-resistant, aging-resistant, high performance grease with MoS₂ (e.g. Castrol Olista Longtime 2 or 3)"*
 
 -------------
 
