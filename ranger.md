@@ -39,7 +39,7 @@ https://www.moderndriveline.com/category/how-tos/
   - 182 cu in (3.0 L) OHV V6
   - 145 hp (108 kW); 178 lb⋅ft (241 N⋅m) (1998-1999 version)
 - **Transmission:** Mazda 5-speed M5OD-R1 Manual
-  - 30-43 lb-ft fill/drain
+  - **Fluid:** Motorcraft MERCON® Multi-Purpose Automatic Transmission Fluid XT-2-QDX or -DDX (E4XZ-19582-B) or Equivalent -- 5.6 US Pints (2.65 Liters)
 
 -------------
 
@@ -73,6 +73,10 @@ https://www.moderndriveline.com/category/how-tos/
 [Vulcan @ TheRangerStation](https://www.therangerstation.com/tech_library/3_0performance.shtml) \
 [Vulcan @ Wikipedia](https://en.wikipedia.org/wiki/Ford_Vulcan_engine) \
 [Rebuild info @ TRS](https://www.therangerstation.com/tech_library/3_0-build.shtml)
+
+### Replacing engine mounts
+
+[thread @ TRS](https://www.therangerstation.com/forums/index.php?threads/how-to-replace-motor-mounts-and-trans-mount-on-92-ranger-2-3l.114418/) \
 
 -------------
 
