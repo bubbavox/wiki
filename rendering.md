@@ -1,5 +1,9 @@
 # rendering
 
+## App comparisons
+
+[V-Ray for SketchUp](https://www.chaosgroup.com/vray/sketchup)
+
 ## Twinmotion
 
 [TwinMotion Resources](https://twinmotionhelp.epicgames.com/s/resources?language=en_US) - knowledge base, training, etc
