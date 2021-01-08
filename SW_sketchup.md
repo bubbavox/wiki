@@ -44,9 +44,14 @@ Some of my favorite plugins:
 
 And here are some interesting extensions I haven't tried yet:  
 
-- SubD
-- Quad Face Tools
-- Vertex Tools
+- SubD - [Website](https://evilsoftwareempire.com/subd) / [Warehouse](https://extensions.sketchup.com/extension/c7107572-fc88-4588-88f9-a8f0deec3bd1/sub-d)
+  - [manual](https://evilsoftwareempire.com/subd/manual)
+  - [SubD forum @ Sketchucation](https://sketchucation.com/forums/viewforum.php?f=397)
+- Quad Face Tools - [GitHub](https://github.com/thomthom/quadface-tools) / [Warehouse](https://extensions.sketchup.com/extension/c59a652b-cc23-481e-8d2f-b56fabd2495a/quadface-tools)
+  - [wiki](https://github.com/thomthom/quadface-tools/wiki)
+  - [other quad extensions](https://evilsoftwareempire.com/subd/quads/extensions)
+- Vertex Tools - [website](https://evilsoftwareempire.com/vertex-tools)
+  - [manual](https://evilsoftwareempire.com/vertex-tools/manual)
 - [Selection Toys]
 - [Architect Tools]
 - [TrueBend]
@@ -224,8 +229,8 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 
 [Eneroth Solid Tools]: https://extensions.sketchup.com/pl/content/eneroth-solid-tools
 [CleanUp³]: https://extensions.sketchup.com/en/content/cleanup%C2%B3
-[TT\_Lib²]: https://extensions.sketchup.com/content/tt_lib%C2%B2
-[Solid Inspector²]: https://extensions.sketchup.com/en/content/solid-inspector%C2%B2
+[TT\_Lib²]: https://sketchucation.com/plugin/726-tt_lib
+[Solid Inspector²]: https://extensions.sketchup.com/extension/aad4e5d9-7115-4cac-9b75-750ed0902732/solid-inspector
 [Material Replacer]: https://extensions.sketchup.com/en/content/material-replacer
 [Auto Invisible Layer]: https://extensions.sketchup.com/en/content/auto-invisible-layer
 [Turn Off Layer In All Scenes (TOLIAS)]: https://sketchucation.com/forums/viewtopic.php?f=80&t=66243
