@@ -1,17 +1,30 @@
 
-# SketchUp
+# SketchUp        <!-- omit in toc -->
 
-## contents
+--------------
 
-[extensions](#extensions) \
-[controls](#controls) \
-[my setup](#my-setup) \
-[saving & restoring settings](#saving--restoring-settings) \
-[materials](#materials) \
-[styles](#styles) \
-[techniques](#techniques) \
-. . . [proxy modelling](#proxy-modelling) \
-. . . [conceptual design](#conceptual-design)
+# contents        <!-- omit in toc -->
+
++ [extensions](#extensions)
++ [controls](#controls)
++ [my setup](#my-setup)
+  + [folders](#folders)
+  + [interface](#interface)
+  + [other settings](#other-settings)
+  + [backups](#backups)
++ [saving & restoring settings](#saving--restoring-settings)
++ [materials](#materials)
+  + [nested materials & the *default* material:](#nested-materials--the-default-material)
+  + [component materials workflow](#component-materials-workflow)
+  + [managing materials](#managing-materials)
+    + [collections](#collections)
+    + [custom materials](#custom-materials)
++ [Axes & Inference](#axes--inference)
++ [techniques](#techniques)
+  + [proxy modeling](#proxy-modeling)
+  + [conceptual design](#conceptual-design)
+
+--------------
 
 ## extensions
 
@@ -48,11 +61,13 @@ And here are some interesting extensions I haven't tried yet:
 - [Eneroth Material Extractor]
 - [TIG: SKM Tools, Material Tools, and Image Tools]
 
+----------------
+
 ## controls
 
-The way we control the software has a huge impact on the experience and the speed of modeling.  When I try and use SketchUp on someone else's computer, it's maddeningly slow.
+Keyboard shortcuts   When I try and use SketchUp on someone else's computer, it's maddeningly slow.
 
-I use a <a href="https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/WASD.jpg" target="_blank">WASD</a> hand position (gaming-style), and have chosen shortcuts based on ergonomics / frequency of use.
+I use a <a href="https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/WASD.jpg" target="_blank">WASD</a> hand position (gaming-style), and have chosen key assignments based on ergonomics / frequency of use.
 
 To further ergonomify, I've swapped a couple of keys around on the keyboard, using [SharpKeys]: \
 `Control` <--> `Caps` \
@@ -91,11 +106,13 @@ alt-D       | UI - Show Scenes Tab
   
 </details>
 
+----------------
+
 ## my setup
 
 ### folders
 - In *Window > Preferences* I set all folders (except templates) to a location within my design directory, on an SSD.
-- templates cannot be relocated from `%appdata%\SketchUp\SketchUp 2020\SketchUp\Templates\`
+- templates cannot be relocated from `%appdata%\SketchUp\SketchUp 2021\SketchUp\Templates\`
 - My desktop & laptop use the same folder structure (incl. drive letters), to ease syncing & backups. (Only one `Preferences.dat` backup file needed.)
 
 ### interface
@@ -127,11 +144,13 @@ alt-D       | UI - Show Scenes Tab
 By default, SketchUp autosaves to a temp file, and if the program crashes it offers to load that file.  For extra protection, I use [Bvckup2](https://bvckup2.com/) to save a timestamped copy of the current project folder every 15 minutes, up to 4 copies. I also use Bvckup2 to periodically copy my files to the cloud (OneDrive), and to a separate disk.
 
 ## saving & restoring settings
-- keyboard shortcuts & folder locations: these settings can be imported / exported to a single file, separately or combined.
-- interface customization: not straightforward, if even possible.  If I'm reinstalling, I play it safe & start from scratch with UI
-- extensions: SketchUp installs extensions in `%appdata%\SketchUp\SketchUp 2020\SketchUp\Plugins`.  I just copy my backup `\Plugins` folder and SketchUp loads the plugins -- I have yet to experience issues with this process.
-- templates: Similar to extensions, templates are stored in `%appdata%\SketchUp\SketchUp 2020\SketchUp\Templates`.
+- **keyboard shortcuts & folder locations:** these settings can be imported / exported to a single file, separately or combined.
+- **custom UI:**  I think this is possible, but it's not straightforward, and I've not tested it sufficiently. On a fresh install, I customize the UI from scratch.
+- **extensions:** SketchUp installs extensions in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Plugins`.  I have backed up & restored the contents of this folder manually, without issue.
+- **templates:** Similar to extensions, templates are stored in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Templates`. Note: this folder location cannot be customized in SketchUp preferences.
 - Layout
+
+--------------
 
 ## materials
 plugin: [Material Replacer] - requires [TT\_Lib²] \
@@ -146,32 +165,15 @@ The *Default* material is a special material.  It's sort of a blank; a `nil` val
 
 If an entity (group, component, face, etc) contains different materials within its child entities, SketchUp has a way of prioritizing what materials are actually shown. 
 
-**My interpretation:**  If an entity is painted with a non-default material, it is rendered on each child entity unless that child entity has non-default material(s) of its own.
+If an entity is painted with a material, that material is also rendered on each child entity unless that child entity has non-default material of its own.
 
 In other words, if an entity is unpainted (painted with *default*), it's like an invisible primer, which shows the material underneath, and can be painted over.  But if an entity is painted with a normal material, it won't stick to other materials, and likewise can't be painted over.
 
-**Example:** \
-(`raw geometry` refers to one or more faces/edges)
-
-- `face` -- *pink*
-  - `eyes` -- *default material*
-    - `raw geometry` -- *each face painted its own color*
-  - `nose` -- *orange*
-    - `raw geometry` -- *default material*
-  - `mouth` -- *default material*
-    - `raw geometry` -- *default material*
-
-The `eyes` group contains several faces and edges (`raw geometry`).  If we tried to paint the `eyes` group black, it would have no visual effect, because there are nested entities with their own materials.
-
-The `nose` group also contains `raw geometry`, all of which is unpainted -- i.e. has the *default material*. If we painted the `raw geometry` with some materials, it would override the *orange* applied to `nose`.
-
-The `mouth` group is unpainted -- it has *default material* -- so it inherits the material from above.  Its parent group is `face`, which is painted *pink*, so `mouth` renders as *pink*.  Also note it's the only entity rendering *pink*.  If we painted the `mouth` group *gold*, it would override its parent material and render as *gold*.
-
 ### component materials workflow
 If you paint a component, it doesn't apply to that component's copies -- you're painting the instance of the component.  Here are 2 example heirarchies which let you easily paint all copies of a component in bulk.
-- workflow A:
+- workflow A: 
   - *component* - default material
-    - *raw geometry* - `custom material` (quickly paint all faces by holding `shift` while painting)
+    - *raw geometry* - `custom material` (you can quickly paint all faces by holding `shift`, or select multiple faces before painting)
 - workflow B:
   - *component* - default material
     - *group* - `custom material`
@@ -179,28 +181,22 @@ If you paint a component, it doesn't apply to that component's copies -- you're 
 
 ### managing materials
 #### collections
-Lorem markdownum tandem in multa pressus Lucifero telum tutissimus ignes. Ne
-Latina, atque flexile tutus vivosque superbus averserisque facit. Parentum non
-forma quae, aut sub vacuos iam sonus veniensque adventum Metione. Precando
-carinas.
-
+...
 #### custom materials
+...
 
-Ima dumque; [res](http://www.solvere-tamen.io/sed.html) bis requiescere ego tuo,
-ictu alter loqui di. Parantur amoris quoniam [umbris](http://incerto.io/colla),
-diverso, tuli primo Ladon cum? Aegea non Iuppiter dumque. Siccata et vestigia
-tantos quoque Ascalaphus apertas tamen, cognoscere. Tamen aequora sibi terra,
-in, Minervae, in.
+---------------
 
-## axes
+## Axes & Inference
 
-Axes are an important tool, because they determine Sketchup's inferencing.  In other words, they determine the alignment or positioning of various tools, such as rotation, scaling, lines & shapes. There are multiple sets of axes within a model: In addition to the model axes (top-level context), each group or component has its own set of axes.  
+SketchUp Help Articles:
+- [*Adjusting the Drawing Axes*](https://help.sketchup.com/en/sketchup/adjusting-drawing-axes)
 
-Axes can be adjusted: You can set the origin and the direction of each of the 3 axes.  And they are adjusted per context.  This gives you control over how SketchUp inferences within each group or component. 
+**Inference:** SketchUp will try to *infer* what you are trying to do, based on axes, symmetry, and helpful imaginary lines.  Examples: Line tool will snap to lines which are perpindicular or parallel to nearby shapes (and turn pink); the cursor will snap to the midpoint of a line; the cursor will snap to the center of a circle, if you first hover the circle's edge and then move cursor inward.
 
-Examples:
-- 
-- If you need to scale a solid along a weird angle, you can set the axes to that weird angle, and it will update the scale tool handles accordingly.  
+**Axes:** Axes are an important tool, because they determine Sketchup's tool alignments & influence inference cues. For example, scaling & rotation are aligned with the axes. There are multiple sets of axes within a model: In addition to the model axes (top-level context), each group or component has its own set of axes.
+
+Axes can be adjusted: You can set the origin and the direction of each of the 3 axes.  And they are adjusted per context.  **Axis direction** determines how SketchUp inferences within each group or component, and determines compass alignment: Solid red is north, and solid green is east.  **Axis origin point** affects 
 
 - axes tool
 - align axes (to face)
@@ -208,6 +204,8 @@ Examples:
 - extension: [Curic Axes](https://extensions.sketchup.com/extension/3ed1f7d5-2950-49ad-a7c3-3779befffea1/curic-axes)
 - extension: [Axes Tools](https://extensions.sketchup.com/extension/446870d8-0755-4d0b-963d-7219ef236c7a/axes-tools)
 - extension: [Axes Manager](https://extensions.sketchup.com/extension/13e533c2-ebf7-4d86-805f-59dd2254564b/axes-manager)
+
+-------------
 
 ## techniques
 

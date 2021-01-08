@@ -35,11 +35,18 @@ https://www.moderndriveline.com/category/how-tos/
 -------------
 
 ## Specifications
-- **Engine:** Ford Vulcan V6 (1998-99)
-  - 182 cu in (3.0 L) OHV V6
-  - 145 hp (108 kW); 178 lb⋅ft (241 N⋅m) (1998-1999 version)
-- **Transmission:** Mazda 5-speed M5OD-R1 Manual
-  - **Fluid:** Motorcraft MERCON® Multi-Purpose Automatic Transmission Fluid XT-2-QDX or -DDX (E4XZ-19582-B) or Equivalent -- 5.6 US Pints (2.65 Liters)
+- **Engine:**
+  - Ford Vulcan (1998-99) 182 cu in (3.0 L) OHV V6
+  - 145 hp (108 kW); 178 lb-ft (241 Nm) (1998-1999 version)
+  - **Oil:**
+  - **Coolant:**
+- **Transmission:** 
+  - Mazda 5-speed M5OD-R1 Manual
+  - **Fluid:** Motorcraft MERCON Multi-Purpose ATF XT-2-QDX or -DDX (E4XZ-19582-B) or Equiv. -- 5.6 US Pints / 2.8 Qts / 2.65 L
+- **Clutch** 
+- **Tires:**
+  - **Size:**
+  - **Inflation:** 30 PSI cold (front & rear)
 
 -------------
 
@@ -57,14 +64,28 @@ https://www.moderndriveline.com/category/how-tos/
 
 ## Regular maintenance
 
-  - transmission fluid - every 2 years
-  - check grease in output shaft grease boot?
-  - inspect/grease U-joints:
+  - change oil & filter (fill filter)
+  - clean air filter
+  - flush coolant
+  - transmission fluid - every 2 years?
+  - grease output shaft? (in outer boot?)
+  - inspect U-joints & grease if applicable:
     - driveshaft
   - inspect seals:
+    - oil filter
+    - oil pan plug
     - oil pan gasket
     - rear main seal
-    - transmission input / output
+    - transmission input
+    - transmission output (extension housing)
+  - inspect fasteners:
+    - wheel lugs
+    - driveshaft
+    - engine mounts (2)
+    - engine-to-transmission bolts
+    - transmission mount (1)
+    - transmission crossmember
+    - clutch / flywheel attachment
 
 -------------
 
