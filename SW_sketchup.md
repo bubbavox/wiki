@@ -3,7 +3,7 @@
 
 --------------
 
-# contents        <!-- omit in toc -->
+## contents        <!-- omit in toc -->
 
 + [extensions](#extensions)
 + [controls](#controls)
@@ -44,6 +44,9 @@ Some of my favorite plugins:
 
 And here are some interesting extensions I haven't tried yet:  
 
+- SubD
+- Quad Face Tools
+- Vertex Tools
 - [Selection Toys]
 - [Architect Tools]
 - [TrueBend]
@@ -51,10 +54,7 @@ And here are some interesting extensions I haven't tried yet:
 - [Eneroth Fractal Terrain Eroder]
 - [Profile Builder]
 - Weld
-- Vertex Tools
-- Quad Face Tool
 - Split Donut / Split Sausage
-- SubD
 - Joint Push Pull
 - FredoCorner / Round corners
 - Push Line
@@ -134,9 +134,9 @@ alt-D       | UI - Show Scenes Tab
   - [Solid Inspector²](https://extensions.sketchup.com/en/content/solid-inspector%C2%B2)
 
 ### other settings
-  - Speedy styles:  For modelling (rather than for rendering or for Layout usage) I tweak the style for speed, disabling extra lines such as profiles.
-  - For most of my styles I set line weight to minimum because it helps with the problem of lines showing through thin solids.
-  - To make it easier on my eyes, I create a dark backdrop: I disable ground, set background to dark gray, and sky to black (which actually results in a gradient sky, black to light gray).
+  - Speedy styles:  For modelling (rather than for rendering or for Layout usage) I tweak the style for performance, disabling extra lines such as profiles.
+  - For most of my styles I set line weight to minimum because it helps with the problem of lines showing through thin solids, and I think it just looks better.
+  - To make it easier on my eyes, I create a dark backdrop: I disable ground, set background to dark gray, and sky to black (which actually results in a gradient sky, black to light gray).  And maybe one day we'll get dark mode!
   - I disable shadows on ground, in shadow options.  Even if ground is disabled in the style, shadows will still be rendered where it used to be.
   - In an attempt to speed up startup time, I disable the welcome screen & auto-updates, and I put everything on SSD.
 
@@ -144,9 +144,12 @@ alt-D       | UI - Show Scenes Tab
 By default, SketchUp autosaves to a temp file, and if the program crashes it offers to load that file.  For extra protection, I use [Bvckup2](https://bvckup2.com/) to save a timestamped copy of the current project folder every 15 minutes, up to 4 copies. I also use Bvckup2 to periodically copy my files to the cloud (OneDrive), and to a separate disk.
 
 ## saving & restoring settings
+
+[helpful thread @ SketchUp forums](https://forums.sketchup.com/t/toolbars-and-setup-when-updating/115002/4)
+
 - **keyboard shortcuts & folder locations:** these settings can be imported / exported to a single file, separately or combined.
-- **custom UI:**  I think this is possible, but it's not straightforward, and I've not tested it sufficiently. On a fresh install, I customize the UI from scratch.
-- **extensions:** SketchUp installs extensions in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Plugins`.  I have backed up & restored the contents of this folder manually, without issue.
+- **custom UI:**  I think this might be possible, but it's not straightforward, and I've not tested it sufficiently. On a fresh install, I customize the UI from scratch.
+- **plugins:** SketchUp installs plugins in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Plugins`.  I typically save the plugin download `.rbz` files, and reinstall from these, but the safest method is to re-download each plugin, noting compatibility with the version of SketchUp you're using (and some plugins might work with the new version even if they don't say so).
 - **templates:** Similar to extensions, templates are stored in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Templates`. Note: this folder location cannot be customized in SketchUp preferences.
 - Layout
 
