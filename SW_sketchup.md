@@ -76,8 +76,8 @@
 - [Joint Push Pull] -- Requires [LibFredo]
 - [Eneroth Material Extractor]
 - [TIG: SKM Tools, Material Tools, and Image Tools]
-- [Material Resizer]
-- [Bezier Curve Tool]
+- [Material Resizer] (SketchUp team)
+- [Bezier Curve Tool] (SketchUp team)
 - [Repeat Place Component]
 - [Eneroth Tool Memory] -- $ / trial
 - 3skeng
