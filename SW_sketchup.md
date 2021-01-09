@@ -6,7 +6,7 @@
 ## contents        <!-- omit in toc -->
 
 + [extensions](#extensions)
-+ [- [Edge Tools] -- requires [TT_Lib²]](#--edge-tools----requires-tt_lib)
++ [- [TIG: SKM Tools, Material Tools, and Image Tools]](#--tig-skm-tools-material-tools-and-image-tools)
 + [controls](#controls)
 + [my setup](#my-setup)
   + [folders](#folders)
@@ -54,18 +54,18 @@ And here are some interesting extensions I haven't tried yet:
 - Vertex Tools - [website](https://evilsoftwareempire.com/vertex-tools)
   - [manual](https://evilsoftwareempire.com/vertex-tools/manual)
 - [Selection Toys]
-- [Architect Tools]
+- [Edge Tools] -- requires [TT_Lib²]
 - [TrueBend]
+- [FredoCorner] -- Requires [LibFredo]
+- [RoundCorner] -- Requires [LibFredo]
+- [Architect Tools]
 - [ClothWorks]
 - [Eneroth Fractal Terrain Eroder]
 - [Profile Builder]
 - [Split Tools]
 - [Joint Push Pull]
-- [FredoCorner] -- Requires [LibFredo]
-- [RoundCorner] -- Requires [LibFredo]
 - [Eneroth Material Extractor]
 - [TIG: SKM Tools, Material Tools, and Image Tools]
-- [Edge Tools] -- requires [TT_Lib²]
 ----------------
 
 ## controls
