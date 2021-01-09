@@ -39,6 +39,7 @@
 **Some more of my favorite plugins:**
 - [Material Replacer] -- requires [TT_Lib²] -- _"Replace one material for another by picking material in the model"_. __SketchUp has ([material replacement built-in](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material)) but it seems to only work within a modelling context, i.e. within a group.__
 - [Eneroth Visual Merge] -- automagically hides lines & faces where selected groups touch, making them appear to be seamless.
+- [Component Properties]
 - SubD - [Website](https://evilsoftwareempire.com/subd) / [Warehouse](https://extensions.sketchup.com/extension/c7107572-fc88-4588-88f9-a8f0deec3bd1/sub-d)
   - [manual](https://evilsoftwareempire.com/subd/manual)
   - [SubD forum @ Sketchucation](https://sketchucation.com/forums/viewforum.php?f=397)
@@ -59,6 +60,8 @@
 **And here are some interesting extensions I haven't tried yet:**
 
 - [Edge Tools] -- requires [TT_Lib²]
+- [Eneroth Layer Painter] -- $ / trial -- see *known issues / limitations*
+- [Eneroth Swift Layer Visibility Control] -- $ / trial
 - [TrueBend]
 - [FredoCorner] -- Requires [LibFredo]
 - [RoundCorner] -- Requires [LibFredo]
@@ -78,7 +81,7 @@
 - [Eneroth Tool Memory]
 - 3skeng
 - Curviloft
-- CutList
+- CutList -- $ / trial
 - Engineering Toolbox
 - Layer Manager
 - Line up axes (Eneroth)
@@ -258,12 +261,15 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 [Bezier Curve Tool]: https://extensions.sketchup.com/extension/8b58920d-0923-42f8-9c72-e09f2bba125e/bezier-curve-tool
 [CleanUp³]: https://extensions.sketchup.com/extension/046175e5-a87a-4254-9329-1accc37a5e21/cleanup%C2%B3
 [ClothWorks]: https://sketchucation.com/plugin/2053-clothworks
+[Component Properties]: https://extensions.sketchup.com/extension/248d1f45-2989-49f7-ac15-0b14129c6973/component-properties
 [Edge Tools]: https://extensions.sketchup.com/extension/52ab7474-469f-4a62-baa0-63c2b6390373/edge-tools
 [Eneroth Component Replacer]: https://extensions.sketchup.com/extension/9296041e-0a67-4cf0-a520-13de000e20b8/eneroth-component-replacer
 [Eneroth Fractal Terrain Eroder]: https://extensions.sketchup.com/extension/a609a3c3-4066-42b9-98aa-9d4ecdb19287/eneroth-fractal-terrain-eroder
+[Eneroth Layer Painter]: https://extensions.sketchup.com/extension/66564e2c-9c36-4006-aafc-7da918665e95/eneroth-layer-painter
 [Eneroth Material Extractor]: https://extensions.sketchup.com/extension/75086cf5-9898-49eb-a005-4ebc89245be4/eneroth-material-extractor
 [Eneroth Pipe]: https://extensions.sketchup.com/extension/80637e4a-8f8a-438f-85f0-da53a69314d8/eneroth-pipe
 [Eneroth Solid Tools]: https://extensions.sketchup.com/extension/b1fc993f-42ac-44ab-8655-3037ccdfc36e/eneroth-solid-tools
+[Eneroth Swift Layer Visibility Control]: https://extensions.sketchup.com/extension/cfa47a7e-1d7e-4899-a225-32e1399c44cd/eneroth-swift-layer-visibility-control
 [Eneroth Tool Memory]: https://extensions.sketchup.com/extension/fb385104-103e-4176-b1e5-92e114bad57a/eneroth-tool-memory
 [Eneroth Visual Merge]: https://extensions.sketchup.com/extension/6b8d9d0f-3f8b-4101-9e0f-37dbf4372339/eneroth-visual-merge
 [FredoCorner]: https://sketchucation.com/plugin/2120-fredocorner
