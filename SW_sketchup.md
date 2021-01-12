@@ -63,6 +63,8 @@
 - [Edge Tools] -- requires [TT_Lib²]
 - [Eneroth Layer Painter] -- $ / trial -- see *known issues / limitations*
 - [Eneroth Swift Layer Visibility Control] -- $ / trial
+- [Unwrap and Flatten Faces]
+- [Face Centroid and Area Properties] -- _"Get accurate face properties: Centroid, Area, Moment of Inertia, and Radius of Gyration"_
 - [TrueBend]
 - [FredoCorner] -- Requires [LibFredo]
 - [RoundCorner] -- Requires [LibFredo]
@@ -273,6 +275,7 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 [Eneroth Swift Layer Visibility Control]: https://extensions.sketchup.com/extension/cfa47a7e-1d7e-4899-a225-32e1399c44cd/eneroth-swift-layer-visibility-control
 [Eneroth Tool Memory]: https://extensions.sketchup.com/extension/fb385104-103e-4176-b1e5-92e114bad57a/eneroth-tool-memory
 [Eneroth Visual Merge]: https://extensions.sketchup.com/extension/6b8d9d0f-3f8b-4101-9e0f-37dbf4372339/eneroth-visual-merge
+[Face Centroid and Area Properties]: https://extensions.sketchup.com/extension/fef39953-7374-48aa-812d-c0df1c24870e/face-centroid-and-area-properties
 [FredoCorner]: https://sketchucation.com/plugin/2120-fredocorner
 [FredoScale]: https://sketchucation.com/plugin/1169-fredoscale
 [FredoGhost]: https://sketchucation.com/plugin/2191-fredoghost
@@ -293,3 +296,4 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 [TIG: SKM Tools, Material Tools, and Image Tools]: https://sketchucation.com/pluginstore?pln=SKMtools
 [TrueBend]: https://extensions.sketchup.com/extension/c9135b56-4492-449e-ac63-8c26b734ba39/truebend
 [Turn Off Layer In All Scenes (TOLIAS)]: https://sketchucation.com/forums/viewtopic.php?f=80&t=66243
+[Unwrap and Flatten Faces]: https://extensions.sketchup.com/extension/479b4faf-433a-40ab-8727-1c34dee1c829/flatten-faces
