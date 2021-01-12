@@ -37,7 +37,7 @@
 - [Turn Off Layer In All Scenes (TOLIAS)] --  Turns off the _active_ layer in all scenes.  I'm working on my own modified version which also turns _on_ a layer in all scenes.
 
 **Some more of my favorite plugins:**
-- [Material Replacer] -- requires [TT_Lib²] -- _"Replace one material for another by picking material in the model"_. __SketchUp has ([material replacement built-in](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material)) but it seems to only work within a modelling context, i.e. within a group.__
+- [Material Replacer] -- requires [TT_Lib²] -- _"Replace one material for another by picking material in the model"_. __SketchUp has [material replacement built-in](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material) but it seems to only work within a modelling context, i.e. within a group...(investigate)__
 - [Eneroth Visual Merge] -- $ / trial -- automagically hides lines & faces where selected groups touch, making them appear to be seamless.
 - [Component Properties] -- requires [TT_Lib²]
 - [SubD] -- $ / trial
@@ -63,8 +63,8 @@
 - [Edge Tools] -- requires [TT_Lib²]
 - [Eneroth Layer Painter] -- $ / trial -- see *known issues / limitations*
 - [Eneroth Swift Layer Visibility Control] -- $ / trial
-- [Unwrap and Flatten Faces]
-- [Face Centroid and Area Properties] -- _"Get accurate face properties: Centroid, Area, Moment of Inertia, and Radius of Gyration"_
+- [Unwrap and Flatten Faces] -- [website](https://alexschreyer.net/projects/flatten-faces-plugin/) -- [github](https://github.com/alexschreyer/SketchUp-Flatten-Plugin)
+- [Face Centroid and Area Properties] -- _"Get accurate face properties: Centroid, Area, Moment of Inertia, and Radius of Gyration"_ -- [website](https://alexschreyer.net/projects/flatten-faces-plugin/) -- [github](https://github.com/alexschreyer/Face-Centroid-and-Properties-Plugin)
 - [TrueBend]
 - [FredoCorner] -- Requires [LibFredo]
 - [RoundCorner] -- Requires [LibFredo]
