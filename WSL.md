@@ -1,1 +1,41 @@
-[the log of my environment setup](https://github.com/bubbavox/notes_public/blob/master/WSL_log.md), incl. WSL2, Ubuntu, Ruby, & SSH. I don't really know what I'm doing.
+# WSL
+
+-------------
+
+## WSL log
+
+the log of my environment setup, incl. WSL2, Ubuntu, Ruby, & SSH. I don't really know what I'm doing:
+
+2020-07-30
+#### Installed WSL2 ( [guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10) ) on Windows 10 build 2004
+#### Ubuntu setup:
+- installed Ubuntu 20.04 via Microsoft Store
+- updated:
+  ```
+  sudo apt update
+  sudo apt upgrade
+  ```
+- installed some basics:
+  ```
+  sudo apt install -y curl libssl-dev wget
+  sudo apt install -y build-essential
+  ```
+#### ruby setup:
+- installed [chruby](https://github.com/postmodern/chruby) per readme
+  - used install script `setup.sh` instead of `make`
+  - added `source /usr/local/share/chruby/chruby.sh` to `~/.bashrc`.
+- installed [ruby-install](https://github.com/postmodern/ruby-install) per readme
+- installed ruby 2.7.1 __as root__ (installs into `/opt/rubies`):
+  `sudo ruby-install ruby 2.7.1`
+- restarted shell
+- set default ruby via chruby:
+  - added `chruby ruby-2.7.1` to `~/.profile` ( stock Ubuntu doesn't use `.bash_profile` )
+
+#### SSH setup:
+- deleted old keys on github
+- [generated new SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) w/ `ssh-keygen -t rsa -b 4096 -C "email@email.com"` ; set password
+- started `ssh-agent` with `eval $(ssh-agent -s)` and added new key with `ssh-add ~/.ssh/id_rsa`
+- [set ssh-agent to auto-launch with bash](https://docs.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases):
+  - added [code block](https://docs.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows) from guide to `~/.profile`
+- [added __public__ key to GitHub](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account):
+  - printed key to shell & copied to Windows clipboard with `cat ~/.ssh/id_rsa.pub | clip.exe` and copy/pasted to my [github SSH page](https://github.com/settings/keys)
