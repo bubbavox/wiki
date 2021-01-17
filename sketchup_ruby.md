@@ -1,4 +1,4 @@
-https://sketchupfordesign.com/
+[Sketchup For Design](https://sketchupfordesign.com/)
 
 https://github.com/thomthom/SketchUp-Units-and-Locale-Helper
 
