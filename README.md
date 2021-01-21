@@ -11,7 +11,7 @@
 - [wood finishes](wood_finishes.md)
 - [electrical](electrical.md)
 - [soldering](soldering.md)
-- [1999 Ford Ranger](mech_1999_ford_ranger.md)
+- [1999 Ford Ranger](1999_ford_ranger.md)
 - [vehicle maintenance](vehicle_maintenance.md)
 
 - [WSL](WSL.md)
