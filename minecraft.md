@@ -2,14 +2,17 @@
 
 This page is a log of my Minecraft activities, and a compendium of my research.  Further down the page is a [detailed log of my setup](minecraft.md#my-setup), which might serve as a guide.  There is also good information on the [MultiMC wiki](https://github.com/MultiMC/MultiMC5/wiki).
 
+## Info / Links:
+
+- MultiMC Minecraft Launcher - [website](https://multimc.org/) / [github](https://github.com/MultiMC/MultiMC5) / [wiki](https://github.com/MultiMC/MultiMC5/wiki) (good info here)
+- AMIDST map explorer - [github](https://github.com/toolbox4minecraft/amidst#amidst) / [forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2970854-amidst-map-explorer-for-minecraft-1-14-and-later)
+
 ## Minecraft setup:
 *updated 2020-12-09*
 
-**Alternative launcher: MultiMC** - [website](https://multimc.org/) / [github](https://github.com/MultiMC/MultiMC5) / [wiki](https://github.com/MultiMC/MultiMC5/wiki) - Custom install locations, multiple instances, Java config, built-in Fabric / Forge installers, etc.   The dev later joined the Minecraft team, but continues to work on MultiMC.  I'm using the development release, which is "mostly stable" at time of this writing. I created 2 instances of Minecraft, each with its own separate install directory: 
+**Alternative launcher: MultiMC** - [website](https://multimc.org/) / [github](https://github.com/MultiMC/MultiMC5) / [wiki](https://github.com/MultiMC/MultiMC5/wiki) - Custom install locations, multiple instances, Java config, built-in Fabric / Forge installers, etc.   The dev later joined the Minecraft team, but continues to work on MultiMC.  I'm using the development release, which is "mostly stable" at time of this writing. I created 2 instances of Minecraft, each with its own separate install directory.  This way I can swap shaders without changing a bunch of video settings, etc.
 1. *Fancy* - Fabric / OptiFabric / Optifine / shaders
-2. *Fast* - Fabric / Sodium
-
-**AMIDST map explorer** - [github](https://github.com/toolbox4minecraft/amidst#amidst) / [forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2970854-amidst-map-explorer-for-minecraft-1-14-and-later)
+2. *Fast* - Fabric / OptiFine
 
 ### mod APIs / toolchains (needed for mods; choose 1):
 - [Fabric Loader](https://fabricmc.net/) + 
