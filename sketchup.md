@@ -104,7 +104,7 @@ To further ergonomify, I've swapped a couple of keys around on the keyboard, usi
 `Esc` <--> `~`
   
 <details>
-  <summary>my keyboard shortcuts:</summary>
+  <summary>my keyboard shortcuts (expand)</summary>
   
 command     | key binding
 ------------|------------
