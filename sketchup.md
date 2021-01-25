@@ -6,6 +6,7 @@
 ## contents        <!-- omit in toc -->
 
 + [extensions](#extensions)
++ [- Aerilius - [SEW] - [Sketchucation] - GH](#--aerilius---sew---sketchucation---gh)
 + [controls](#controls)
 + [my setup](#my-setup)
   + [folders](#folders)
@@ -58,7 +59,7 @@
 - [Eneroth Pipe] -- $ / trial -- similar to Pipe Along Path but probably better
 - [Selection Memory] 
 
-**And here are some interesting extensions I haven't tried yet:**
+**Here are some interesting extensions I haven't tried yet:**
 
 - [Edge Tools] -- requires [TT_Lib²]
 - [Eneroth Layer Painter] -- $ / trial -- see *known issues / limitations*
@@ -82,6 +83,7 @@
 - [Bezier Curve Tool] (SketchUp team)
 - [Repeat Place Component]
 - [Eneroth Tool Memory] -- $ / trial
+- [HouseBuilder] - nifty old plugin create by Steve Hurlbut and D. Bur, and later fixed by TIG. see also Framer plugin
 - 3skeng
 - Curviloft
 - CutList -- $ / trial
@@ -91,6 +93,14 @@
 - Mass Material Importer
 - BW_Framer
 
+**Some plugin authors & their websites:**
+- ThomThom - [SEW](https://extensions.sketchup.com/user/extensions/1596327803470505363806298/ThomThom) - [Sketchucation](https://sketchucation.com/pluginstore?pauthor=thomthom) - [GH](https://github.com/thomthom) - [website](https://www.thomthom.net/thoughts/)
+- Eneroth - [SEW](https://extensions.sketchup.com/user/extensions/1438951607944306779129789/Eneroth3) - [Sketchucation](https://sketchucation.com/pluginstore?pauthor=eneroth3) - [website](http://julia-christina-eneroth.se/)
+- Alex Schreyer - [SEW](https://extensions.sketchup.com/user/extensions/1210130985145376656046078/alexschreyer) - [Sketchucation](https://sketchucation.com/pluginstore?pauthor=alexschreyer) - [website](https://alexschreyer.net/)
+- Chris Fullmer - [SEW](https://extensions.sketchup.com/user/extensions/u911d4c63-c668-4666-9a35-9333c4064b8e/Chris%20Fullmer) - [Sketchucation](https://sketchucation.com/pluginstore?pauthor=Chris%20Fullmer)
+- Fredo6 - [SEW](https://extensions.sketchup.com/user/extensions/u568048c8-23e8-4df7-bdb0-b1538f55d7fa/Fredo6) - [Sketchucation](https://sketchucation.com/pluginstore?pauthor=fredo6)
+- TIG - Sketchucation - SEW
+- Aerilius - [SEW] - [Sketchucation] - [GH](https://github.com/Aerilius)
 ----------------
 
 ## controls
@@ -280,6 +290,7 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 [FredoScale]: https://sketchucation.com/plugin/1169-fredoscale
 [FredoGhost]: https://sketchucation.com/plugin/2191-fredoghost
 [Joint Push Pull]: https://sketchucation.com/plugin/715-jointpushpull
+[HouseBuilder]: http://sketchucation.com/forums/viewtopic.php?p=564448#p564448
 [Material Replacer]: https://extensions.sketchup.com/extension/4137f7fc-a81f-4ef9-9ec8-b6dd8a0d9086/material-replacer
 [Material Resizer]: https://extensions.sketchup.com/extension/77b60f26-2352-407e-8c0c-9862c9716111/material-resizer
 [Material Tools]: https://extensions.sketchup.com/extension/5e8c8cb5-63d1-4b9f-a574-5faede20bdc6/material-tools

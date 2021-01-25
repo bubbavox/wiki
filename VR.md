@@ -4,8 +4,12 @@
 
 ## Oculus Quest 2
 
-### Daniel's tips:
+- https://www.reddit.com/r/QuestPiracy/comments/jcvfzo/the_definitive_quest_piracy_guide/
+- https://www.reddit.com/r/QuestPiracy/comments/jz5673/oculus_quest_starter_guide_safety_guide_faq/
+- https://github.com/whitewhidow/quest-sidenoder
+- https://immersedvr.com/
 
+### Daniel's tips:
 
 - The 65GB version is big enough for personal use if you always uninstall games you don't plan on playing anytime soon. If you want to store movies or every game then an extra $100 for the 256GB is worth it.
 

@@ -9,6 +9,9 @@
 --------------
 
 ## git tricks
+
+https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
+
 [guide: custom git commands](http://thediscoblog.com/blog/2014/03/29/custom-git-commands-in-3-steps/)
 
 [thread: "git add, commit and push commands in one?"](https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one)
