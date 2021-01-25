@@ -1,4 +1,8 @@
-## info:
+---
+modified: 2021-01-25T13:05:01-05:00
+---
+
+# # info:
 
 [Scripting Tutorials](https://sketchupfordesign.com/sketchup-tutorials-news/tutorials/scripting/) at [Sketchup For Design](https://sketchupfordesign.com/) (Alex Schreyer)
 
@@ -15,3 +19,5 @@
 - Ruby Console+ - [github](https://github.com/aerilius/sketchup-console-plus) - [SEW](https://extensions.sketchup.com/extension/b3865233-5e84-4f7e-8342-517aca889225/Ruby%20Console+)
 
 ## environment:
+
+Test entry
