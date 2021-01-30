@@ -94,7 +94,7 @@ end # module
 
 
 
-[rubydoc.info]:(https://ruby-doc.org/core-2.7.1/)
+[rubydoc.info]:https://ruby-doc.org/core-2.7.1/
 [rubydoc.info]:https://rubydoc.info/stdlib/core/
 [rubyapi.org]:https://rubyapi.org/2.7
 [devdocs.io]:https://devdocs.io/ruby~2.7/
@@ -102,11 +102,11 @@ end # module
 [WebDialog]:https://ruby.sketchup.com/UI/WebDialog.html
 [HTMLDialog]:https://ruby.sketchup.com/UI/HtmlDialog.html
 
-[Minitest]:(https://github.com/seattlerb/minitest)
-[TestUp]:(https://github.com/SketchUp/testup-2)
-[SpeedUp]:(https://github.com/SketchUp/speedup)
+[Minitest]:https://github.com/seattlerb/minitest
+[TestUp]:https://github.com/SketchUp/testup-2
+[SpeedUp]:https://github.com/SketchUp/speedup
 [Skippy]:https://github.com/thomthom/skippy
 [Benchmark]:https://rubydoc.info/stdlib/benchmark/Benchmark
 [RubyProf]:https://ruby-prof.github.io/
 
-[Golden Rules]:(http://www.thomthom.net/thoughts/2012/01/golden-rules-of-sketchup-plugin-development/)
+[Golden Rules]:http://www.thomthom.net/thoughts/2012/01/golden-rules-of-sketchup-plugin-development/
