@@ -29,7 +29,7 @@ SU 2021.0.1 uses Ruby 2.7.1
     - [Skippy]
   - http://www.thomthom.net/thoughts/2012/08/dealing-with-units-in-sketchup/
   - [SU forums: frozen strings, encoding, _FILE_, etc](https://forums.sketchup.com/t/force-encoding-when-using-frozen-string-literals/109362)
-  - [SU forums: Why frozen string literals?](https://forums.sketchup.com/t/why-frozen-string-literals/123843/9)
+  - [SU forums: Why frozen string literals?](https://forums.sketchup.com/t/why-frozen-string-literals/123843)
 
 --------------------
 ## dev environment:
