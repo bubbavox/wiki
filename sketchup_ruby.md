@@ -9,6 +9,7 @@ SU 2021.0.1 uses Ruby 2.7.1
 ## docs:
 - Ruby Core 2.7.1:
   - [rubydoc.info]
+  - [devdocs.io]
   - [rubyapi.org]
 - SketchUp Ruby API:
   - [homepage](https://ruby.sketchup.com/) - incl. some basic help info
@@ -96,6 +97,7 @@ end # module
 [rubydoc.info]:(https://ruby-doc.org/core-2.7.1/)
 [rubydoc.info]:https://rubydoc.info/stdlib/core/
 [rubyapi.org]:https://rubyapi.org/2.7
+[devdocs.io]:https://devdocs.io/ruby~2.7/
 
 [WebDialog]:https://ruby.sketchup.com/UI/WebDialog.html
 [HTMLDialog]:https://ruby.sketchup.com/UI/HtmlDialog.html
@@ -107,4 +109,4 @@ end # module
 [Benchmark]:https://rubydoc.info/stdlib/benchmark/Benchmark
 [RubyProf]:https://ruby-prof.github.io/
 
-[Golden Rules]: (http://www.thomthom.net/thoughts/2012/01/golden-rules-of-sketchup-plugin-development/)
+[Golden Rules]:(http://www.thomthom.net/thoughts/2012/01/golden-rules-of-sketchup-plugin-development/)
