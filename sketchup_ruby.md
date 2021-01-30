@@ -19,6 +19,7 @@ SU 2021.0.1 uses Ruby 2.7.1
 
 ## unsorted info:
 
+  - [Ruby Learning Resources @ SU Forums (Dan)](https://forums.sketchup.com/t/ruby-learning-resources-wikilists/22861)
   - ThomThom:
     - [github](https://github.com/thomthom)
     - [blog](http://www.thomthom.net/thoughts/)
