@@ -1,5 +1,6 @@
 ### content management systems
 
+- Hugo - [website](http://gohugo.io/) - [GitHub](https://github.com/gohugoio) - [guide to installing on Windows](https://gohugo.io/getting-started/installing#windows)
 - [Trello]
 - [Notion]
 - [Gitbook]
