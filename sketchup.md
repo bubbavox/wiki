@@ -1,8 +1,10 @@
 
 # SketchUp        <!-- omit in toc -->
 
---------------
 
+related: [SketchUp + Ruby](sketchup_ruby.md)
+
+--------------
 ## contents        <!-- omit in toc -->
 
 + [extensions](#extensions)
