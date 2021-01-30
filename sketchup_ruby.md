@@ -50,7 +50,7 @@ SU 2021.0.1 uses Ruby 2.7.1
 
   - [Scripting Tutorials](https://sketchupfordesign.com/sketchup-tutorials-news/tutorials/scripting/) at [Sketchup For Design](https://sketchupfordesign.com/) (Alex Schreyer)
   - [Golden Rules] of SketchUp Development - 2012 article by ThomThom
-
+------------------
 ## GUI:
 
 In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/aerilius/sketchup-bridge).
@@ -62,7 +62,7 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
   - [WebDialogs - The Lost Manual (TT)](https://github.com/thomthom/sketchup-webdialogs-the-lost-manual)
   - [SKUI (TT)](https://github.com/thomthom/SKUI) (abandoned?) - *... framework... to provide Ruby wrapper classes to manipulate GUI control elements in SketchUp's UI::WebDialog API.*
   - [SketchUp Bridge (aerilius)](https://github.com/aerilius/sketchup-bridge)
-
+------------------
 ## to do:
 - create custom rdocs for SU dev:
   - Ruby 2.7.1
@@ -73,6 +73,7 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
   - [TestUp]
   - [SpeedUp]- a profiling tool for SketchUp Ruby extensions. It wraps [Benchmark] and the [RubyProf] gem.
 
+-------------------
 
 An extension example that *plays nice* (outdated? from TT's 2012 [Golden Rules] article):
 ```ruby
@@ -90,6 +91,8 @@ module NN_MyOwnUniqueNamespace
   file_loaded( __FILE__ )
 end # module
 ```
+See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow-environment/151298/2?u=bubbavox) on the above code: *Many of us recommend using a local module @loaded var to determine whether to load UI elements, rather than the slow and clunky file_loaded() and file_loaded?() methods defined in "sketchup.rb".
+(String comparison is slow in Ruby, and those methods use a global shared array in which simple file names might clash. Long absolute pathnames are going to slow the startup cycle.)*
 
 
 
