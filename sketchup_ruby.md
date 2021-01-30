@@ -74,7 +74,7 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
   - [SpeedUp]- a profiling tool for SketchUp Ruby extensions. It wraps [Benchmark] and the [RubyProf] gem.
 
 
-An extension example that *plays nice* (from TT's 2012 [Golden Rules] article):
+An extension example that *plays nice* (outdated? from TT's 2012 [Golden Rules] article):
 ```ruby
 require 'sketchup.rb'
 module NN_MyOwnUniqueNamespace
