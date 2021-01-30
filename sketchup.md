@@ -8,7 +8,6 @@ related: [SketchUp + Ruby](sketchup_ruby.md)
 ## contents        <!-- omit in toc -->
 
 + [extensions](#extensions)
-+ [- Aerilius - [SEW] - [Sketchucation] - GH](#--aerilius---sew---sketchucation---gh)
 + [controls](#controls)
 + [my setup](#my-setup)
   + [folders](#folders)
@@ -102,7 +101,9 @@ related: [SketchUp + Ruby](sketchup_ruby.md)
 - Chris Fullmer - [SEW](https://extensions.sketchup.com/user/extensions/u911d4c63-c668-4666-9a35-9333c4064b8e/Chris%20Fullmer) - [Sketchucation](https://sketchucation.com/pluginstore?pauthor=Chris%20Fullmer)
 - Fredo6 - [SEW](https://extensions.sketchup.com/user/extensions/u568048c8-23e8-4df7-bdb0-b1538f55d7fa/Fredo6) - [Sketchucation](https://sketchucation.com/pluginstore?pauthor=fredo6)
 - TIG - Sketchucation - SEW
-- Aerilius - [SEW] - [Sketchucation] - [GH](https://github.com/Aerilius)
+- Aerilius - SEW - Sketchucation - [GH](https://github.com/Aerilius)
+
+
 ----------------
 
 ## controls
