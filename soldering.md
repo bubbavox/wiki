@@ -1,5 +1,6 @@
 # Soldering
 
+related: [electrical](electrical.md), [keyboard](keyboard.md)
 ## reference
 EEV [Blog](https://www.eevblog.com/) and [wiki](https://www.eevblog.com/wiki/index.php?title=Main_Page) \
 The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](https://www.youtube.com/channel/UCw0U6DtO0PHb3l37eKEAdSg) \

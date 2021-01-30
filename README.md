@@ -4,7 +4,7 @@
 
 - 3D:
   - [sketchup](sketchup.md)
-  - [sketchup & ruby](sketchup_ruby.md)
+  - [sketchup + ruby](sketchup_ruby.md)
   - [rendering](rendering.md)
   - [VR](VR.md)
 - crafty stuff:

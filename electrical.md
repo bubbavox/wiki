@@ -1,3 +1,5 @@
+related: [soldering](soldering.md)
+
 https://www.fluke.com/en-us/learn
 
 http://noshockzone.org/

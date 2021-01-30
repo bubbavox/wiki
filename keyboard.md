@@ -1,5 +1,7 @@
 # keyboard
 
+related: [soldering](soldering.md)
+
 ## build - KBD75
 
 hot swappable 75% keyboard -- work in progress
