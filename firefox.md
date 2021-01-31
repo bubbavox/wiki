@@ -1,11 +1,16 @@
 ## CSS Tweaks
 ---
 
-Must set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true` in `about:config`.
+
 
 [CSS hack repo w/ readme](https://github.com/MrOtherGuy/firefox-csshacks) \
 [some tutorials](http://forums.mozillazine.org/viewtopic.php?p=3519925#p3519925) \
 [userChrome.css @ MozillaZine](http://kb.mozillazine.org/UserChrome.css)
+
+0. Must set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true` in `about:config`.
+1. Find your profile folder, if Firefox is running you can find by going to about:support and there should be a button with label "Open Folder" under application basics
+2. Create a new folder to the profile folder and name it "chrome"
+3. userChrome.css and userContent.css files should be created inside this chrome-folder.
 
 
 ---

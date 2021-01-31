@@ -37,7 +37,7 @@
 - [WinThumbsPreloader] - preloads thumbnails in a selected folder
 - Bvckup2
 - SharpKeys - reassign keys
-- TouchCursor - add a function layer to chosen modifier key (I use spacebar and I'm totally addicted -- see 'SpaceFn')
+- [TouchCursor](https://github.com/martin-stone/touchcursor/issues/14) - [64-bit version needed for whitelist functionality](https://github.com/martin-stone/touchcursor/files/5644111/TouchCursor.zip) - add a function layer to chosen modifier key (I use spacebar and I'm totally addicted -- see 'SpaceFn')
 - [Windows Terminal]  
 - WinDirStat
 - [XYplorer](https://www.xyplorer.com/index.php) - File manager
