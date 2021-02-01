@@ -80,3 +80,7 @@ The Current Source - [website](https://www.thecurrentsource.com/) - [youtube](ht
 - melt joints more easily with a little fresh solder 
 #### tiny stuff, surface mount, etc
   - temp ~ 315
+
+## things to check out:
+
+[Pallet Bluetooth Speaker V3 DIY](https://www.youtube.com/watch?v=tU8lUlx3pPY) - really impressive project involving woodworking & custom audio circuitry

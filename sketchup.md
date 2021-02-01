@@ -62,6 +62,8 @@ related: [SketchUp + Ruby](sketchup_ruby.md)
 
 **Here are some interesting extensions I haven't tried yet:**
 
+- [Profile Builder] - $ / trial
+- [Double-Cut] - $ / trial
 - [Edge Tools] -- requires [TT_Lib²]
 - [Eneroth Layer Painter] -- $ / trial -- see *known issues / limitations*
 - [Eneroth Swift Layer Visibility Control] -- $ / trial
@@ -75,7 +77,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md)
 - [Architect Tools]
 - [ClothWorks]
 - [Eneroth Fractal Terrain Eroder]
-- [Profile Builder]
+
 - [Split Tools]
 - [Joint Push Pull] -- Requires [LibFredo]
 - [Eneroth Material Extractor]
@@ -102,6 +104,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md)
 - Fredo6 - [SEW](https://extensions.sketchup.com/user/extensions/u568048c8-23e8-4df7-bdb0-b1538f55d7fa/Fredo6) - [Sketchucation](https://sketchucation.com/pluginstore?pauthor=fredo6)
 - TIG - Sketchucation - SEW
 - Aerilius - SEW - Sketchucation - [GH](https://github.com/Aerilius)
+- mind.sight.studios - [SEW](https://extensions.sketchup.com/user/extensions/1227382186648254578622562/mind.sight.studios) - [website](https://mindsightstudios.com/)
 
 
 ----------------
@@ -278,6 +281,7 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 [CleanUp³]: https://extensions.sketchup.com/extension/046175e5-a87a-4254-9329-1accc37a5e21/cleanup%C2%B3
 [ClothWorks]: https://sketchucation.com/plugin/2053-clothworks
 [Component Properties]: https://extensions.sketchup.com/extension/248d1f45-2989-49f7-ac15-0b14129c6973/component-properties
+[Double-Cut]: https://mindsightstudios.com/double-cut/
 [Edge Tools]: https://extensions.sketchup.com/extension/52ab7474-469f-4a62-baa0-63c2b6390373/edge-tools
 [Eneroth Component Replacer]: https://extensions.sketchup.com/extension/9296041e-0a67-4cf0-a520-13de000e20b8/eneroth-component-replacer
 [Eneroth Fractal Terrain Eroder]: https://extensions.sketchup.com/extension/a609a3c3-4066-42b9-98aa-9d4ecdb19287/eneroth-fractal-terrain-eroder

@@ -2,19 +2,22 @@
 
 -------------
 
-## **Contents:**
-[Specifications](ranger.md#specifications) \
-[Problems](ranger.md#problems) \
-[Modifications](ranger.md#modifications) \
-[Regular maintenance](ranger.md#regular-maintenance) \
-[Engine](ranger.md#engine) \
-[Intake](ranger.md#intake) \
-[Exhaust](ranger.md#exhaust) \
-[Transmission](ranger.md#transmission) \
-[Clutch](ranger.md#clutch) \
-[Brakes](ranger.md#brakes) \
-[Suspension](ranger.md#suspension) \
-[Electrical](ranger.md#electrical)
+## Contents        <!-- omit in toc -->
++ [Links](#links)
+  + [Parts](#parts)
++ [Specifications](#specifications)
++ [Problems](#problems)
++ [Modifications](#modifications)
++ [Regular maintenance](#regular-maintenance)
++ [Engine](#engine)
+  + [Replacing engine mounts](#replacing-engine-mounts)
++ [Intake](#intake)
++ [Vacuum & Exhaust](#vacuum--exhaust)
++ [Transmission](#transmission)
++ [Clutch](#clutch)
++ [Brakes](#brakes)
++ [Suspension](#suspension)
++ [Electrical](#electrical)
 
 -------------
 
@@ -26,7 +29,7 @@
 [3rd generation rangers @ Wikipedia](https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)#Third_generation_(1998%E2%80%932012))
 https://www.moderndriveline.com/category/how-tos/
 
-### Parts:
+### Parts
 - [parts search @ RockAuto](https://www.rockauto.com/en/catalog/ford,1999,ranger,3.0l+v6,1446380)
 - https://www.drivetrain.com
 - https://www.monstertransmission.com
