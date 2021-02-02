@@ -32,10 +32,14 @@ related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
 - **SketchUp docs:**
   - [SketchUp Ruby API]:
     - [Class: SketchUp Extension](https://ruby.sketchup.com/SketchupExtension.html)
+  - [Ruby API tutorials Wiki]
   - [SketchUp YARD template]
   - [Ruby API Class diagram] (date unknown)
   - [PickHelper: A Visual Guide] (ThomThom)
   - [WebDialogs - The Lost Manual (TT 2013)]
+
+<details>
+  <summary>expand: SU / Ruby version history & summary of changes (click to expand) </summary>
 
 SU version  | Ruby version  | major changes
 ------------|---------------|---------------
@@ -51,7 +55,9 @@ SU version  | Ruby version  | major changes
 2015        | 2.0.0         | SU is now 64-bit; new LayOut C API
 2014        | **2.0.0**     | 
 
-See also: [SketchUp Ruby API release notes](https://ruby.sketchup.com/file.ReleaseNotes.html).
+</details>
+
+[SketchUp Ruby API release notes](https://ruby.sketchup.com/file.ReleaseNotes.html).
 
 --------------------
 ## hubs
@@ -60,11 +66,13 @@ See also: [SketchUp Ruby API release notes](https://ruby.sketchup.com/file.Relea
 - [SU forums: Extensions]
 - [SU forums: Happenings]
 - [SketchUp Developer]
+- [Sketchucation Dev Forums]
 - [GitHub / SketchUp]
 - [GitHub / thomthom]
 - [TT's blog](http://www.thomthom.net/thoughts/)
 - [TT's old blog (still useful)](http://www.thomthom.net/blog/)
 - [GitHub / Eneroth3]
+- [Sketchup For Design] (Alex Schreyer)
 
 --------------------
 ## dev tools
@@ -80,6 +88,7 @@ See also: [SketchUp Ruby API release notes](https://ruby.sketchup.com/file.Relea
 - [Script Runner] (Ene) - *"Run Ruby script by dropping it in SketchUp."*
 - [SketchUp YARD template] (SU)
 - [Transformation Inspector] (TT)
+- [SketchUp Attribute Helper] (SU)
 
 ---------------------
 ## libraries and such
@@ -96,30 +105,34 @@ See also: [SketchUp Ruby API release notes](https://ruby.sketchup.com/file.Relea
 --------------------
 ## exemplary code
 
-SU code that is open-source and worth a look -- perhaps well-commented, or proper & up-to-date, or just plain tootin' interesting!
+SU code that is open-source and worth a look -- perhaps well-commented, or proper & up-to-date, or created explicitly as an example.
 
-- SketchUp/ [Example: HTMLDialog Examples]
-- SketchUp/ [Example: Drawing Shaded and Textured Polygons]
-- SketchUp/ [Example: Html Inputbox]
-- SketchUp/ [SketchUp Shapes] - see also [github page](https://github.com/SketchUp/sketchup-shapes)
-- SketchUp/ [SketchUp Ruby C/C++ Extension Examples]
-- SketchUp/ [SketchUp-STL] - for 3D printing, mainly
-- SketchUp/ [SketchUp Shapes]
-- ThomThom/ [CleanUp3]
-- ThomThom/ [Selection Toys]
-- ThomThom/ [Solid Inspector 2] - see also 
-- ThomThom/ [Component Properties]
-- ThomThom/ [SuperGlue]
-- ThomThom/ [Model Info] - see also [warehouse page](https://extensions.sketchup.com/extension/44116c18-f6d3-469e-a4c5-20854003d4f7/model-info)
-- ThomThom/ [QuadFace Tools]
-- ThomThom/ [Transformation Inspector]
-- Eneroth3/ [Eneroth Solid Tools] - *Solid tools designed to feel native to SketchUp.*
-- Eneroth3/ [Legacy Save] - *Quickly saves model to a legacy Sketchup format.*
-- Eneroth3/ [Eneroth Scene Visibility] - *Control entity visibility on a per scene basis. Useful in SketchUp 2020 and later where scenes store hidden states also in nested objects.*
-- Eneroth3/ [Eneroth Viewport Resizer 2] - Remake of a 2014 extension
-- Eneroth3/ [Eneroth Random Selection] - *"This extension was originally planned to be a Ruby Extension example but turned out to also be a rather useful little extension."*
-- Eneroth3/ [Eneroth Component to Group]
-- Eneroth3/ [Script Runner] - *"Run Ruby script by dropping it in SketchUp."*
+- SU - [Examples: HTMLDialog Examples]
+- SU - [Examples: HTML Inputbox]
+- SU - [Examples: SketchUp Ruby C/C++ Extension]
+- SU - [Examples: SketchUp Live C API]
+- SU - [Examples: color-at-uv] - example of `Sketchup::ImageRep`
+- SU - [Examples: Drawing Shaded and Textured Polygons]
+- SU - [Examples: Testing Weld]
+- SU - [SketchUp Shapes] - see also [github page](https://github.com/SketchUp/sketchup-shapes)
+- SU - [SketchUp Ruby C/C++ Extension Examples]
+- SU - [SketchUp-STL] - for 3D printing, mainly
+- SU - [SketchUp Shapes]
+- TT - [CleanUp3]
+- TT - [Selection Toys]
+- TT - [Solid Inspector] - see also 
+- TT - [Component Properties]
+- TT - [SuperGlue]
+- TT - [Model Info] - [SEW](https://extensions.sketchup.com/extension/44116c18-f6d3-469e-a4c5-20854003d4f7/model-info) - "*Outputs model statistics to the Ruby Console or file.*"
+- TT - [QuadFace Tools]
+- TT - [Transformation Inspector]
+- ene - [Eneroth Solid Tools] - *Solid tools designed to feel native to SketchUp.*
+- ene - [Legacy Save] - *Quickly saves model to a legacy Sketchup format.*
+- ene - [Eneroth Scene Visibility] - *Control entity visibility on a per scene basis. Useful in SketchUp 2020 and later where scenes store hidden states also in nested objects.*
+- ene - [Eneroth Viewport Resizer 2] - Remake of a 2014 extension
+- ene - [Eneroth Random Selection] - *"This extension was originally planned to be a Ruby Extension example but turned out to also be a rather useful little extension."*
+- ene - [Eneroth Component to Group]
+- ene - [Script Runner] - *"Run Ruby script by dropping it in SketchUp."*
 
 
 --------------------
@@ -160,12 +173,16 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
 
 ## tutorials
 
-  - [Scripting Tutorials](https://sketchupfordesign.com/sketchup-tutorials-news/tutorials/scripting/) at [Sketchup For Design](https://sketchupfordesign.com/) (Alex Schreyer)
+  - [SU dev 'getting started']
+  - [Ruby API tutorials]
+  - [Scripting Tutorials](https://sketchupfordesign.com/sketchup-tutorials-news/tutorials/scripting/) at [Sketchup For Design] (Alex Schreyer)
+
 
 --------------------
 ## my to do
 
-- set up for SU tutorials
+- set up for SU tutorials:
+  - 
 - set up for debugging / testing:
   - learn about bundle
   - learn [Minitest] - tutorial [here](https://semaphoreci.com/community/tutorials/getting-started-with-minitest)
@@ -184,7 +201,9 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
 ## other stuff
 
 -------------------
-An extension example that *plays nice* (outdated? from TT's 2012 [Golden Rules] article):
+
+### On Namespaces and such:
+An old extension example that *plays nice* (from TT's 2012 [Golden Rules])
   ```ruby
   require 'sketchup.rb'
   module NN_MyOwnUniqueNamespace
@@ -216,10 +235,13 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
 [Ruby QuickRef]: https://www.zenspider.com/ruby/quickref.html
 
 [SketchUp Ruby API]: https://ruby.sketchup.com/
-[Module:UI]: https://ruby.sketchup.com/UI
-[HTMLDialog]: https://ruby.sketchup.com/UI/HtmlDialog.html
-[WebDialog]: https://ruby.sketchup.com/UI/WebDialog.html
+  [Module:UI]: https://ruby.sketchup.com/UI
+  [HTMLDialog]: https://ruby.sketchup.com/UI/HtmlDialog.html
+  [WebDialog]: https://ruby.sketchup.com/UI/WebDialog.html
+[Ruby API tutorials Wiki]: https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki
 [WebDialogs - The Lost Manual (TT 2013)]: https://github.com/thomthom/sketchup-webdialogs-the-lost-manual
+[Ruby API Class diagram]: https://raw.githubusercontent.com/bubbavox/wiki/master/assets/SU-ruby_class_diagram.gif
+[PickHelper: A Visual Guide]: https://raw.githubusercontent.com/bubbavox/wiki/master/assets/PickHelper_Visual-Guide_TT_-Rev3.2-18-03-2013.pdf
 
 
 <!-- hubs -->
@@ -230,8 +252,10 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
 [SU forums: Developers]: https://forums.sketchup.com/c/developers
 [SU forums: Extensions]: https://forums.sketchup.com/c/extensions
 [SU forums: Happenings]: https://forums.sketchup.com/c/happenings
+[Sketchucation Dev Forums]: http://sketchucation.com/forums/viewforum.php?f=180&sid=9dd6294acb986d0264ea756d32e3245d
 [SketchUp Sage]: https://sites.google.com/site/sketchupsage/
 [Ruby Learning Resources]: https://forums.sketchup.com/t/ruby-learning-resources-wikilists/22861
+[Sketchup For Design]: https://sketchupfordesign.com/
 
 <!-- dev tools -->
 [SketchUp Ruby Debugger]: https://github.com/SketchUp/sketchup-ruby-debugger
@@ -244,6 +268,7 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
 [SketchUp Bridge]: https://github.com/aerilius/sketchup-bridge
 [SketchUp YARD template]: https://github.com/SketchUp/sketchup-yard-template
 [Transformation Inspector]: https://github.com/thomthom/transformation-inspector
+[SketchUp Attribute Helper]: https://github.com/SketchUp/sketchup-attribute-helper
 
 <!-- libraries and such -->
 [SketchUp Units and Locale Helper]: https://github.com/thomthom/SketchUp-Units-and-Locale-Helper
@@ -272,6 +297,7 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
 [Eneroth Random Selection]: https://github.com/Eneroth3/RandomSelection
 [Eneroth Component to Group]: https://github.com/Eneroth3/component-to-group
 [Script Runner]: https://github.com/Eneroth3/sketchup-script-runner
+[Model Info]: https://github.com/thomthom/model-info
 
 <!-- examples -->
 
@@ -279,7 +305,15 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
 [Examples: HTMLDialog Examples]: https://github.com/SketchUp/htmldialog-examples
 [Examples: Drawing Shaded and Textured Polygons]: https://github.com/SketchUp/sketchup-draw-mesh
 [Examples: SketchUp Ruby C/C++ Extension]: https://github.com/SketchUp/ruby-c-extension-examples
-[SketchUp Live C API Examples]: https://github.com/SketchUp/sketchup-live-c-api
+[Examples: SketchUp Live C API]: https://github.com/SketchUp/sketchup-live-c-api
+[Examples: Ruby C/C++ Extension]: https://github.com/SketchUp/ruby-c-extension-examples
+[Examples: color-at-uv]: https://github.com/SketchUp/color-at-uv
+[Examples: Testing Weld]: https://github.com/SketchUp/sketchup-weld
+
+<!-- tutorials -->
+[SU dev 'getting started']: https://developer.sketchup.com/developers/getting-started
+[Ruby API tutorials]: https://github.com/SketchUp/sketchup-ruby-api-tutorials
+
 
 <!-- Ruby stuff -->
 [Minitest]: https://github.com/seattlerb/minitest
@@ -288,7 +322,8 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
 
 <!-- other -->
 [Golden Rules]: http://www.thomthom.net/thoughts/2012/01/golden-rules-of-sketchup-plugin-development/
-[Ruby API Class diagram]: https://raw.githubusercontent.com/bubbavox/wiki/master/assets/SU-ruby_class_diagram.gif
-[PickHelper: A Visual Guide]: https://raw.githubusercontent.com/bubbavox/wiki/master/assets/PickHelper_Visual-Guide_TT_-Rev3.2-18-03-2013.pdf
+
+
+
 
 

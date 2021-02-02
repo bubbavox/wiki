@@ -37,7 +37,8 @@ related: [SketchUp + Ruby](sketchup_ruby.md)
 - [CleanUp³] -- requires [TT_Lib²] -- fix / purge / merge / repair
 - [Auto Invisible Layer] -- When enabled, changes SketchUp's default behavior of new layers being enabled in all scenes.  Disabled by default at the start of each session.
 - [Turn Off Layer In All Scenes (TOLIAS)] --  Turns off the _active_ layer in all scenes.  I'm working on my own modified version which also turns _on_ a layer in all scenes.
-- [SketchUp Shapes] 
+- [SketchUp Shapes]
+- [Eneroth Legacy Save]
 
 
 **Some more of my favorite plugins:**
@@ -291,6 +292,7 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 [Eneroth Component Replacer]: https://extensions.sketchup.com/extension/9296041e-0a67-4cf0-a520-13de000e20b8/eneroth-component-replacer
 [Eneroth Fractal Terrain Eroder]: https://extensions.sketchup.com/extension/a609a3c3-4066-42b9-98aa-9d4ecdb19287/eneroth-fractal-terrain-eroder
 [Eneroth Layer Painter]: https://extensions.sketchup.com/extension/66564e2c-9c36-4006-aafc-7da918665e95/eneroth-layer-painter
+[Eneroth Legacy Save]: https://extensions.sketchup.com/extension/32472fc9-06d1-49de-aa56-52570114c2c7/eneroth-legacy-save
 [Eneroth Material Extractor]: https://extensions.sketchup.com/extension/75086cf5-9898-49eb-a005-4ebc89245be4/eneroth-material-extractor
 [Eneroth Pipe]: https://extensions.sketchup.com/extension/80637e4a-8f8a-438f-85f0-da53a69314d8/eneroth-pipe
 [Eneroth Solid Tools]: https://extensions.sketchup.com/extension/b1fc993f-42ac-44ab-8655-3037ccdfc36e/eneroth-solid-tools
