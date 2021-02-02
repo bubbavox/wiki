@@ -1,6 +1,6 @@
-# unmanaged content seeks content management system...
+# systematically unmanaged content seeks content management system...
 
-## some contents:
+## table of some of the contents:
 
 - 3D:
   - [sketchup](sketchup.md)

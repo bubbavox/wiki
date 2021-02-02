@@ -9,11 +9,14 @@ related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
 ## contents:          <!-- omit in toc -->
 
 + [docs](#docs)
++ [hubs](#hubs)
 + [development tools](#development-tools)
++ [libraries and such](#libraries-and-such)
++ [exemplary code](#exemplary-code)
 + [unsorted info](#unsorted-info)
 + [setup](#setup)
++ [UX](#ux)
 + [tutorials](#tutorials)
-+ [UI](#ui)
 + [my to do](#my-to-do)
 + [my setup](#my-setup)
 + [other stuff](#other-stuff)
@@ -32,16 +35,17 @@ related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
 
 SU version  | Ruby version  | major changes
 ------------|---------------|---------------
-2021        | 2.7.1         | 
-2020.2      |               | Ruby and C Exchange API
-2020.1      |               | `#weld`
-2019.2      | 2.5.5         | removed depr. C++ API
-2019        | 2.5.1         |
-2018        |               | Layout Ruby API (wrapped C API); `#send_to_layout`; `ImageRep`; Adv. Attributes
-2017        | 2.2.4         | `WebDialog` --> `HtmlDialog`; new API docs
-2016        |               | `.rbs` --> `.rbe`
-2015        |               | SU is now 64-bit; new LayOut C API
-2014        | 2.0.0         | 
+2021        | **2.7.1**     | tag folders; live components; PreDesign; .skp rebuild
+2020.2      | 2.5.5         | Ruby and C Exchange API
+2020.1      | 2.5.5         | `#weld`
+2020.0      | 2.5.5         | 
+2019.2      | **2.5.5**     | removed depr. C++ API
+2019        | **2.5.1**     |
+2018        | 2.2.4         | Layout Ruby API (wrapped C API); `#send_to_layout`; `ImageRep`; Adv. Attributes
+2017        | **2.2.4**     | `WebDialog` --> `HtmlDialog`; new API docs
+2016        | 2.0.0         | `.rbs` --> `.rbe`
+2015        | 2.0.0         | SU is now 64-bit; new LayOut C API
+2014        | **2.0.0**     | 
 
 See also: [SketchUp Ruby API release notes](https://ruby.sketchup.com/file.ReleaseNotes.html).
 
@@ -102,6 +106,8 @@ SU code that is open-source and worth a look -- perhaps well-commented, or prope
 - Eneroth3/ [Eneroth Random Selection] - *"This extension was originally planned to be a Ruby Extension example but turned out to also be a rather useful little extension."*
 - Eneroth3/ [Eneroth Component to Group]
 - Eneroth3/ [Script Runner] - *"Run Ruby script by dropping it in SketchUp."*
+
+
 --------------------
 ## unsorted info
 
