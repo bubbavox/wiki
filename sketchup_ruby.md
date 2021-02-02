@@ -32,6 +32,8 @@ related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
   - [RubyDoc.info]
   - [RubyAPI.org]
 - [Ruby Style Guide] (rubocop)
+- [SketchUp YARD template]
+- [Ruby API Class diagram](../assets/SU-ruby_class_diagram.gif) (date unknown)
 
 SU version  | Ruby version  | major changes
 ------------|---------------|---------------
@@ -73,6 +75,7 @@ See also: [SketchUp Ruby API release notes](https://ruby.sketchup.com/file.Relea
 - [Skippy] (TT) - *CLI which aims to automate common developer tasks for SketchUp Ruby extension development.*
 - [SketchUp Bridge] (aerilius) - some UX stuff, idk
 - [Script Runner] (Ene) - *"Run Ruby script by dropping it in SketchUp."*
+- [SketchUp YARD template]
 
 ---------------------
 ## libraries and such
@@ -225,6 +228,7 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
 [Ruby API stubs]: https://github.com/SketchUp/ruby-api-stubs
 [Skippy]: https://github.com/thomthom/skippy
 [SketchUp Bridge]: https://github.com/aerilius/sketchup-bridge
+[SketchUp YARD template]: https://github.com/SketchUp/sketchup-yard-template
 
 <!-- libraries and such -->
 [SketchUp Units and Locale Helper]: https://github.com/thomthom/SketchUp-Units-and-Locale-Helper
@@ -257,7 +261,7 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
 [Script Runner]: https://github.com/Eneroth3/sketchup-script-runner
 
 <!-- other -->
-[Golden Rules]:http://www.thomthom.net/thoughts/2012/01/golden-rules-of-sketchup-plugin-development/
+[Golden Rules]: http://www.thomthom.net/thoughts/2012/01/golden-rules-of-sketchup-plugin-development/
 [Minitest]: https://github.com/seattlerb/minitest
 [Benchmark]: https://rubydoc.info/stdlib/benchmark/Benchmark
 [RubyProf]: https://ruby-prof.github.io/
