@@ -41,19 +41,53 @@ SU version  | Ruby version  | notes
 See also: [SketchUp Ruby API release notes](https://ruby.sketchup.com/file.ReleaseNotes.html).
 
 --------------------
-## development tools
+## hubs
 
 - [GitHub / SketchUp]
-  - [VSCode Project for SketchUp Extension Development]: project template
-  - [RuboCop SketchUp] - *"...test against our Extension Warehouse technical requirements and other pitfalls."*
-  - [TestUp] - *A GUI wrapper for running Minitest in SketchUp*
-  - [SpeedUp]- a profiling tool for SketchUp Ruby extensions. It wraps [Benchmark] and the [RubyProf] gem.
-- [GitHub / thomthom]
-  - [Skippy]
-  - [SketchUp Units and Locale helper] - *mini-library.. to provide easy conversions of Area and Volume within SketchUp as well as dealing with user environment locale.*
+- thomthom:
+  - [GitHub / thomthom]
+  - [blog](http://www.thomthom.net/thoughts/)
+  - [old blog (still useful)](http://www.thomthom.net/blog/)
 - [GitHub / Eneroth3]
-  - [SketchUp Community Library] (Beta) - early work in progress
-- [SketchUp Bridge]
+
+--------------------
+## development tools
+
+- [VSCode Project for SketchUp Extension Development] (SU) - project template
+- [RuboCop SketchUp] (SU) - *"...test against our Extension Warehouse technical requirements and other pitfalls."*
+- [TestUp] (SU) - *A GUI wrapper for running Minitest in SketchUp*
+- [SpeedUp] (SU) - a profiling tool for SketchUp Ruby extensions. It wraps [Benchmark] and the [RubyProf] gem.
+- [Ruby API stubs] - 
+- [Skippy] (TT) - *CLI which aims to automate common developer tasks for SketchUp Ruby extension development.*
+- [SketchUp Bridge] (aerilius)
+
+---------------------
+## libraries and such
+
+- TTLib2 - [SEW](https://extensions.sketchup.com/extension/c03a2b93-3365-4ef1-95f4-f35158757622/tt-lib) / [code](https://bitbucket.org/thomthom/tt-library-2) / [docs](http://www.thomthom.net/software/sketchup/tt_lib2/doc/)
+- TTLib3 - [code](https://github.com/thomthom/tt-lib) / [docs](https://www.rubydoc.info/github/thomthom/tt-lib)
+- [SketchUp Community Library] (Eneroth) - early work in progress
+- [SketchUp Units and Locale helper] (TT) - *mini-library.. to provide easy conversions of Area and Volume within SketchUp as well as dealing with user environment locale.*
+- [View-lib] (Eneroth) - *Wrapper for SketchUp view and camera functionality.*
+- [Inference Lock Lib] (Eneroth) - *Inference locking for custom.. tools to match behavior of native tools.*
+- [Ordbok-lib] (Eneroth) - localization library
+
+--------------------
+## code curios
+
+Code that is open-source, updated, and worth a look -- perhaps well-commented, or clean & proper, or groundbreaking, or just plain old tootin' interesting.
+
+- SketchUp/ [HTMLDialog Examples]
+- SketchUp/ [SketchUp-STL] - for 3D printing, mainly
+- ThomThom/ [CleanUp3]
+- ThomThom/ [Selection Toys]
+- ThomThom/ [Solid Inspector 3```````````` ]
+- ThomThom/ [Component Properties]
+- ThomThom/ [SuperGlue]
+- ThomThom/ [Solid Inspector 2]
+- Eneroth3/ [Eneroth Solid Tools] - *Solid tools designed to feel native to SketchUp.*
+- Eneroth3/ [Legacy Save] - *Quickly saves model to a legacy Sketchup format.*
+
 
 --------------------
 ## unsorted info
@@ -62,9 +96,7 @@ See also: [SketchUp Ruby API release notes](https://ruby.sketchup.com/file.Relea
 - [Ruby Learning Resources] @ SU Forums (DanRathbun)
 - [SketchUp Sage]
 - ThomThom:
-  - [github](https://github.com/thomthom)
-  - [blog](http://www.thomthom.net/thoughts/)
-  - [old blog (still useful)](http://www.thomthom.net/blog/)
+
   - [TTLib2 docs](http://www.thomthom.net/software/sketchup/tt_lib2/doc/) (current?)
   - [TTLib3 @ github](https://github.com/thomthom/tt-lib) - WIP? - *Until skippy is more mature, this library can be used as a resource and a reference point for small utility classes and methods useful in common SketchUp extension development.*
   - [TTLib3 docs](https://www.rubydoc.info/github/thomthom/tt-lib/)
@@ -96,16 +128,6 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
   - [WebDialogs - The Lost Manual (TT)](https://github.com/thomthom/sketchup-webdialogs-the-lost-manual)
   - [SKUI (TT)](https://github.com/thomthom/SKUI) (abandoned?) - *... framework... to provide Ruby wrapper classes to manipulate GUI control elements in SketchUp's UI::WebDialog API.*
 
---------------------
-## exemplary code
-
-Code that is well-commented, canonical, interesting, or otherwise worth a look... ideally it has all of these attributes.
-
-- [HTMLDialog Examples] (SketchUp)
-- [SketchUp Community Library] (Eneroth3)
-- [SketchUp-STL] (SketchUp) - for 3D printing, mainly
-- [View-lib] - *Wrapper for SketchUp view and camera functionality.*
---------------------
 ## tutorials
 
   - [Scripting Tutorials](https://sketchupfordesign.com/sketchup-tutorials-news/tutorials/scripting/) at [Sketchup For Design](https://sketchupfordesign.com/) (Alex Schreyer)
@@ -152,45 +174,55 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
 <!-- LINKS --------->          <!-- no parentheses -->
 
 <!-- docs -->
-[ruby-doc.org]:https://ruby-doc.org/core-2.7.1/
-[RubyDoc.info]:https://rubydoc.info/stdlib/core/
-[RubyAPI.org]:https://rubyapi.org/2.7
-[devdocs.io]:https://devdocs.io/ruby~2.7/
-[Ruby Style Guide]:https://github.com/rubocop-hq/ruby-style-guide
+[ruby-doc.org]: https://ruby-doc.org/core-2.7.1/
+[RubyDoc.info]: https://rubydoc.info/stdlib/core/
+[RubyAPI.org]: https://rubyapi.org/2.7
+[devdocs.io]: https://devdocs.io/ruby~2.7/
+[Ruby Style Guide]: https://github.com/rubocop-hq/ruby-style-guide
 
-[SketchUp Ruby API]:https://ruby.sketchup.com/
-[WebDialog]:https://ruby.sketchup.com/UI/WebDialog.html
-[Module:UI]:https://ruby.sketchup.com/UI
-[HTMLDialog]:https://ruby.sketchup.com/UI/HtmlDialog.html
-[WebDialog]:https://ruby.sketchup.com/UI/WebDialog.html
+[SketchUp Ruby API]: https://ruby.sketchup.com/
+[WebDialog]: https://ruby.sketchup.com/UI/WebDialog.html
+[Module:UI]: https://ruby.sketchup.com/UI
+[HTMLDialog]: https://ruby.sketchup.com/UI/HtmlDialog.html
+[WebDialog]: https://ruby.sketchup.com/UI/WebDialog.html
 
+<!-- hubs -->
+[GitHub / SketchUp]: https://github.com/SketchUp/
+[GitHub / ThomThom]: https://github.com/thomthom/
+[GitHub / Eneroth3]: https://github.com/Eneroth3
 
-<!-- dev resources -->
-[GitHub / SketchUp]:https://github.com/SketchUp/
-  [VSCode Project for SketchUp Extension Development]:https://github.com/SketchUp/sketchup-extension-vscode-project
-  [RuboCop SketchUp]: https://github.com/SketchUp/rubocop-sketchup
-  [TestUp]:https://github.com/SketchUp/testup-2
-  [SpeedUp]:https://github.com/SketchUp/speedup
-[GitHub / ThomThom]:https://github.com/thomthom/
-  [SketchUp Units and Locale Helper]:https://github.com/thomthom/SketchUp-Units-and-Locale-Helper
-  [Skippy]:https://github.com/thomthom/skippy
-[GitHub / Eneroth3]:https://github.com/Eneroth3
-  [SketchUp Community Library]:https://github.com/Eneroth3/sketchup-community-lib
-[SketchUp Bridge]:https://github.com/aerilius/sketchup-bridge
+<!-- dev tools -->
+[VSCode Project for SketchUp Extension Development]: https://github.com/SketchUp/sketchup-extension-vscode-project
+[RuboCop SketchUp]: https://github.com/SketchUp/rubocop-sketchup
+[TestUp]: https://github.com/SketchUp/testup-2
+[SpeedUp]: https://github.com/SketchUp/speedup
+[Ruby API stubs]: https://github.com/SketchUp/ruby-api-stubs
+[Skippy]: https://github.com/thomthom/skippy
+[SketchUp Bridge]: https://github.com/aerilius/sketchup-bridge
 
-[Minitest]:https://github.com/seattlerb/minitest
-[Benchmark]:https://rubydoc.info/stdlib/benchmark/Benchmark
-[RubyProf]:https://ruby-prof.github.io/
-
+<!-- libraries etc -->
+[SketchUp Units and Locale Helper]: https://github.com/thomthom/SketchUp-Units-and-Locale-Helper
+[Inference Lock Lib]: https://github.com/Eneroth3/inference-lock-lib
+[Ordbok-lib]: https://github.com/Eneroth3/ordbok-lib
+[SketchUp Community Library]: https://github.com/Eneroth3/sketchup-community-lib
 
 <!-- learning resources -->
-[HTMLDialog Examples]:https://github.com/SketchUp/htmldialog-examples
-[SketchUp Sage]:https://sites.google.com/site/sketchupsage/
-[Ruby Learning Resources]:https://forums.sketchup.com/t/ruby-learning-resources-wikilists/22861
+[HTMLDialog Examples]: https://github.com/SketchUp/htmldialog-examples
+[SketchUp Sage]: https://sites.google.com/site/sketchupsage/
+[Ruby Learning Resources]: https://forums.sketchup.com/t/ruby-learning-resources-wikilists/22861
 
 <!-- extensions -->
-[SketchUp-STL]:https://github.com/SketchUp/sketchup-stl
-[View-lib]:https://github.com/Eneroth3/view-lib
+[CleanUp3]: https://extensions.sketchup.com/extension/046175e5-a87a-4254-9329-1accc37a5e21/cleanup%C2%B3
+[Solid Inspector 2]: https://extensions.sketchup.com/extension/aad4e5d9-7115-4cac-9b75-750ed0902732/solid-inspector%C2%B2
+[Selection Toys]: https://extensions.sketchup.com/extension/c9266b2c-0b55-4d21-a0a4-72e23b8a0fb4/selection-toys
+[Component Properties]: https://extensions.sketchup.com/extension/248d1f45-2989-49f7-ac15-0b14129c6973/component-properties
+[SuperGlue]: https://extensions.sketchup.com/extension/0c452629-3893-46f7-8805-004038fc5d24/superglue
+[SketchUp-STL]: https://github.com/SketchUp/sketchup-stl
+[View-lib]: https://github.com/Eneroth3/view-lib
+[Eneroth Solid Tools]: https://github.com/Eneroth3/eneroth-solid-tools
 
 <!-- other -->
 [Golden Rules]:http://www.thomthom.net/thoughts/2012/01/golden-rules-of-sketchup-plugin-development/
+[Minitest]: https://github.com/seattlerb/minitest
+[Benchmark]: https://rubydoc.info/stdlib/benchmark/Benchmark
+[RubyProf]: https://ruby-prof.github.io/
