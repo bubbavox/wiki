@@ -267,6 +267,9 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 ### conceptual design
 ...
 
+
+<!-- Links ---------->
+
 [SharpKeys]: https://www.randyrants.com/category/sharpkeys/
 
 [TT_Lib²]: https://sketchucation.com/plugin/726-tt_lib
