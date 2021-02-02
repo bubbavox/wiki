@@ -37,6 +37,8 @@ related: [SketchUp + Ruby](sketchup_ruby.md)
 - [CleanUp³] -- requires [TT_Lib²] -- fix / purge / merge / repair
 - [Auto Invisible Layer] -- When enabled, changes SketchUp's default behavior of new layers being enabled in all scenes.  Disabled by default at the start of each session.
 - [Turn Off Layer In All Scenes (TOLIAS)] --  Turns off the _active_ layer in all scenes.  I'm working on my own modified version which also turns _on_ a layer in all scenes.
+- [SketchUp Shapes] 
+
 
 **Some more of my favorite plugins:**
 - [Material Replacer] -- requires [TT_Lib²] -- _"Replace one material for another by picking material in the model"_. __SketchUp has [material replacement built-in](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material) but it seems to only work within a modelling context, i.e. within a group...(investigate)__
@@ -143,7 +145,7 @@ shift-W     | Make Component
 ctrl-R      | Make Unique
 A           | Hide Rest of Model
 shift-Q     | Update Scene
-shift-T     | Trim (Eneroth Solid Tools)
+shift-T     | Trim ([Eneroth Solid Tools])
 alt-Z       | Zoom Extents
 E           | UI - Toggle Entity Info (I use a loose tray window for Entity Info)
 alt-A       | UI - Show Outliner Tab
@@ -311,6 +313,7 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 [Quad Face Tools]: https://extensions.sketchup.com/extension/c59a652b-cc23-481e-8d2f-b56fabd2495a/quadface-tools
 [Selection Memory]: https://extensions.sketchup.com/extension/6fa33ac4-2aa7-443b-aa4b-a211d7af8b03/selection-memory
 [Selection Toys]: https://extensions.sketchup.com/extension/c9266b2c-0b55-4d21-a0a4-72e23b8a0fb4/selection-toys
+[SketchUp Shapes]: https://extensions.sketchup.com/extension/5b95d769-4696-4312-a732-e7950dd5ddfb/shapes
 [Solid Inspector²]: https://extensions.sketchup.com/extension/aad4e5d9-7115-4cac-9b75-750ed0902732/solid-inspector%C2%B2
 [Split Tools]: https://sketchucation.com/pluginstore?pln=TIG_splitTOOLS
 [SubD]: https://extensions.sketchup.com/extension/c7107572-fc88-4588-88f9-a8f0deec3bd1/sub-d
