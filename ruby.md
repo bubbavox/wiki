@@ -1,8 +1,8 @@
-# ruby
+# Ruby
 
-related: [Sketchup + Ruby](sketchup_ruby.md)
+Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.md) 
 
-## contents: <!-- omit in toc -->
+## Contents: <!-- omit in toc -->
 
 + [docs](#docs)
 + [testing](#testing)
@@ -10,7 +10,7 @@ related: [Sketchup + Ruby](sketchup_ruby.md)
 + [hubs](#hubs)
 
 ----------------------
-## docs
+## Docs
 
 - https://rubydoc.info
 - https://rubyapi.org/
@@ -20,20 +20,26 @@ related: [Sketchup + Ruby](sketchup_ruby.md)
 - [Generating local copies of docs](https://gnuu.org/2010/10/13/local-copies-of-documentation/)
 
 ----------------------
-## testing
+## Testing
 - https://github.com/seattlerb/minitest
 - https://semaphoreci.com/community/tutorials/getting-started-with-minitest
 
 ----------------------
-## learning resources
+## Learning resources
 
 [Quick Ref at zenspider](https://www.zenspider.com/ruby/quickref.html)
 
 ----------------------
-## hubs
+## Hubs
 
 https://www.zenspider.com/
 
+----------------------
+## Other stuff
+
+### Troubleshooting Solargraph:
+- 
+- See also setup log in WSL.md
 
 
 <!-- Links ----------->

@@ -36,8 +36,12 @@
 - [keyboard shortcut cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) (printable)
 - [Multi-root Workspaces]
 
+---------------------
+## other
 
+[Solargraph troubleshooting]
 
 <!-- Links -->
 
-[Multi-root Workspaces]:https://code.visualstudio.com/docs/editor/multi-root-workspaces
+[Multi-root Workspaces]: https://code.visualstudio.com/docs/editor/multi-root-workspaces
+[Solargraph troubleshooting]: ruby.md

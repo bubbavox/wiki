@@ -14,7 +14,7 @@
   - [soldering](soldering.md)
   - [1999 Ford Ranger](1999_ford_ranger.md)
   - [vehicle maintenance](vehicle_maintenance.md)
-- geeky stuff:
+- numbery stuff:
   - [WSL](WSL.md)
   - [bash](bash.md)
   - [git](git.md)

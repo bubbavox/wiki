@@ -1,28 +1,25 @@
 
 # SketchUp + Ruby     <!-- omit in toc -->
 
-
-A place to put the things I learn.
+An amateur's compendium...
 
 related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
 
-## contents:          <!-- omit in toc -->
+## Contents:          <!-- omit in toc -->
 
-+ [docs](#docs)
-+ [hubs](#hubs)
-+ [development tools](#development-tools)
-+ [libraries and such](#libraries-and-such)
-+ [exemplary code](#exemplary-code)
-+ [unsorted info](#unsorted-info)
-+ [setup](#setup)
++ [Docs](#docs)
++ [Hubs](#hubs)
++ [Dev tools](#dev-tools)
++ [Libraries and such](#libraries-and-such)
++ [Exemplary code](#exemplary-code)
 + [UX](#ux)
-+ [tutorials](#tutorials)
-+ [my to do](#my-to-do)
-+ [my setup](#my-setup)
-+ [other stuff](#other-stuff)
++ [Tutorials](#tutorials)
++ [My to do](#my-to-do)
++ [My setup log](#my-setup-log)
++ [Unsorted info](#unsorted-info)
 
 --------------------
-## docs
+## Docs
 
 - **Ruby docs:**
   - core 2.7.1: [RubyDoc.info] / [RubyAPI.org] / [ruby-doc.org]
@@ -31,15 +28,18 @@ related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
   - [Ruby QuickRef]
 - **SketchUp docs:**
   - [SketchUp Ruby API]:
-    - [Class: SketchUp Extension](https://ruby.sketchup.com/SketchupExtension.html)
+    - [Class: SketchUpExtension](https://ruby.sketchup.com/SketchupExtension.html)
   - [Ruby API tutorials Wiki]
+  - [RuboCop SketchUp](https://rubocop-sketchup.readthedocs.io/en/stable/)
   - [SketchUp YARD template]
   - [Ruby API Class diagram] (date unknown)
-  - [PickHelper: A Visual Guide] (ThomThom)
-  - [WebDialogs - The Lost Manual (TT 2013)]
+  - [PickHelper: A Visual Guide] (ThomThom 2013)
+  - [WebDialogs - The Lost Manual] (ThomThom 2013)
+  - [SketchUp Ruby API release notes](https://ruby.sketchup.com/file.ReleaseNotes.html)
+- [VS Code docs]
 
 <details>
-  <summary>expand: SU / Ruby version history & summary of changes (click to expand) </summary>
+  <summary>SU / Ruby version history - click to expand </summary>
 
 SU version  | Ruby version  | major changes
 ------------|---------------|---------------
@@ -57,10 +57,8 @@ SU version  | Ruby version  | major changes
 
 </details>
 
-[SketchUp Ruby API release notes](https://ruby.sketchup.com/file.ReleaseNotes.html).
-
 --------------------
-## hubs
+## Hubs
 
 - [SU forums: Developers]
 - [SU forums: Extensions]
@@ -75,7 +73,7 @@ SU version  | Ruby version  | major changes
 - [Sketchup For Design] (Alex Schreyer)
 
 --------------------
-## dev tools
+## Dev tools
 
 - [SketchUp Ruby Debugger] (SU) - for SketchUp 2014 and later
 - [VSCode Project for SketchUp Extension Development] (SU) - project template
@@ -89,9 +87,12 @@ SU version  | Ruby version  | major changes
 - [SketchUp YARD template] (SU)
 - [Transformation Inspector] (TT)
 - [SketchUp Attribute Helper] (SU)
+- Ruby Code Editor - [manual](https://alexschreyer.net/projects/sketchup-ruby-code-editor/ruby-code-editor-manual/) - [website](https://alexschreyer.net/projects/sketchup-ruby-code-editor/) - [SEW](https://extensions.sketchup.com/extension/07d36510-4de5-49c5-ba63-5cf254c98b2b/ruby-code-editor)
+- Ruby Console+ - [github](https://github.com/aerilius/sketchup-console-plus) - [SEW](https://extensions.sketchup.com/extension/b3865233-5e84-4f7e-8342-517aca889225/Ruby%20Console+)
+
 
 ---------------------
-## libraries and such
+## Libraries and such
 
 - TTLib2 - [SEW](https://extensions.sketchup.com/extension/c03a2b93-3365-4ef1-95f4-f35158757622/tt-lib) / [code](https://bitbucket.org/thomthom/tt-library-2) / [docs](http://www.thomthom.net/software/sketchup/tt_lib2/doc/)
 - TTLib3 - [code](https://github.com/thomthom/tt-lib) / [docs](https://www.rubydoc.info/github/thomthom/tt-lib) - *"A skippy library for SketchUp"* - "*Until skippy is more mature, this library can be used as a resource and a reference point for small utility classes and methods useful in common SketchUp extension development.*"
@@ -103,40 +104,115 @@ SU version  | Ruby version  | major changes
 - [SketchUp Community Library] (Eneroth) - early work in progress
 
 --------------------
-## exemplary code
+## Exemplary code
 
 SU code that is open-source and worth a look -- perhaps well-commented, or proper & up-to-date, or created explicitly as an example.
 
-- SU - [Examples: HTMLDialog Examples]
-- SU - [Examples: HTML Inputbox]
-- SU - [Examples: SketchUp Ruby C/C++ Extension]
-- SU - [Examples: SketchUp Live C API]
-- SU - [Examples: color-at-uv] - example of `Sketchup::ImageRep`
-- SU - [Examples: Drawing Shaded and Textured Polygons]
-- SU - [Examples: Testing Weld]
-- SU - [SketchUp Shapes] - see also [github page](https://github.com/SketchUp/sketchup-shapes)
-- SU - [SketchUp Ruby C/C++ Extension Examples]
-- SU - [SketchUp-STL] - for 3D printing, mainly
-- SU - [SketchUp Shapes]
-- TT - [CleanUp3]
-- TT - [Selection Toys]
-- TT - [Solid Inspector] - see also 
-- TT - [Component Properties]
-- TT - [SuperGlue]
-- TT - [Model Info] - [SEW](https://extensions.sketchup.com/extension/44116c18-f6d3-469e-a4c5-20854003d4f7/model-info) - "*Outputs model statistics to the Ruby Console or file.*"
-- TT - [QuadFace Tools]
-- TT - [Transformation Inspector]
-- ene - [Eneroth Solid Tools] - *Solid tools designed to feel native to SketchUp.*
-- ene - [Legacy Save] - *Quickly saves model to a legacy Sketchup format.*
-- ene - [Eneroth Scene Visibility] - *Control entity visibility on a per scene basis. Useful in SketchUp 2020 and later where scenes store hidden states also in nested objects.*
+- SU  - [Examples: HTMLDialog Examples]
+- SU  - [Examples: HTML Inputbox]
+- SU  - [Examples: SketchUp Ruby C/C++ Extension]
+- SU  - [Examples: SketchUp Live C API]
+- SU  - [Examples: color-at-uv] - example of `Sketchup::ImageRep`
+- SU  - [Examples: Drawing Shaded and Textured Polygons]
+- SU  - [Examples: Testing Weld]
+- SU  - [SketchUp Shapes] - see also [github page](https://github.com/SketchUp/sketchup-shapes)
+- SU  - [SketchUp Ruby C/C++ Extension Examples]
+- SU  - [SketchUp-STL] - for 3D printing, mainly
+- SU  - [SketchUp Shapes]
+- TT  - [CleanUp3]
+- TT  - [Selection Toys]
+- TT  - [Solid Inspector]
+- TT  - [Component Properties]
+- TT  - [SuperGlue]
+- TT  - [Model Info]
+- TT  - [QuadFace Tools]
+- TT  - [Transformation Inspector] 
+- ene - [Eneroth Solid Tools]
+- ene - [Legacy Save]
+- ene - [Eneroth Scene Visibility]
 - ene - [Eneroth Viewport Resizer 2] - Remake of a 2014 extension
-- ene - [Eneroth Random Selection] - *"This extension was originally planned to be a Ruby Extension example but turned out to also be a rather useful little extension."*
+- ene - [Eneroth Random Selection]
 - ene - [Eneroth Component to Group]
 - ene - [Script Runner] - *"Run Ruby script by dropping it in SketchUp."*
 
+-----------------
+## UX
+
+In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/aerilius/sketchup-bridge).
+
+- [Module:UI] docs
+- [HTMLDialog examples]
+- [SketchUp Bridge] (aerilius) -- good reading on the homepage
+- [WebDialogs - The Lost Manual (TT 2013)]
+- [SKUI (TT)](https://github.com/thomthom/SKUI) (abandoned?) - *... framework... to provide Ruby wrapper classes to manipulate GUI control elements in SketchUp's UI::WebDialog API.*
+
+-----------------
+## Tutorials
+
+  - [SU dev 'getting started']
+  - [Ruby API tutorials]
+  - [Scripting Tutorials](https://sketchupfordesign.com/sketchup-tutorials-news/tutorials/scripting/) at [Sketchup For Design] (Alex Schreyer)
+  - [VS Code debugging]
+
 
 --------------------
-## unsorted info
+## My to do
+
+- set up for SU-ruby tutorials
+- set up auto-completion / intellisense / etc
+- customize [VS Code template](https://github.com/SketchUp/sketchup-extension-vscode-project):
+  - `.rubocop.yml`
+  - `.solargraph.yml`
+  - `.vscode/tasks.json`
+  - `.editorconfig`
+- learn *bundle*
+- debugging / testing:
+  - learn [Minitest] - tutorial [here](https://semaphoreci.com/community/tutorials/getting-started-with-minitest)
+  - learn [TestUp]
+  - try [SpeedUp]
+- advanced: learn automatic documentation via YARD / rdoc
+- advanced: set up local docs repo (ruby stdlib + sketchup API) w/ dark theme, cross-platform viewing
+
+-------------------
+## My setup log
+
+- Windows 10 Pro
+- Windows Subsystem for Linux (WSL) -- Ubuntu 20.04 LTS -- I do all my coding on WSL
+- SketchUp Pro 2021
+- VS Code (installed to Windows, running Remote WSL extension)
+- Windows Terminal (for bash, powershell, etc)
+- Installed Ruby 2.7.2 on WSL (installed as user with *ruby-install*, managed with *chruby*)
+- Installed VS Code extensions:
+  - *Remote - WSL*
+  - *Ruby*
+  - *Ruby Solargraph*
+  - *ruby-rubocop*
+  - *Auto Add Brackets in String Interpolation*
+  - *Seeing is Believing Integration*
+  - *Markdown All in One*
+- Installed gems:
+  - `bundler`
+  - `yard`
+  - `solargraph`
+  - `seeing_is_believing`
+  - `rubocop`
+  - `ruby-api-stubs`
+  - `minitest`
+- Solved Solargraph error `invalid byte sequence in UTF-8` -- [more info](https://forums.sketchup.com/t/solargraph-not-working-with-wsl/151684/4?u=bubbavox)
+- Created VSCode workspace: `workspace-sketchup`, and selected some root folders to show in the sidebar.
+- Forked [VSCode Project for SketchUp Extension Development] (see instructions on that page):
+  - Customized the VS Code project template:
+    - `.solargraph.yml` - 
+- Set up [VSCode API stubs](https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki/VSCode-Stubs-Setup):
+  - Already installed necessary extensions: Ruby + Solargraph
+  - Already had gems `ruby-api-stubs`, `yard`, and `solargraph`.
+  - Ran `yard gems ruby-api-stubs` as instructed -- whatever that does!
+  - VSCode settings > workspace settings > `"solargraph.diagnostics": true`
+- set up TT's suggested [development setup](https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki/Development-Setup#wiki-pages-box) (to have SU load WIP extensions from the working directory):
+
+
+--------------------
+## Unsorted info
 
 - [SketchUp Ruby API] homepage - some useful info here
 - [Ruby Learning Resources] @ SU Forums (DanRathbun) - super helpful compendium
@@ -149,61 +225,9 @@ SU code that is open-source and worth a look -- perhaps well-commented, or prope
 - [SU forums: Why frozen string literals?](https://forums.sketchup.com/t/why-frozen-string-literals/123843)
 - [Golden Rules] of SketchUp Development - 2012 article by ThomThom
 
------------------
-## setup
+---------------------
 
-- in SketchUp:
-  - Ruby Code Editor - [manual](https://alexschreyer.net/projects/sketchup-ruby-code-editor/ruby-code-editor-manual/) - [website](https://alexschreyer.net/projects/sketchup-ruby-code-editor/) - [SEW](https://extensions.sketchup.com/extension/07d36510-4de5-49c5-ba63-5cf254c98b2b/ruby-code-editor)
-  - Ruby Console+ - [github](https://github.com/aerilius/sketchup-console-plus) - [SEW](https://extensions.sketchup.com/extension/b3865233-5e84-4f7e-8342-517aca889225/Ruby%20Console+)
-
-- in VSCode:
-
-- other: 
-
-------------------
-## UX
-
-In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/aerilius/sketchup-bridge).
-
-- [Module:UI] docs
-- [HTMLDialog examples]
-- [SketchUp Bridge] (aerilius) -- good reading on the homepage
-- [WebDialogs - The Lost Manual (TT 2013)]
-- [SKUI (TT)](https://github.com/thomthom/SKUI) (abandoned?) - *... framework... to provide Ruby wrapper classes to manipulate GUI control elements in SketchUp's UI::WebDialog API.*
-
-## tutorials
-
-  - [SU dev 'getting started']
-  - [Ruby API tutorials]
-  - [Scripting Tutorials](https://sketchupfordesign.com/sketchup-tutorials-news/tutorials/scripting/) at [Sketchup For Design] (Alex Schreyer)
-
-
---------------------
-## my to do
-
-- set up for SU tutorials:
-  - 
-- set up for debugging / testing:
-  - learn about bundle
-  - learn [Minitest] - tutorial [here](https://semaphoreci.com/community/tutorials/getting-started-with-minitest)
-  - start using [TestUp]
-  - try [SpeedUp]
-- set up auto-completion / intellisense / etc
-- set up local docs repo (ruby stdlib + sketchup API) w/ dark theme, cross-platform viewing
-- advanced: learn automatic documentation via YARD / rdoc
-
-
--------------------
-## my setup 
-...
-
--------------------
-## other stuff
-
--------------------
-
-### On Namespaces and such:
-An old extension example that *plays nice* (from TT's 2012 [Golden Rules])
+An old extension example that *plays nice* (from TT's 2012 [Golden Rules]):
   ```ruby
   require 'sketchup.rb'
   module NN_MyOwnUniqueNamespace
@@ -239,10 +263,12 @@ See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow
   [HTMLDialog]: https://ruby.sketchup.com/UI/HtmlDialog.html
   [WebDialog]: https://ruby.sketchup.com/UI/WebDialog.html
 [Ruby API tutorials Wiki]: https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki
-[WebDialogs - The Lost Manual (TT 2013)]: https://github.com/thomthom/sketchup-webdialogs-the-lost-manual
+[WebDialogs - The Lost Manual]: https://github.com/thomthom/sketchup-webdialogs-the-lost-manual
 [Ruby API Class diagram]: https://raw.githubusercontent.com/bubbavox/wiki/master/assets/SU-ruby_class_diagram.gif
 [PickHelper: A Visual Guide]: https://raw.githubusercontent.com/bubbavox/wiki/master/assets/PickHelper_Visual-Guide_TT_-Rev3.2-18-03-2013.pdf
 
+[VS Code docs]: https://code.visualstudio.com/docs/
+[VS Code debugging]: https://code.visualstudio.com/docs/editor/debugging
 
 <!-- hubs -->
 [GitHub / SketchUp]: https://github.com/SketchUp/

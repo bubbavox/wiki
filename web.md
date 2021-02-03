@@ -1,7 +1,13 @@
-## CSS Tweaks
+## browser extensions
+
+Potential cookie / privacy addons, untested:
+    - I don't care about cookies
+    - Cookie AutoDelete
+    - Consent Manager
+
+## Firefox CSS Tweaks
+
 ---
-
-
 
 [CSS hack repo w/ readme](https://github.com/MrOtherGuy/firefox-csshacks) \
 [some tutorials](http://forums.mozillazine.org/viewtopic.php?p=3519925#p3519925) \
