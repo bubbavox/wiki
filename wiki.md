@@ -1,6 +1,6 @@
 # wiki
 
-[phi's wiki comparison spreadsheet](https://docs.google.com/spreadsheets/d/1db0EUtSRvEg_nBHQZWlgogTwoui3iXdllapLlj4ES78)
+[phi's wiki comparison spreadsheet](https://docs.google.com/spreadsheets/d/1db0EUtSRvEg_nBHQZWlgogTwoui3iXdllapLlj4ES78/edit?usp=sharing)
 
 [WikiMatrix](https://www.wikimatrix.org/) - wiki comparison site
 - [comparison of dokuwiki / mediawiki / wiki.js / xwiki](https://www.wikimatrix.org/compare/dokuwiki+mediawiki+wiki-js+xwiki)

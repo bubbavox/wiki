@@ -20,9 +20,12 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - [Generating local copies of docs](https://gnuu.org/2010/10/13/local-copies-of-documentation/)
 
 ----------------------
-## Testing
+## Testing & debugging
 - https://github.com/seattlerb/minitest
 - https://semaphoreci.com/community/tutorials/getting-started-with-minitest
+- https://github.com/pry/pry - *Pry is a runtime developer console and IRB alternative with powerful introspection capabilities*
+- https://code.visualstudio.com/docs/editor/debugging
+- [video - Mastering the ruby debugger by Jim Weirich](https://www.youtube.com/watch?v=GwgF8GcynV0) - debugger, pry, TDD...
 
 ----------------------
 ## Learning resources
@@ -32,7 +35,8 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 ----------------------
 ## Hubs
 
-https://www.zenspider.com/
+- https://www.zenspider.com/
+- https://www.honeybadger.io/blog/tags/ruby/
 
 ----------------------
 ## Other stuff

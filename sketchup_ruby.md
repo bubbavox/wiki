@@ -106,7 +106,7 @@ SU version  | Ruby version  | major changes
 --------------------
 ## Exemplary code
 
-SU code that is open-source and worth a look -- perhaps well-commented, or proper & up-to-date, or created explicitly as an example.
+SU code that is open-source and seems worth a look -- perhaps well-commented, or proper & up-to-date, or created explicitly as an example.
 
 - SU  - [Examples: HTMLDialog Examples]
 - SU  - [Examples: HTML Inputbox]
@@ -170,6 +170,7 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
   - learn [Minitest] - tutorial [here](https://semaphoreci.com/community/tutorials/getting-started-with-minitest)
   - learn [TestUp]
   - try [SpeedUp]
+- tweak template
 - advanced: learn automatic documentation via YARD / rdoc
 - advanced: set up local docs repo (ruby stdlib + sketchup API) w/ dark theme, cross-platform viewing
 
@@ -200,17 +201,45 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
   - `minitest`
 - Solved Solargraph error `invalid byte sequence in UTF-8` -- [more info](https://forums.sketchup.com/t/solargraph-not-working-with-wsl/151684/4?u=bubbavox)
 - Created VSCode workspace: `workspace-sketchup`, and selected some root folders to show in the sidebar.
-- Forked [VSCode Project for SketchUp Extension Development] (see instructions on that page):
-  - Customized the VS Code project template:
-    - `.solargraph.yml` - 
+- Cloned this awesome template: [VSCode Project for SketchUp Extension Development] (see instructions on that page):
+  - Customized the template:
+    - `.solargraph.yml` - set `require_paths` and tweaked file according to [this page](https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki/VSCode-Stubs-Setup)
+    - `.rubocop.yml` - see file comments and also the [rubocop-sketchup docs](https://rubocop-sketchup.readthedocs.io/en/stable/)
+- Installed gems with CLI `bundle install` in the template directory (uses Gemfile to install dependencies).
 - Set up [VSCode API stubs](https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki/VSCode-Stubs-Setup):
-  - Already installed necessary extensions: Ruby + Solargraph
-  - Already had gems `ruby-api-stubs`, `yard`, and `solargraph`.
+  - I guess this is already mostly complete, since I've initialized the VS Code project template.
   - Ran `yard gems ruby-api-stubs` as instructed -- whatever that does!
   - VSCode settings > workspace settings > `"solargraph.diagnostics": true`
-- set up TT's suggested [development setup](https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki/Development-Setup#wiki-pages-box) (to have SU load WIP extensions from the working directory):
+- followed TT's suggested [development setup](https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki/Development-Setup#wiki-pages-box):
+  - created `/appdata/.../Plugins/!external.rb`
+  - pointed it to a new directory for active projects: `/mnt/.../SU_code/!active`
+  - added a reload function to the VSC project template:
+    - created `../src/ex_hello_cube/debug.rb` -- will it work?
 
+```ruby
+Examples::HelloCube
 
+  # Reload extension by running this method from the Ruby Console:
+  #   Example::HelloCube.reload
+  def self.reload
+    original_verbose = $VERBOSE
+    $VERBOSE = nil
+    pattern = File.join(__dir__, '**/*.rb')
+    Dir.glob(pattern).each { |file|
+      # Cannot use `Sketchup.load` because its an alias for `Sketchup.require`.
+      load file
+    }.size
+  ensure
+    $VERBOSE = original_verbose
+  end
+
+end # module
+```
+
+  - Set up debugger:
+    - Installed DLL in SketchUp dir
+    - Created launcher task `tasks.json`
+    - created debug configuration `launch.json`
 --------------------
 ## Unsorted info
 
@@ -227,23 +256,7 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
 
 ---------------------
 
-An old extension example that *plays nice* (from TT's 2012 [Golden Rules]):
-  ```ruby
-  require 'sketchup.rb'
-  module NN_MyOwnUniqueNamespace
-    unless file_loaded?( __FILE__ )
-      menu = UI.menu( 'Plugins' )
-      menu.add_item( 'Hello World' ) { self.hello_world }
-    end
-    # Use instance variables inside modules instead of global variables.
-    @my_variable = 'Hi there! :)'
-    def self.hello_world
-      puts @my_variable
-    end
-    file_loaded( __FILE__ )
-  end # module
-  ```
-See DanRathbun's [comment](https://forums.sketchup.com/t/su-development-workflow-environment/151298/2?u=bubbavox) on the above code: *"Many of us recommend using a local module `@loaded` var to determine whether to load UI elements, rather than the slow and clunky `file_loaded()` and `file_loaded?()` methods defined in "sketchup.rb".
+[DanRathbun]:(https://forums.sketchup.com/t/su-development-workflow-environment/151298/2?u=bubbavox): *"Many of us recommend using a local module `@loaded` var to determine whether to load UI elements, rather than the slow and clunky `file_loaded()` and `file_loaded?()` methods defined in "sketchup.rb".
 (String comparison is slow in Ruby, and those methods use a global shared array in which simple file names might clash. Long absolute pathnames are going to slow the startup cycle.)"*
 
 --------------------

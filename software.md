@@ -7,6 +7,7 @@
 ## coding
 - [VSCode] - see [vscode]
 - [Brackets]
+- https://editorconfig.org/
 
 ## communication
 - [Discord]

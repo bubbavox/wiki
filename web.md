@@ -1,9 +1,9 @@
 ## browser extensions
 
 Potential cookie / privacy addons, untested:
-    - I don't care about cookies
-    - Cookie AutoDelete
-    - Consent Manager
+- I don't care about cookies
+- Cookie AutoDelete
+- Consent Manager
 
 ## Firefox CSS Tweaks
 
