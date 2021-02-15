@@ -1,0 +1,1 @@
+- [How to create permanent powershell aliases (and how to use `profile.ps1` files)](https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases)

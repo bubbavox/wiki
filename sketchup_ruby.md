@@ -24,6 +24,7 @@ related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
 - **Ruby docs:**
   - core 2.7.1: [RubyDoc.info] / [RubyAPI.org] / [ruby-doc.org]
   - [Ruby Style Guide] (rubocop)
+  - [rubyide docs]
   - RubyGems - [docs](http://docs.seattlerb.org/rubygems/) / [guides](https://guides.rubygems.org/)
   - [Ruby QuickRef]
 - **SketchUp docs:**
@@ -74,6 +75,8 @@ SU version  | Ruby version  | major changes
 
 --------------------
 ## Dev tools
+
+see also [Ruby dev tools](ruby.md#dev-tools)
 
 - [SketchUp Ruby Debugger] (SU) - for SketchUp 2014 and later
 - [VSCode Project for SketchUp Extension Development] (SU) - project template
@@ -165,12 +168,12 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
   - `.solargraph.yml`
   - `.vscode/tasks.json`
   - `.editorconfig`
-- learn *bundle*
+- learn *bundler*
 - debugging / testing:
   - learn [Minitest] - tutorial [here](https://semaphoreci.com/community/tutorials/getting-started-with-minitest)
   - learn [TestUp]
   - try [SpeedUp]
-- tweak template
+- tweak template (VS Code SU extension project)
 - advanced: learn automatic documentation via YARD / rdoc
 - advanced: set up local docs repo (ruby stdlib + sketchup API) w/ dark theme, cross-platform viewing
 
@@ -200,7 +203,8 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
   - `ruby-api-stubs`
   - `minitest`
 - Solved Solargraph error `invalid byte sequence in UTF-8` -- [more info](https://forums.sketchup.com/t/solargraph-not-working-with-wsl/151684/4?u=bubbavox)
-- Created VSCode workspace: `workspace-sketchup`, and selected some root folders to show in the sidebar.
+- Created workspace: `workspace-sketchup`, and selected some root folders to show in the sidebar.
+  - see [VS Code Multi-Root Workspaces] and [VS Code Multi-Root Workspaces # debugging](https://code.visualstudio.com/docs/editor/multi-root-workspaces#_debugging)
 - Cloned this awesome template: [VSCode Project for SketchUp Extension Development] (see instructions on that page):
   - Customized the template:
     - `.solargraph.yml` - set `require_paths` and tweaked file according to [this page](https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki/VSCode-Stubs-Setup)
@@ -212,13 +216,13 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
   - VSCode settings > workspace settings > `"solargraph.diagnostics": true`
 - followed TT's suggested [development setup](https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki/Development-Setup#wiki-pages-box):
   - created `/appdata/.../Plugins/!external.rb`
-  - pointed it to a new directory for active projects: `/mnt/.../SU_code/!active`
-  - added a reload function to the VSC project template:
-    - created `../src/ex_hello_cube/debug.rb` -- will it work?
-
-```ruby
-Examples::HelloCube
-
+  - changed its path to a new directory for active projects: `D:/.../SU_code/!active`
+  - It seems like folder structure is picky and not recursive, e.g. for the above path, need the following contents:
+    -  `D:/.../!active/ex_hello_cube.rb`
+    -  `D:/.../!active/ex_hello_cube/main.rb`
+    
+  - added a reload method to the VSC template extension `.../ex_hello_cube/main.rb`
+  ```ruby
   # Reload extension by running this method from the Ruby Console:
   #   Example::HelloCube.reload
   def self.reload
@@ -232,14 +236,20 @@ Examples::HelloCube
   ensure
     $VERBOSE = original_verbose
   end
+  ```
 
-end # module
-```
+- Set up debugger:
+  - Installed DLL in SketchUp dir
+  - template project contains `tasks.json` and `launch.json`
+- debugger isn't working (WSL):
+  - started SU with Powershell: `.\Sketchup.exe -rdebug "ide port=7000"`
+  - VS Code debugger output: `Debugger error: Client: Error: connect ECONNREFUSED 127.0.0.1:7000`
+- rubocop gives warning... safe to ignore?
+  - excerpt: `/home/bubba/.rubies/ruby-2.7.2/lib/ruby/2.7.0/uri/version.rb:3: warning: already initialized constant URI::VERSION_CODE
+/home/bubba/.gem/ruby/2.7.2/gems/uri-0.10.1/lib/uri/version.rb:3: warning: previous definition of VERSION_CODE was here
+/home/bubba/.rubies/ruby-2.7.2/lib/ruby/2.7.0/uri/version.rb:4: warning: already initialized constant URI::VERSION
+/home/bubba/.gem/ruby/2.7.2/gems/uri-0.10.1/lib/uri/version.rb:4: warning: previous definition of VERSION was here`
 
-  - Set up debugger:
-    - Installed DLL in SketchUp dir
-    - Created launcher task `tasks.json`
-    - created debug configuration `launch.json`
 --------------------
 ## Unsorted info
 
@@ -254,9 +264,7 @@ end # module
 - [SU forums: Why frozen string literals?](https://forums.sketchup.com/t/why-frozen-string-literals/123843)
 - [Golden Rules] of SketchUp Development - 2012 article by ThomThom
 
----------------------
-
-[DanRathbun]:(https://forums.sketchup.com/t/su-development-workflow-environment/151298/2?u=bubbavox): *"Many of us recommend using a local module `@loaded` var to determine whether to load UI elements, rather than the slow and clunky `file_loaded()` and `file_loaded?()` methods defined in "sketchup.rb".
+[DanRathbun 2021-01](https://forums.sketchup.com/t/su-development-workflow-environment/151298/2?u=bubbavox): *"Many of us recommend using a local module `@loaded` var to determine whether to load UI elements, rather than the slow and clunky `file_loaded()` and `file_loaded?()` methods defined in "sketchup.rb".
 (String comparison is slow in Ruby, and those methods use a global shared array in which simple file names might clash. Long absolute pathnames are going to slow the startup cycle.)"*
 
 --------------------
@@ -279,7 +287,7 @@ end # module
 [WebDialogs - The Lost Manual]: https://github.com/thomthom/sketchup-webdialogs-the-lost-manual
 [Ruby API Class diagram]: https://raw.githubusercontent.com/bubbavox/wiki/master/assets/SU-ruby_class_diagram.gif
 [PickHelper: A Visual Guide]: https://raw.githubusercontent.com/bubbavox/wiki/master/assets/PickHelper_Visual-Guide_TT_-Rev3.2-18-03-2013.pdf
-
+[VS Code Multi-Root Workspaces]: https://code.visualstudio.com/docs/editor/multi-root-workspaces
 [VS Code docs]: https://code.visualstudio.com/docs/
 [VS Code debugging]: https://code.visualstudio.com/docs/editor/debugging
 
@@ -353,7 +361,6 @@ end # module
 [SU dev 'getting started']: https://developer.sketchup.com/developers/getting-started
 [Ruby API tutorials]: https://github.com/SketchUp/sketchup-ruby-api-tutorials
 
-
 <!-- Ruby stuff -->
 [Minitest]: https://github.com/seattlerb/minitest
 [Benchmark]: https://rubydoc.info/stdlib/benchmark/Benchmark
@@ -361,8 +368,3 @@ end # module
 
 <!-- other -->
 [Golden Rules]: http://www.thomthom.net/thoughts/2012/01/golden-rules-of-sketchup-plugin-development/
-
-
-
-
-

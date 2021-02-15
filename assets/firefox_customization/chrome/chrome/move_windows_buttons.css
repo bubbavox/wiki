@@ -1,0 +1,25 @@
+/* Move Minimize/Restore/Close window buttons to the right of Hamburger menu (after hiding horizontal tabs) */
+
+/* Adding empty space for buttons */
+#nav-bar {
+	margin-right:140px;
+}
+
+/* 15px for dragging whole window by mouse*/
+#titlebar {
+	appearance: none !important;
+	height: 15px;
+}
+
+/* Fix for main menu calling by Alt button */
+#titlebar > #toolbar-menubar {
+	margin-top: 10px;
+}
+
+/* Move minimize/restore/close buttons to empty space */
+#TabsToolbar > .titlebar-buttonbox-container {
+	display: block;
+	position: absolute;
+	top: 17px;
+	right: 1px;
+}

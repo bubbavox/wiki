@@ -1,0 +1,21 @@
+/* from https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules#hide-horizontal-tabs-at-the-top-of-the-window-1349-1672-2147 */
+
+/*
+You can view your tabs again without changing userChrome.css by enabling the "Drag Space" option in the Customize settings.
+
+If you don't have title bar on mac OS you will also need to choose Customize from hamburger menu and insert Flexible Space in the top left corner so that close, minimize, etc. dot controls do not overlap other Firefox controls.
+
+If you still see a single, fine white line where the tabs used to be, you can remove it by also adding this rule:
+
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar .titlebar-spacer {
+        border-inline-end: none;
+}
+*/
+
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
+  opacity: 0;
+  pointer-events: none;
+}
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
+    visibility: collapse !important;
+}

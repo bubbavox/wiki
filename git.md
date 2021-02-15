@@ -16,7 +16,7 @@ https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cr
 
 [thread: "git add, commit and push commands in one?"](https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one)
 
-using one of the solutions in this thread, I added the following to `~/.bashrc`:
+custom `lazygit` bash script: using one of the solutions in the above thread, I added the following to `~/.bashrc`:
 ```
 function lazygit() {
     git add .
@@ -25,6 +25,8 @@ function lazygit() {
 }
 ```
 then simply `$ lazygit "my first lazygit"`
+
+alternatively, use a windows batch script, or a git alias (see [this thread](https://stackoverflow.com/questions/39121688/windows-custom-git-commands))
 
 --------------
 

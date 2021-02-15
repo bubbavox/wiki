@@ -1,0 +1,4 @@
+/* hide icons for bookmark folders */
+#personal-bookmarks .bookmark-item[container="true"] .toolbarbutton-icon {
+ display:none!important;
+}
