@@ -8,8 +8,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 
 - [extensions](#extensions)
 - [My setup](#my-setup)
-  - [styles](#styles)
-  - [controls](#controls)
+- [controls](#controls)
 - [backups](#backups)
 - [saving & restoring settings](#saving--restoring-settings)
 - [materials](#materials)
@@ -110,7 +109,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 
 ## My setup
 
-- [Screenshot of my UI](assets/sketchup_screenshot_UI.png) (before adding a truckload of plugins)
+- [Screenshot of my UI](assets/sketchup_screenshot_UI.png) (old)
 - *Preferences:*
   - *File locations* - these can be imported/exported.  I edit the text file to point to my custom folders.
     - note: templates cannot be set to a custom location (maybe by symlink?).
@@ -126,14 +125,15 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
   - Set keyboard shortcuts for trays.
   - Set options for each tray
   - Note: working while Outliner is visible can slow things down
-
-### styles
+- Styles & Templates:
   - Speedy styles:  For modelling (rather than for rendering or for Layout usage) I tweak the style for performance, disabling extra lines such as profiles.
   - I usually set line weight to minimum because I like the look and I think it helps a little with the problem of lines showing through thin solids.
   - I like to model with a dark greyscale background to make it easier on my eyes.  But sometimes it's nice to use more cheerful colors.
   - I usually disable ground (in *Styles*), as well as shadows on ground (shadow options -- must enable shadows to toggle).  Otherwise, even if ground is hidden, shadows will be rendered on the "ground plane".
 
-### controls
+--------------------
+
+## controls
 
 I think keyboard shortcuts are essential to efficient, fluid work.
 
@@ -265,6 +265,8 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 
 ... Make good use of components, tags, and scenes!
 
+-------------------
+
 ## My to do
 
 - Learn:
@@ -272,9 +274,14 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
   - Sandbox
   - Classifier / IFC
   - quads & subdivision
-  - 
+- Clean up:
+  - Styles
+  - Materials
+  - Templates
+  - Folder structure
 
-<!-- Links ---------->
+
+<!-- Page Links ---------->
 
 [SharpKeys]: https://www.randyrants.com/category/sharpkeys/
 
