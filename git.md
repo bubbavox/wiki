@@ -28,6 +28,8 @@ then simply `$ lazygit "my first lazygit"`
 
 alternatively, use a windows batch script, or a git alias (see [this thread](https://stackoverflow.com/questions/39121688/windows-custom-git-commands))
 
+When using git bash on windows, I placed some custom bash aliases / functions in `C:\Program Files\Git\etc\bash.bashrc` -- not sure if this is the proper way, but it worked.
+
 --------------
 
 #### LOG: 2020-07-30 - Setting up this repo to sync between local files and GitHub files, with SSH

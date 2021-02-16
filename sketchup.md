@@ -1,38 +1,36 @@
 
 # SketchUp        <!-- omit in toc -->
 
-
-related: [SketchUp + Ruby](sketchup_ruby.md)
+related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR.md)
 
 --------------
 ## contents        <!-- omit in toc -->
 
-+ [extensions](#extensions)
-+ [controls](#controls)
-+ [my setup](#my-setup)
-  + [folders](#folders)
-  + [interface](#interface)
-  + [other settings](#other-settings)
-  + [backups](#backups)
-+ [saving & restoring settings](#saving--restoring-settings)
-+ [materials](#materials)
-  + [nested materials & the *default* material:](#nested-materials--the-default-material)
-  + [component materials workflow](#component-materials-workflow)
-  + [managing materials](#managing-materials)
-    + [collections](#collections)
-    + [custom materials](#custom-materials)
-+ [Axes & Inference](#axes--inference)
-+ [techniques](#techniques)
-  + [proxy modeling](#proxy-modeling)
-  + [conceptual design](#conceptual-design)
+- [extensions](#extensions)
+- [My setup](#my-setup)
+  - [styles](#styles)
+  - [controls](#controls)
+- [backups](#backups)
+- [saving & restoring settings](#saving--restoring-settings)
+- [materials](#materials)
+  - [nested materials & the *default* material:](#nested-materials--the-default-material)
+  - [component materials workflow](#component-materials-workflow)
+  - [Managing materials](#managing-materials)
+    - [Custom materials](#custom-materials)
+- [Axes & Inference](#axes--inference)
+- [techniques](#techniques)
+  - [proxy modeling](#proxy-modeling)
+  - [conceptual design](#conceptual-design)
+- [My to do](#my-to-do)
 
 --------------
 
 ## extensions
 
-**My essential plugins:**
+**My existentially essential extensions:**
+
 - [Selection Toys]
-- [Eneroth Solid Tools] -- _"Solid tools designed to feel more native to SketchUp than the native solid tools."_
+- [Eneroth Solid Tools] -- _"Solid tools designed to feel native to SketchUp."_
 - [Solid Inspector²] -- _"Select a group or component and activate the tool for an analysis of what would prevent it from being a solid manifold."_ An example usage: Solid Tools such as Trim require objects to be true solids.
 - [CleanUp³] -- requires [TT_Lib²] -- fix / purge / merge / repair
 - [Auto Invisible Layer] -- When enabled, changes SketchUp's default behavior of new layers being enabled in all scenes.  Disabled by default at the start of each session.
@@ -108,21 +106,46 @@ related: [SketchUp + Ruby](sketchup_ruby.md)
 - Aerilius - SEW - Sketchucation - [GH](https://github.com/Aerilius)
 - mind.sight.studios - [SEW](https://extensions.sketchup.com/user/extensions/1227382186648254578622562/mind.sight.studios) - [website](https://mindsightstudios.com/)
 
-
 ----------------
 
-## controls
+## My setup
 
-Keyboard shortcuts are crucial for my efficiency & ease of modelling. When I try and use SketchUp on someone else's computer, I find it maddeningly slow.
+- [Screenshot of my UI](assets/sketchup_screenshot_UI.png) (before adding a truckload of plugins)
+- *Preferences:*
+  - *File locations* - these can be imported/exported.  I edit the text file to point to my custom folders.
+    - note: templates cannot be set to a custom location (maybe by symlink?).
+  - *Shortcuts* - these can be imported / exported. See [list of shortcuts](#controls).
+  - *Notify me when problems are fixed* - `enabled`.
+  - *Allow checking for updates* - `disabled` for speed.
+  - *Show Welcome Window* - `disabled` for speed.
+  - *Tool Palette: Use large tool buttons* - `disabled`.
+- Customize toolbars.
+- Customize trays:
+  - Set `Entity Info` as a free-floating window.
+  - Create tray tabs, depending on screen size: `Main, Outliner, Tags, Scenes, Materials, Components`
+  - Set keyboard shortcuts for trays.
+  - Set options for each tray
+  - Note: working while Outliner is visible can slow things down
 
-I use a <a href="https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/WASD.jpg" target="_blank">WASD</a> hand position (gaming-style), and have chosen key assignments based on ergonomics / frequency of use.
+### styles
+  - Speedy styles:  For modelling (rather than for rendering or for Layout usage) I tweak the style for performance, disabling extra lines such as profiles.
+  - I usually set line weight to minimum because I like the look and I think it helps a little with the problem of lines showing through thin solids.
+  - I like to model with a dark greyscale background to make it easier on my eyes.  But sometimes it's nice to use more cheerful colors.
+  - I usually disable ground (in *Styles*), as well as shadows on ground (shadow options -- must enable shadows to toggle).  Otherwise, even if ground is hidden, shadows will be rendered on the "ground plane".
 
-To further ergonomify, I've swapped a couple of keys around on the keyboard, using [SharpKeys]: \
-`Control` <--> `Caps` \
+### controls
+
+I think keyboard shortcuts are essential to efficient, fluid work.
+
+I use a W-A-S-D hand position (gaming-style), and have chosen key assignments based on ergonomics / frequency of use.
+
+To further ergonomify, I've swapped a few keys around on the keyboard, using [SharpKeys]: \
+`Ctrl` <--> `Caps` \
 `Esc` <--> `~`
-  
+
+**My keyboard shortcuts:**
 <details>
-  <summary>my keyboard shortcuts (expand)</summary>
+  <summary>(click to expand)</summary>
   
 command     | key binding
 ------------|------------
@@ -154,42 +177,12 @@ alt-D       | UI - Show Scenes Tab
   
 </details>
 
-----------------
+-------------
 
-## my setup
+## backups
+By default, SketchUp autosaves to a temp file, and if the program crashes it offers to load that file.  I save my files directly to a cloud folder (OneDrive), although this can be risky. For extra protection, I use [Bvckup2](https://bvckup2.com/) to automatically save a timestamped copy of the current project folder every 20 minutes (6 copies at a time).  I also keep an external backup of my work folders, updated frequently.
 
-### folders
-- In *Window > Preferences* I set all folders (except templates) to a location within my design directory, on an SSD.
-- templates cannot be relocated from `%appdata%\SketchUp\SketchUp 2021\SketchUp\Templates\`
-- My desktop & laptop use the same folder structure (incl. drive letters), to ease syncing & backups. (Only one `Preferences.dat` backup file needed.)
-
-### interface
-<a href="https://raw.githubusercontent.com/bubbavox/notes_public/master/assets/sketchup_screenshot_UI.png" target="_blank">screenshot</a>
-- I separate the trays into 4 or 5 tabs, and assign keybinds to the most important ones.  Some workflows might have different priorities, but this is my typical setup:
-  - Entity Info - I put this one in a small floating window, and toggle it with a keybind (E)
-  - Main - Materials, Styles, Components, Shadows, Fog, Soften Edges
-  - Outliner (alt + A)
-  - Tags (alt + S)
-  - Scenes (alt + D)
-- toolbars: (set to use small icons)
-  - Large Tool Set
-  - Section
-  - Shadows
-  - Solid Tools
-  - Styles
-  - Views
-  - [Eneroth Solid Tools]
-  - [Solid Inspector²](https://extensions.sketchup.com/en/content/solid-inspector%C2%B2)
-
-### other settings
-  - Speedy styles:  For modelling (rather than for rendering or for Layout usage) I tweak the style for performance, disabling extra lines such as profiles.
-  - For most of my styles I set line weight to minimum because it helps with the problem of lines showing through thin solids, and I think it just looks better.
-  - To make it easier on my eyes, I create a dark backdrop: I disable ground, set background to dark gray, and sky to black (which actually results in a gradient sky, black to light gray).  And maybe one day we'll get dark mode!
-  - I disable shadows on ground, in shadow options.  Even if ground is disabled in the style, shadows will still be rendered where it used to be.
-  - In an attempt to speed up startup time, I disable the welcome screen & auto-updates, and I put everything on SSD.
-
-### backups
-By default, SketchUp autosaves to a temp file, and if the program crashes it offers to load that file.  For extra protection, I use [Bvckup2](https://bvckup2.com/) to save a timestamped copy of the current project folder every 15 minutes, up to 4 copies. I also use Bvckup2 to periodically copy my files to the cloud (OneDrive), and to a separate disk.
+-----------
 
 ## saving & restoring settings
 
@@ -197,9 +190,9 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 
 - **keyboard shortcuts & folder locations:** these settings can be imported / exported to a single file, separately or combined.
 - **custom UI:**  I think this might be possible, but it's not straightforward, and I've not tested it sufficiently. On a fresh install, I customize the UI from scratch.
-- **plugins:** SketchUp installs plugins in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Plugins`.  I typically save the plugin download `.rbz` files, and reinstall from these, but the safest method is to re-download each plugin, noting compatibility with the version of SketchUp you're using (and some plugins might work with the new version even if they don't say so).
-- **templates:** Similar to extensions, templates are stored in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Templates`. Note: this folder location cannot be customized in SketchUp preferences.
-- Layout
+- **plugins:** SketchUp installs plugins in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Plugins`.  I typically save the plugin download `.rbz` files, and reinstall from these using the Extension Manager. The safest method is to re-download each plugin.  Note that sometimes plugins are compatible with the newest version of Sketchup, even if they don't say so.
+- **templates:** Stored in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Templates`. Note: this folder location cannot be customized in SketchUp preferences.
+- Layout ...
 
 --------------
 
@@ -221,19 +214,21 @@ If an entity is painted with a material, that material is also rendered on each 
 In other words, if an entity is unpainted (painted with *default*), it's like an invisible primer, which shows the material underneath, and can be painted over.  But if an entity is painted with a normal material, it won't stick to other materials, and likewise can't be painted over.
 
 ### component materials workflow
-If you paint a component, it doesn't apply to that component's copies -- you're painting the instance of the component.  Here are 2 example heirarchies which let you easily paint all copies of a component in bulk.
-- workflow A: 
-  - *component* - default material
-    - *raw geometry* - `custom material` (you can quickly paint all faces by holding `shift`, or select multiple faces before painting)
-- workflow B:
-  - *component* - default material
-    - *group* - `custom material`
+If you paint a component, it doesn't apply to that component's copies -- you're painting the instance of the component (its container).  You must go a level deeper.  Here are 2 example heirarchies which let you easily paint all copies of a component in bulk.
+- workflow A: *brute force* 
+  - *component* - `default material`
+    - *raw geometry* - `your material` (you can quickly paint all faces by holding `shift`, or select multiple faces before painting)
+- workflow B: *create a group within the component for the purpose of painting.*
+  - *component* - `default material`
+    - *group* - `your material`
       - *raw geometry* - default material
 
-### managing materials
-#### collections
+Sometimes you need to reset certain layers (containers or entities) to the default material.  There are plugins which make this easier.
+
+### Managing materials
 ...
-#### custom materials
+
+#### Custom materials
 ...
 
 ---------------
@@ -267,8 +262,17 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 - [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
 
 ### conceptual design
-...
 
+... Make good use of components, tags, and scenes!
+
+## My to do
+
+- Learn:
+  - Proxy modelling
+  - Sandbox
+  - Classifier / IFC
+  - quads & subdivision
+  - 
 
 <!-- Links ---------->
 
