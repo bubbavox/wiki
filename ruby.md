@@ -47,6 +47,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 ## Learning resources
 
 - [Quick Ref at zenspider](https://www.zenspider.com/ruby/quickref.html)
+- [Free course- Ruby API Design with Jim Weirich](https://www.pluralsight.com/courses/play-by-play-jim-weirich)
 - [Videos- Scotland on Rails Conference- 27 videos](http://www.rubyinside.com/scotland-on-rails-presentations-now-online-27-awesome-videos-1799.html)
 - [Video- The Ruby Object Model by Dave Thomas](https://youtu.be/X2sgQ38UDVY)
 - [Article- Avdi Grimm - Do We Need Constants](https://avdi.codes/do-we-need-constants/)
@@ -56,6 +57,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 ----------------------
 ## Hubs
 
+- [blog- one, step, back (Weirich)](https://onestepback.org/index.html) - Jim Wierich's archived blog
 - [zen spider](https://www.zenspider.com/)
 - blog: [honeybadger](https://www.honeybadger.io/blog/tags/ruby/)
 - blog: [Vaidehi: Words & Code](http://vaidehijoshi.github.io/)

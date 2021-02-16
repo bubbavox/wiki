@@ -40,6 +40,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 
 **Some more of my favorite plugins:**
 - [Material Replacer] -- requires [TT_Lib²] -- _"Replace one material for another by picking material in the model"_. __SketchUp has [material replacement built-in](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material) but it seems to only work within a modelling context, i.e. within a group...(investigate)__
+- [Attribute Inspector] (Aerilius) - [github](https://github.com/Aerilius/sketchup-attribute-inspector) -  *A viewer and editor for entity and model attributes*
 - [Eneroth Visual Merge] -- $ / trial -- automagically hides lines & faces where selected groups touch, making them appear to be seamless.
 - [Component Properties] -- requires [TT_Lib²]
 - [SubD] -- $ / trial
@@ -291,6 +292,7 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 [Animator]: https://sketchucation.com/plugin/1839-animator
 [Architect Tools]: https://extensions.sketchup.com/extension/0e2b5a47-add9-47c7-894b-9be1e046cfba/architect-tools
 [Archiver]: https://sketchucation.com/plugin/841-archiver
+[Attribute Inspector]: https://extensions.sketchup.com/extension/2c7d7254-76eb-40af-9897-bc7d16b42fb6/attribute-inspector]
 [Auto Invisible Layer]: https://extensions.sketchup.com/extension/5fe151f4-aefe-4dcd-b37e-c0766caaa6e4/auto-invisible-layer
 [Axes Tools]: https://extensions.sketchup.com/extension/446870d8-0755-4d0b-963d-7219ef236c7a/axes-tools
 [Bezier Curve Tool]: https://extensions.sketchup.com/extension/8b58920d-0923-42f8-9c72-e09f2bba125e/bezier-curve-tool

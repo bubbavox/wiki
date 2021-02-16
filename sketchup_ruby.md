@@ -7,16 +7,16 @@ related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
 
 ## Contents:          <!-- omit in toc -->
 
-+ [Docs](#docs)
-+ [Hubs](#hubs)
-+ [Dev tools](#dev-tools)
-+ [Libraries and such](#libraries-and-such)
-+ [Exemplary code](#exemplary-code)
-+ [UX](#ux)
-+ [Tutorials](#tutorials)
-+ [My to do](#my-to-do)
-+ [My setup log](#my-setup-log)
-+ [Unsorted info](#unsorted-info)
+- [Docs](#docs)
+- [Hubs](#hubs)
+- [Dev tools](#dev-tools)
+- [Libraries and such](#libraries-and-such)
+- [Exemplary code](#exemplary-code)
+- [UX](#ux)
+- [Tutorials](#tutorials)
+- [My to do](#my-to-do)
+- [My setup log](#my-setup-log)
+- [Unsorted info](#unsorted-info)
 
 --------------------
 ## Docs
@@ -137,6 +137,7 @@ SU code that is open-source and seems worth a look -- perhaps well-commented, or
 - ene - [Eneroth Random Selection]
 - ene - [Eneroth Component to Group]
 - ene - [Script Runner] - *"Run Ruby script by dropping it in SketchUp."*
+- AE  - [Attribute Inspector] - [github](https://github.com/Aerilius/sketchup-attribute-inspector) -  *A viewer and editor for entity and model attributes*
 
 -----------------
 ## UX
@@ -327,6 +328,7 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
 [SketchUp Community Library]: https://github.com/Eneroth3/sketchup-community-lib
 
 <!-- extensions -->
+[Attribute Inspector]: https://extensions.sketchup.com/extension/2c7d7254-76eb-40af-9897-bc7d16b42fb6/attribute-inspector
 [SketchUp Shapes]: https://extensions.sketchup.com/extension/5b95d769-4696-4312-a732-e7950dd5ddfb/shapes
 [CleanUp3]: https://extensions.sketchup.com/extension/046175e5-a87a-4254-9329-1accc37a5e21/cleanup%C2%B3
 [Solid Inspector]: https://github.com/thomthom/solid-inspector

@@ -113,6 +113,16 @@
 
 --------------
 
+## Essential software:
+
+- Fonts
+- *SharpKeys*
+- *TouchCursor*
+- *Windows Terminal*
+- *VS Code*
+
+--------------
+
 ## Windows 10 tricks
 
 - 

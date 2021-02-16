@@ -1,4 +1,4 @@
-# systemically unmanaged content seeks content management system...
+# systemically unmanaged malcontent seeks content management system
 
 ## table of some of the contents:
 
