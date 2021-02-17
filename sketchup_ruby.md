@@ -13,6 +13,7 @@ related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
 - [Libraries and such](#libraries-and-such)
 - [Exemplary code](#exemplary-code)
 - [UX](#ux)
+- [Code](#code)
 - [Tutorials](#tutorials)
 - [My to do](#my-to-do)
 - [My setup log](#my-setup-log)
@@ -151,6 +152,16 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
 - [SKUI (TT)](https://github.com/thomthom/SKUI) (abandoned?) - *... framework... to provide Ruby wrapper classes to manipulate GUI control elements in SketchUp's UI::WebDialog API.*
 
 -----------------
+
+## Code
+
+- `Sketchup`
+  - `#active_model`
+    - `#definitions`
+      - `#purge_unused`
+
+-----------------
+
 ## Tutorials
 
   - [SU dev 'getting started']

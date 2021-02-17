@@ -1,5 +1,20 @@
 # Revit
 
+
+
+## The Basics
+
+- Elements
+- Families
+- Types
+
 ### hubs
 
-- https://www.revitcity.com/index.php
+[Revit City]
+
+
+
+
+<!--Links----------------->
+
+[Revit City]: https://www.revitcity.com/index.php

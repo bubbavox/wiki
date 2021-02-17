@@ -57,10 +57,11 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 ----------------------
 ## Hubs
 
-- [blog- one, step, back (Weirich)](https://onestepback.org/index.html) - Jim Wierich's archived blog
+- [blog- one, step, back (Weirich)](https://onestepback.org/index.html) - Jim Weirich's archived blog
 - [zen spider](https://www.zenspider.com/)
-- blog: [honeybadger](https://www.honeybadger.io/blog/tags/ruby/)
-- blog: [Vaidehi: Words & Code](http://vaidehijoshi.github.io/)
+- [blog- honeybadger](https://www.honeybadger.io/blog/tags/ruby/)
+- [blog- Vaidehi: Words & Code](http://vaidehijoshi.github.io/)
+- [blog- Leigh Halliday](https://www.leighhalliday.com/)
 
 ----------------------
 ## Other stuff
@@ -71,7 +72,13 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 ----------------------
 ## Code:
 
-- `*` (splat)
+- **introspection:**
+  - `BasicObject`
+  - `Object`
+    - 
+
+- `*` - *splat* or *star* - 
+- `<=>` - operator: combined comparison
 - `Proc`
 - `lambda`
 - `Struct` - class constructor
@@ -80,8 +87,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - `#dup`
 - `#clone`
 - `class_eval`
-- `begin / end`
-  - *Way of defining a bunch of code that needs to run on it’s own, in its own context... Whatever is the last expression that is evaluated in the begin end block is the result that will be returned..*
+- `begin / end` - *Way of defining a bunch of code that needs to run on it’s own, in its own context... Whatever is the last expression that is evaluated in the begin end block is the result that will be returned..*
   - *Can be helpful for defining chunks of code that need to execute in a certain order* 
   - [article 1](http://vaidehijoshi.github.io/blog/2015/08/25/unlocking-ruby-keywords-begin-end-ensure-rescue/), [article 2](https://blog.newrelic.com/engineering/weird-ruby-begin-end/)
 - `rescue`
