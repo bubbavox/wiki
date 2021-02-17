@@ -64,6 +64,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - [blog- Leigh Halliday](https://www.leighhalliday.com/)
 
 ----------------------
+
 ## Other stuff
 
 ### Troubleshooting Solargraph:
