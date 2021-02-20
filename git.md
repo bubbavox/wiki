@@ -16,7 +16,8 @@ https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cr
 
 [thread: "git add, commit and push commands in one?"](https://stackoverflow.com/questions/19595067/git-add-commit-and-push-commands-in-one)
 
-custom `lazygit` bash script: using one of the solutions in the above thread, I added the following to `~/.bashrc`:
+### custom `lazygit` bash script: 
+using one of the solutions in the above thread, I added the following to `~/.bashrc`:
 ```
 function lazygit() {
     git add .
@@ -28,8 +29,32 @@ then simply `$ lazygit "my first lazygit"`
 
 alternatively, use a windows batch script, or a git alias (see [this thread](https://stackoverflow.com/questions/39121688/windows-custom-git-commands))
 
-When using git bash on windows, I placed some custom bash aliases / functions in `C:\Program Files\Git\etc\bash.bashrc` -- not sure if this is the proper way, but it worked.
+### custom aliases & functions on Git for windows:
+When using git bash on windows, I placed some custom bash aliases / functions in `C:\Program Files\Git\etc\bash.bashrc` -- not sure if this is the proper way, but it worked.  Syntax is the same as unix bash, except for paths.
+```bash
+awwork="/d/OneDrive/_work/"
+awcode="/d/OneDrive/_work/code"
+awwiki="/d/OneDrive/_work/wiki"
+awsurb="/d/OneDrive/_work/code/SU_code"
 
+function cdwork {
+    cd $awwork
+}
+function cdcode {
+    cd $awcode
+}
+function cdwiki {
+    cd $awwiki
+}
+function cdsurb {
+    cd $awsurb
+}
+function lazygit() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+```
 --------------
 
 #### LOG: 2020-07-30 - Setting up this repo to sync between local files and GitHub files, with SSH

@@ -46,6 +46,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 ----------------------
 ## Learning resources
 
+- [docs- Modules & Classes (2.7.2)](https://ruby-doc.org/core-2.7.2/doc/syntax/modules_and_classes_rdoc.html)
 - [Quick Ref at zenspider](https://www.zenspider.com/ruby/quickref.html)
 - [Free course- Ruby API Design with Jim Weirich](https://www.pluralsight.com/courses/play-by-play-jim-weirich)
 - [Videos- Scotland on Rails Conference- 27 videos](http://www.rubyinside.com/scotland-on-rails-presentations-now-online-27-awesome-videos-1799.html)
@@ -54,9 +55,11 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - [Video- *Mastering the Ruby Debugger* (Jim Weirich)](https://www.youtube.com/watch?v=GwgF8GcynV0) - more of an overview of debugging methods
 - [Article- Encapsulation - GeeksforGeeks](https://www.geeksforgeeks.org/ruby-encapsulation/)
 - [Article- Weird Ruby series](https://blog.newrelic.com/engineering/weird-ruby-begin-end/)
+- [Article - How to make your Ruby code work on Windows PCs (Avdi Grimm)](https://www.rubytapas.com/2016/12/14/ruby-code-on-windows/)
 ----------------------
 ## Hubs
 
+- [website & blog- Dave Thomas](https://pragdave.me/)
 - [blog- one, step, back (Weirich)](https://onestepback.org/index.html) - Jim Weirich's archived blog
 - [zen spider](https://www.zenspider.com/)
 - [blog- honeybadger](https://www.honeybadger.io/blog/tags/ruby/)
@@ -76,7 +79,9 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - **introspection:**
   - `BasicObject`
   - `Object`
-    - 
+  - `Module`
+    - `#nesting`
+
 
 - `*` - *splat* or *star* - 
 - `<=>` - operator: combined comparison
