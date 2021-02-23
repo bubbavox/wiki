@@ -76,22 +76,44 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 ----------------------
 ## Code:
 
-- **introspection:**
-  - `BasicObject`
-  - `Object`
-  - `Module`
-    - `#nesting`
+### introspection / meta:
+- `BasicObject`
+- `Class`
+  - `#superclass`
+- `Method`
+  - `#inspect`
+  - `#name`
+  - `#original_name`
+  - `#owner`
+  - `#parameters`
+  - `#receiver`
+  - `#source_location`
+  - `#super_method`
+- `Module`
+  - `#ancestors`
+  - `#included_modules`
+  - `#inspect`
+  - `#nesting`
+- `Object`
+  - `#class`
+  - `#inspect`
+  - `#instance_variables`
+  - `#methods`
 
-
-- `*` - *splat* or *star* - 
+### unsorted:
+- `*` - *splat* / *star* - 
 - `<=>` - operator: combined comparison
 - `Proc`
 - `lambda`
 - `Struct` - class constructor
 - `super` 
   - e.g. good practice when inheriting from a class, to use in `initialize` to inherit the parent's `initialize`
-- `#dup`
-- `#clone`
+- `#dup` -vs- `#clone`
+  - `#dup`
+  - `#clone`
+- `#==` -vs- `#equal?`
+  - `#==`
+  - `#equal?` or `#eql?`
 - `class_eval`
 - `begin / end` - *Way of defining a bunch of code that needs to run on it’s own, in its own context... Whatever is the last expression that is evaluated in the begin end block is the result that will be returned..*
   - *Can be helpful for defining chunks of code that need to execute in a certain order* 

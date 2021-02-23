@@ -1,16 +1,10 @@
 # Valheim
 
-## misc. links
-
-- [Valheim Character Editor](https://github.com/byt3m/Valheim-Character-Editor)
-
 ## dedicated server
 
 - [official guide (PDF)](assets/Valheim%20Dedicated%20Server%20Manual.pdf)
 - [guide - PCGamer](https://www.pcgamer.com/valheim-multiplayer-dedicated-server/)
 - [guide - vg247](https://www.vg247.com/2021/02/17/valheim-multiplayer-set-dedicated-server-co-op-options-explained/#section2)
-
-- [Valheim server docker image](https://github.com/lloesche/valheim-server-docker)
 
 ### Dedicated server on my desktop PC (same machine running game client):
 - Install *Valheim Dedicated Server*: 

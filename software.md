@@ -5,7 +5,7 @@
 - [Workflowy](https://workflowy.com) - [desktop app](https://workflowy.com/downloads/)
 
 ## coding
-- [VSCode] - see [vscode]
+- [VSCode] - see also [my vscode page](vscode.md)
 - [Brackets]
 - https://editorconfig.org/
 
@@ -18,7 +18,7 @@
 - [RealBench]
 - [AIDA64]
 - [Prime95] 
-  - beware AVX2 on Haswell / Excavator or newer
+  - beware AVX2 option on Haswell / Excavator or newer CPUs
 - [UserBenchmark]
 - [Passmark PerformanceTest]
 - [Unigine benchmarks]
@@ -36,9 +36,9 @@
 
 ## windows - unsorted
 - [WinThumbsPreloader] - preloads thumbnails in a selected folder
-- Bvckup2
+- [Bvckup2]- $/trial - [more info below](#bvckup2) -  my favorite backup software -- well-maintained; as simple or complex as you want.
 - SharpKeys - reassign keys
-- [TouchCursor](https://github.com/martin-stone/touchcursor/issues/14) - [64-bit version needed for whitelist functionality](https://github.com/martin-stone/touchcursor/files/5644111/TouchCursor.zip) - add a function layer to chosen modifier key (I use spacebar and I'm totally addicted -- see 'SpaceFn')
+- [TouchCursor](https://github.com/martin-stone/touchcursor/issues/14) - add a function layer to chosen modifier key (I use spacebar and I'm totally addicted -- see 'SpaceFn')
 - [Windows Terminal]  
 - WinDirStat
 - [XYplorer](https://www.xyplorer.com/index.php) - File manager
@@ -48,3 +48,18 @@
     
 [WinThumbsPreloader]: https://github.com/bruhov/WinThumbsPreloader/
 [Windows Terminal]: https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701
+[Bvckup2]: https://bvckup2.com/
+
+----------------------
+
+## app-specific stuff
+
+### Bvckup2
+
+- [free older beta version](https://bvckup2.com/get/beta)
+- [working with config files](https://bvckup2.com/support/forum/topic/480)
+
+### TouchCursor
+
+- [64-bit version needed for whitelist functionality](https://github.com/martin-stone/touchcursor/files/5644111/TouchCursor.zip)
+
