@@ -9,11 +9,14 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
   - [Dev tools](#dev-tools)
   - [- REST Client - simple DSL for accessing HTTP and REST resources](#--rest-client---simple-dsl-for-accessing-http-and-rest-resources)
   - [Learning resources](#learning-resources)
-  - [- Article- Weird Ruby series](#--article--weird-ruby-series)
+  - [- Article - How to make your Ruby code work on Windows PCs (Avdi Grimm)](#--article---how-to-make-your-ruby-code-work-on-windows-pcs-avdi-grimm)
   - [Hubs](#hubs)
   - [Other stuff](#other-stuff)
     - [Troubleshooting Solargraph:](#troubleshooting-solargraph)
   - [Code:](#code)
+    - [introspection:](#introspection)
+    - [pattern-matching:](#pattern-matching)
+    - [unsorted:](#unsorted)
 
 ----------------------
 ## Docs
@@ -76,7 +79,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 ----------------------
 ## Code:
 
-### introspection / meta:
+### introspection:
 - `BasicObject`
 - `Class`
   - `#superclass`
@@ -98,7 +101,12 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
   - `#class`
   - `#inspect`
   - `#instance_variables`
+  - `#instance_variable_defined?`args: (symbol) or (string)
   - `#methods`
+  - `#respond_to?`
+
+### pattern-matching:
+...
 
 ### unsorted:
 - `*` - *splat* / *star* - 
@@ -108,12 +116,13 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - `Struct` - class constructor
 - `super` 
   - e.g. good practice when inheriting from a class, to use in `initialize` to inherit the parent's `initialize`
-- `#dup` -vs- `#clone`
-  - `#dup`
-  - `#clone`
-- `#==` -vs- `#equal?`
-  - `#==`
-  - `#equal?` or `#eql?`
+- `#inject`
+- `#map`
+- `&` shortcut
+- `#dup`
+- `#clone`
+- `#==`
+- `#equal?` or `#eql?`
 - `class_eval`
 - `begin / end` - *Way of defining a bunch of code that needs to run on it’s own, in its own context... Whatever is the last expression that is evaluated in the begin end block is the result that will be returned..*
   - *Can be helpful for defining chunks of code that need to execute in a certain order* 
@@ -130,6 +139,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - Golden Rule of metaprogramming (dave thomas):
   - Instance variables: look up in self
   - Methods: look up in self's class
+- Module: `ObjectSpace`
 
 <!-- page links ----------->
 
