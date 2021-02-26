@@ -63,6 +63,8 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 
 **Here are some interesting extensions I haven't tried yet:**
 
+- [Make Named Group](https://extensions.sketchup.com/extension/753c9766-22e7-4ee3-865a-6db9a37b2e60/make-named-group) (TT)
+- [mc-Named_Group](https://extensions.sketchup.com/extension/e5fd3e06-d1ec-4c9d-88ae-f37742a0d396/mc-named-group)
 - [Profile Builder] - $ / trial
 - [Double-Cut] - $ / trial
 - [Edge Tools] -- requires [TT_Lib²]

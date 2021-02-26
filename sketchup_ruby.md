@@ -14,6 +14,7 @@ related pages: [SketchUp](sketchup.md), [Ruby](ruby.md), [VS Code](vscode.md)
 - [Exemplary code](#exemplary-code)
 - [UX](#ux)
 - [Code](#code)
+- [- Module: `UI`](#--module-ui)
 - [Tutorials](#tutorials)
 - [My to do](#my-to-do)
 - [My setup log](#my-setup-log)
@@ -112,6 +113,7 @@ see also [Ruby dev tools](ruby.md#dev-tools)
 
 SU code that is open-source and seems worth a look -- perhaps well-commented, or proper & up-to-date, or created explicitly as an example.
 
+- SU  - [Solar North] - *Display and set the solar north angle used for shadows. Useful for shadow studies...This extension also serves as a code example for SketchUp-like UX design.*
 - SU  - [Examples: HTMLDialog Examples]
 - SU  - [Examples: HTML Inputbox]
 - SU  - [Examples: SketchUp Ruby C/C++ Extension]
@@ -120,9 +122,8 @@ SU code that is open-source and seems worth a look -- perhaps well-commented, or
 - SU  - [Examples: Drawing Shaded and Textured Polygons]
 - SU  - [Examples: Testing Weld]
 - SU  - [SketchUp Shapes] - see also [github page](https://github.com/SketchUp/sketchup-shapes)
-- SU  - [SketchUp Ruby C/C++ Extension Examples]
 - SU  - [SketchUp-STL] - for 3D printing, mainly
-- SU  - [SketchUp Shapes]
+- TT  - [Make Named Group](https://extensions.sketchup.com/extension/753c9766-22e7-4ee3-865a-6db9a37b2e60/make-named-group) - nice and simple study.  Working on a customized version.
 - TT  - [CleanUp3]
 - TT  - [Selection Toys]
 - TT  - [Solid Inspector]
@@ -155,11 +156,11 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
 
 ## Code
 
-- `Sketchup`
+- Class: `Sketchup`
   - `#active_model`
     - `#definitions`
       - `#purge_unused`
-
+- Module: `UI`
 -----------------
 
 ## Tutorials
@@ -358,6 +359,7 @@ In 2017, [HTMLDialog] replaced [WebDialog]. More info [here](https://github.com/
 [Eneroth Component to Group]: https://github.com/Eneroth3/component-to-group
 [Script Runner]: https://github.com/Eneroth3/sketchup-script-runner
 [Model Info]: https://github.com/thomthom/model-info
+[Solar North]: https://github.com/SketchUp/solar-north
 
 <!-- examples -->
 
