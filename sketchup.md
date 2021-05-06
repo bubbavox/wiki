@@ -265,6 +265,7 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
   - Hit ALT + SPACE
   - Tap M, then tap any arrow key
   - Now, without clicking, move the mouse around until the dialog reappears on your screen.  Click to place the window.
+  - OR use my [AutoHotkey script](assets/Move_SketchUp_Window.ahk). First, install [AutoHotkey](https://www.autohotkey.com/), then just double-click the script.
 - Keyboard shortcuts can only be set while they are usable.  For example, to assign a shortcut to *Reverse Faces* you must first select a face.
 - Painting a component doesn't apply the material to other instances.  So I will often create a group within the component, and apply material to that group.  This way, it is applied to the other components, without needing to paint the raw geometry.
 
