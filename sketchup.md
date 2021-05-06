@@ -17,6 +17,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
   - [Managing materials](#managing-materials)
     - [Custom materials](#custom-materials)
 - [Axes & Inference](#axes--inference)
+- [tips](#tips)
 - [techniques](#techniques)
   - [proxy modeling](#proxy-modeling)
   - [conceptual design](#conceptual-design)
@@ -177,6 +178,7 @@ E           | UI - Toggle Entity Info (I use a loose tray window for Entity Info
 alt-A       | UI - Show Outliner Tab
 alt-S       | UI - Show Layers Tab
 alt-D       | UI - Show Scenes Tab
+shift-R     | Reverse Faces (must have a face selected to create shortcut)
   
 </details>
 
@@ -253,6 +255,18 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 - extension: [Curic Axes](https://extensions.sketchup.com/extension/3ed1f7d5-2950-49ad-a7c3-3779befffea1/curic-axes)
 - extension: [Axes Tools](https://extensions.sketchup.com/extension/446870d8-0755-4d0b-963d-7219ef236c7a/axes-tools)
 - extension: [Axes Manager](https://extensions.sketchup.com/extension/13e533c2-ebf7-4d86-805f-59dd2254564b/axes-manager)
+
+-------------
+
+## tips
+
+- Fix for disappearing SketchUp windows (*Materials, Entity info*, etc):
+  - Activate the dialog, so that it has the focus
+  - Hit ALT + SPACE
+  - Tap M, then tap any arrow key
+  - Now, without clicking, move the mouse around until the dialog reappears on your screen.  Click to place the window.
+- Keyboard shortcuts can only be set while they are usable.  For example, to assign a shortcut to *Reverse Faces* you must first select a face.
+- Painting a component doesn't apply the material to other instances.  So I will often create a group within the component, and apply material to that group.  This way, it is applied to the other components, without needing to paint the raw geometry.
 
 -------------
 

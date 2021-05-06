@@ -123,6 +123,7 @@ SU code that is open-source and seems worth a look -- perhaps well-commented, or
 - SU  - [Examples: Testing Weld]
 - SU  - [SketchUp Shapes] - see also [github page](https://github.com/SketchUp/sketchup-shapes)
 - SU  - [SketchUp-STL] - for 3D printing, mainly
+- SU  - [Create Layout File](https://extensions.sketchup.com/extension/632e5f6b-b768-43ce-9694-afe24ad15459/create-lay-out-file) - *This sample extension creates one LayOut page for each SketchUp scene.* 
 - TT  - [Make Named Group](https://extensions.sketchup.com/extension/753c9766-22e7-4ee3-865a-6db9a37b2e60/make-named-group) - nice and simple study.  Working on a customized version.
 - TT  - [CleanUp3]
 - TT  - [Selection Toys]
@@ -140,6 +141,12 @@ SU code that is open-source and seems worth a look -- perhaps well-commented, or
 - ene - [Eneroth Component to Group]
 - ene - [Script Runner] - *"Run Ruby script by dropping it in SketchUp."*
 - AE  - [Attribute Inspector] - [github](https://github.com/Aerilius/sketchup-attribute-inspector) -  *A viewer and editor for entity and model attributes*
+
+### Developers to watch:
+- SketchUp Team - [EW](https://extensions.sketchup.com/user/extensions/u2faeafbe-b33c-4af6-83d2-5b88a3d440d5/SketchUp%20Team) - github
+- ThomThom - EW - github
+- Eneroth - EW - github
+- Aerilius - EW - github
 
 -----------------
 ## UX

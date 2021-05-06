@@ -4,19 +4,16 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 
 ## Contents: <!-- omit in toc -->
 
-- [Ruby](#ruby)
-  - [Docs](#docs)
-  - [Dev tools](#dev-tools)
-  - [- REST Client - simple DSL for accessing HTTP and REST resources](#--rest-client---simple-dsl-for-accessing-http-and-rest-resources)
-  - [Learning resources](#learning-resources)
-  - [- Article - How to make your Ruby code work on Windows PCs (Avdi Grimm)](#--article---how-to-make-your-ruby-code-work-on-windows-pcs-avdi-grimm)
-  - [Hubs](#hubs)
-  - [Other stuff](#other-stuff)
-    - [Troubleshooting Solargraph:](#troubleshooting-solargraph)
-  - [Code:](#code)
-    - [introspection:](#introspection)
-    - [pattern-matching:](#pattern-matching)
-    - [unsorted:](#unsorted)
++ [Docs](#docs)
++ [Dev tools](#dev-tools)
++ [Learning resources](#learning-resources)
++ [Hubs](#hubs)
++ [Other stuff](#other-stuff)
+  + [Troubleshooting Solargraph:](#troubleshooting-solargraph)
++ [Code:](#code)
+  + [introspection:](#introspection)
+  + [pattern-matching:](#pattern-matching)
+  + [unsorted:](#unsorted)
 
 ----------------------
 ## Docs
@@ -46,6 +43,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - [Builder](https://github.com/jimweirich/builder) - XML builder
 - [BlankSlate](https://github.com/masover/blankslate) - extracted from Builder, made into a standalone gem (may be)
 - [REST Client](https://github.com/rest-client/rest-client) - simple DSL for accessing HTTP and REST resources
+
 ----------------------
 ## Learning resources
 
@@ -59,9 +57,12 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - [Article- Encapsulation - GeeksforGeeks](https://www.geeksforgeeks.org/ruby-encapsulation/)
 - [Article- Weird Ruby series](https://blog.newrelic.com/engineering/weird-ruby-begin-end/)
 - [Article - How to make your Ruby code work on Windows PCs (Avdi Grimm)](https://www.rubytapas.com/2016/12/14/ruby-code-on-windows/)
+
+
 ----------------------
 ## Hubs
 
+- [Ruby Programming Wikibook](https://en.wikibooks.org/wiki/Ruby_Programming)
 - [website & blog- Dave Thomas](https://pragdave.me/)
 - [blog- one, step, back (Weirich)](https://onestepback.org/index.html) - Jim Weirich's archived blog
 - [zen spider](https://www.zenspider.com/)
@@ -73,7 +74,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 
 ## Other stuff
 
-### Troubleshooting Solargraph:
+#### Troubleshooting Solargraph:
 - See *setup log* in WSL.md
 
 ----------------------
@@ -106,7 +107,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
   - `#respond_to?`
 
 ### pattern-matching:
-...
+[feature intro (ruby 2.7)](https://speakerdeck.com/k_tsj/pattern-matching-new-feature-in-ruby-2-dot-7)
 
 ### unsorted:
 - `*` - *splat* / *star* - 
@@ -119,6 +120,7 @@ Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.
 - `#inject`
 - `#map`
 - `&` shortcut
+- `method`
 - `#dup`
 - `#clone`
 - `#==`

@@ -17,7 +17,7 @@
   - [Power Platform](https://docs.microsoft.com/en-us/power-platform/) - Power Apps, Power Automate, Power Virtual Agents, etc...
   - [Power Query](https://docs.microsoft.com/en-us/power-query/)
   - [Project](https://docs.microsoft.com/en-us/project/)
-
+- [Windows: List of recognized environment variables](https://docs.microsoft.com/en-us/windows/deployment/usmt/usmt-recognized-environment-variables)
 
 --------------------
 
