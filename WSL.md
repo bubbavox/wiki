@@ -45,8 +45,7 @@ Reinstalled due to a problem with Solargraph (didn't fix it, but see the fix [he
     - Optionally, `/home/bubba/.gem/ruby/2.7.1/extensions/x86_64-linux/2.7.0-static/etc-1.2.0/`
   - and installed older version with `gem install etc -v 1.1.0`. good!
 - installed gem `solargraph` .. which installed dependencies including `rubocop` & `yard`
-- installed another Ruby -- 2.7.2 -- and set as default by adding `chruby ruby-2.7.2` to `~/.profile`
-  - NOTE sketchup 2021 uses Ruby 2.7.1 -- but 2.7.2 seems the go-to stable version, and to bring only minor changes
+- installed another Ruby -- 2.7.2 -- and set as default by adding `chruby ruby-2.7.2` to `~/.profile
 - see also Solargraph troubleshooting (vscode.md)
   
 #### SSH setup
