@@ -14,11 +14,12 @@ Potential cookie / privacy addons, untested:
 [userChrome.css @ MozillaZine](http://kb.mozillazine.org/UserChrome.css)
 
 0. Must set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true` in `about:config`.
-1. Find your profile folder, if Firefox is running you can find by going to `about:support` and there should be a button with label "Open Folder" under application basics
-2. Create a new folder to the profile folder and name it "chrome"
-3. userChrome.css and userContent.css files should be created inside this chrome-folder.
+1. Find your profile folder, if Firefox is running you can find by going to `about:support` and there should be a button with label `Open Folder` under application basics
+2. Create a new folder to the profile folder and name it `chrome`
+3. userChrome.css and userContent.css files should be created inside this `chrome` folder.
+4. Note there is another folder called `chrome` inside the `chrome` folder created in step 3.
 
-- [Here](assets/firefox_customization/chrome/) is my custom `chrome` folder located at `C:\Users\bubba\AppData\Roaming\Mozilla\Firefox\Profiles\8rqcdtx2.default-release\chrome`
+- [Here](assets/firefox_customization/chrome/) is my custom `chrome` folder located in `C:\Users\bubba\AppData\Roaming\Mozilla\Firefox\Profiles\8rqcdtx2.default-release\`
 
 
 ---
