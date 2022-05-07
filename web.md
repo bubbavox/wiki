@@ -19,7 +19,7 @@ Potential cookie / privacy addons, untested:
 3. userChrome.css and userContent.css files should be created inside this `chrome` folder.
 4. Note there is another folder called `chrome` inside the `chrome` folder created in step 3.
 
-- [Here](assets/firefox_customization/chrome/) is my custom `chrome` folder located in `C:\Users\bubba\AppData\Roaming\Mozilla\Firefox\Profiles\8rqcdtx2.default-release\`
+- [Here](https://github.com/bubbavox/firefox-css-tweaks) is a repo containing my custom `chrome` folder located in `C:\Users\bubba\AppData\Roaming\Mozilla\Firefox\Profiles\8rqcdtx2.default-release\`
 
 
 ---
