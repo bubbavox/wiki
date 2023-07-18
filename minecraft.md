@@ -8,7 +8,7 @@
 ## Current setup:
 *updated 2023-07-18*
   - [MultiMC] loader
-  - [Fabric] - modding toolchain, loads mods with Fabric Loader.
+  - [Fabric] - Both the Fabric API and the Fabric Loader.
   - [Sodium] - performance mod
   - [Iris] - for loading shaders
   - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558)
@@ -33,6 +33,8 @@
 [Quilt]: https://quiltmc.org/en/
 [ModMenu]: https://modrinth.com/mod/modmenu
 [BetterF3]: https://modrinth.com/mod/modmenu
+[Sodium Extra]: https://modrinth.com/mod/sodium-extra
+[Dynamic FPS]: https://modrinth.com/mod/dynamic-fps
  
 
 
