@@ -1,38 +1,14 @@
 # minecraft notes & hows-to
 
-Just got back into Minecraft -- have only done a bit of research on the latest mods, frameworks, etc.
+This page is a log of my Minecraft activities, and a compendium of my research.  Further down the page is a [detailed log of my setup](minecraft.md#my-setup), which might serve as a guide.  There is also good information on the [MultiMC wiki](https://github.com/MultiMC/MultiMC5/wiki).
 
 ## Info / Links:
 
+- MultiMC Minecraft Launcher - [website](https://multimc.org/) / [github](https://github.com/MultiMC/MultiMC5) / [wiki](https://github.com/MultiMC/MultiMC5/wiki) (good info here)
 - AMIDST map explorer - [github](https://github.com/toolbox4minecraft/amidst#amidst) / [forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2970854-amidst-map-explorer-for-minecraft-1-14-and-later)
 
-## My Minecraft setup log - July 2023 (WIP)
-
-*updated 2023-07-18*
-
-### Current setup:
-  - [MultiMC] loader
-  - [Fabric] - modding toolchain, loads mods with Fabric Loader.
-  - [Sodium] - performance mod
-  - [Iris] - for loading shaders
-  - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558)
-
-<!-- Page Links ---------->
-
-[MultiMC]: https://multimc.org/
-[Fabric]: https://fabricmc.net/
-[Sodium]: https://modrinth.com/mod/sodium
-[Iris]: https://irisshaders.dev/
-[Amidst]: https://github.com/toolbox4minecraft/amidst
-[SEUS]: https://www.patreon.com/sonicether
-
-
-
-
-
-
-___
-## old info (2020):
+## Minecraft setup:
+*updated 2020-12-09*
 
 **Alternative launcher: MultiMC** - [website](https://multimc.org/) / [github](https://github.com/MultiMC/MultiMC5) / [wiki](https://github.com/MultiMC/MultiMC5/wiki) - Custom install locations, multiple instances, Java config, built-in Fabric / Forge installers, etc.   The dev later joined the Minecraft team, but continues to work on MultiMC.  I'm using the development release, which is "mostly stable" at time of this writing. I created 2 instances of Minecraft, each with its own separate install directory.  This way I can swap shaders without changing a bunch of video settings, etc.
 1. *Fancy* - Fabric / OptiFabric / Optifine / shaders
@@ -85,3 +61,57 @@ ___
     - Download all mod jar files to MultiMC *Central Mod Folder* (accessible via instance's context menu) e.g. `D:\Games\Minecraft\MultiMC\mods`. Create subfolders if you wish.
     - To enable a mod for an instance, right-click and `edit instance`, then `Loader mods > Add >` choose jar file to add.  Then you are able to easily toggle mods on/off in the `Loader mods` menu.
 
+## Minecraft Gameplay Notes
+
+*updated August 2020*
+
+### little tricks
+- F3+T - reloads resource packs, audio devices, and who knows what else
+- F3+P - toggle pause on lost focus
+- F3+O - shader options (if applicable)
+- __inventory tricks:__
+  - ctrl+Q - drop stack at cursor (hold down for multiple stacks)
+  - double-click with item on cursor - transfer all stacks of that item
+     
+### contraptions
+
+#### item sorter
+- [tutorials @ wiki](https://minecraft.gamepedia.com/Tutorials/Hopper)
+- [video - compact sorter (2015)](https://www.youtube.com/watch?v=bx4VULALtqE)
+
+<details>
+<summary>my mining station's sorter categories:</summary>
+<ol>
+  <li> cobblestone
+  <li> stone
+  <li> diorite
+  <li> granite
+  <li> andesite
+  <li> dirt
+  <li> gravel
+  <li> coal
+  <li>iron
+  <li>  gold
+  <li>  redstone dust
+  <li>  lapis lazuli
+  <li>  diamond
+  <li>  flint
+  <li>  obsidian
+  <li>  unsorted:
+  <ul>
+    <li> emerald
+    <li> all ores
+  </ul>
+</ol>
+</details>
+
+### mob farms
+
+#### slime farm
+
+[ilmango's Very Efficient Slime Farm - 18,200 slimeballs/h (youtube 2017)](https://youtu.be/NBTN_oniHMo)
+
+### AutoHotkey scripts
+
+auto-click: F8 stops/starts -- clicks thrice every 140 seconds. \
+[script file](assets/MC_clicker_2_1.16.ahk)
