@@ -1,21 +1,26 @@
 # minecraft notes & hows-to
 
-Just got back into Minecraft -- have only done a bit of research on the latest mods, frameworks, etc.
-
 ## Info / Links:
-
+*updated 2023-07-18*
 - AMIDST map explorer - [github](https://github.com/toolbox4minecraft/amidst#amidst) / [forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2970854-amidst-map-explorer-for-minecraft-1-14-and-later)
 
-## My Minecraft setup log - July 2023 (WIP)
 
+## Current setup:
 *updated 2023-07-18*
-
-### Current setup:
   - [MultiMC] loader
   - [Fabric] - modding toolchain, loads mods with Fabric Loader.
   - [Sodium] - performance mod
   - [Iris] - for loading shaders
   - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558)
+  - [ModMenu]
+  - [BetterF3]
+
+
+## Things I want to check out:
+  - Sodium Extra
+  - Lithium
+  - Phosphor
+  - [Quilt] modloader
 
 <!-- Page Links ---------->
 
@@ -25,7 +30,10 @@ Just got back into Minecraft -- have only done a bit of research on the latest m
 [Iris]: https://irisshaders.dev/
 [Amidst]: https://github.com/toolbox4minecraft/amidst
 [SEUS]: https://www.patreon.com/sonicether
-
+[Quilt]: https://quiltmc.org/en/
+[ModMenu]: https://modrinth.com/mod/modmenu
+[BetterF3]: https://modrinth.com/mod/modmenu
+ 
 
 
 
@@ -33,6 +41,7 @@ Just got back into Minecraft -- have only done a bit of research on the latest m
 
 ___
 ## old info (2020):
+*info from my past Minecraft phase*
 
 **Alternative launcher: MultiMC** - [website](https://multimc.org/) / [github](https://github.com/MultiMC/MultiMC5) / [wiki](https://github.com/MultiMC/MultiMC5/wiki) - Custom install locations, multiple instances, Java config, built-in Fabric / Forge installers, etc.   The dev later joined the Minecraft team, but continues to work on MultiMC.  I'm using the development release, which is "mostly stable" at time of this writing. I created 2 instances of Minecraft, each with its own separate install directory.  This way I can swap shaders without changing a bunch of video settings, etc.
 1. *Fancy* - Fabric / OptiFabric / Optifine / shaders
