@@ -18,8 +18,8 @@
   - [Continuity] - Allows connected textures (e.g. seamless glass).  Built for Fabric API, also works with Optifine CTM stuff.
   - [Dynamic FPS] - Allows background FPS limiting
 ### Shaders:
-  - [SEUS Renewed 1.0.1](https://www.sonicether.com/seus/) - maybe my favorite
-  - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558) - beautiful but with a couple glitchy issues
+  - [SEUS Renewed 1.0.1](https://www.sonicether.com/seus/) - this is what I usually use
+  - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558) - beautiful ray tracing! but there are some glitchy issues.
   - [BSL](https://bitslablab.com/bslshaders/)
 
 ## Other things maybe worth checking out:
