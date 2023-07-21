@@ -14,7 +14,7 @@
   - [Iris] - for loading shaders
   - [ModMenu]
   - [BetterF3]
-  - [Continuity] - allows connected textures.  built for Fabric API, works with Optifine CTM stuff.
+  - [Continuity] - allows connected textures (e.g. seamless glass).  built for Fabric API, works with Optifine CTM stuff.
   - [Dynamic FPS] - allows background FPS limiting
 
 ## Other mods maybe worth checking out:
