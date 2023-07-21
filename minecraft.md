@@ -6,36 +6,43 @@
 
 
 ## Current setup:
-*updated 2023-07-18*
+*updated 2023-07-23*
   - [MultiMC] loader
   - [Fabric] - Both the Fabric API and the Fabric Loader.
-  - [Sodium] - performance mod
+  - [Sodium] - boosts rendering performance.  May also require Indium for some mods to work.
+  - [Indium] - addon for Sodium, providing support for the Fabric Rendering API.
   - [Iris] - for loading shaders
-  - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558)
   - [ModMenu]
   - [BetterF3]
+  - [Continuity] - allows connected textures.  built for Fabric API, works with Optifine CTM stuff.
+  - [Dynamic FPS] - allows background FPS limiting
 
-
-## Things I want to check out:
+## Other mods maybe worth checking out:
   - Sodium Extra
   - Lithium
   - Phosphor
-  - [Quilt] modloader
+  - [Quilt] modloader (I guess a Fabric spinoff?)
+
+## Shaders:
+  - [SEUS Renewed 1.0.1](https://www.sonicether.com/seus/)
+  - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558)
+  - [BSL](https://bitslablab.com/bslshaders/)
 
 <!-- Page Links ---------->
 
-[MultiMC]: https://multimc.org/
-[Fabric]: https://fabricmc.net/
-[Sodium]: https://modrinth.com/mod/sodium
-[Iris]: https://irisshaders.dev/
 [Amidst]: https://github.com/toolbox4minecraft/amidst
-[SEUS]: https://www.patreon.com/sonicether
-[Quilt]: https://quiltmc.org/en/
-[ModMenu]: https://modrinth.com/mod/modmenu
 [BetterF3]: https://modrinth.com/mod/modmenu
-[Sodium Extra]: https://modrinth.com/mod/sodium-extra
+[Continuity]: https://modrinth.com/mod/continuity
 [Dynamic FPS]: https://modrinth.com/mod/dynamic-fps
- 
+[Fabric]: https://fabricmc.net/
+[Indium]: https://modrinth.com/mod/indium
+[Iris]: https://irisshaders.dev/
+[ModMenu]: https://modrinth.com/mod/modmenu
+[MultiMC]: https://multimc.org/
+[Quilt]: https://quiltmc.org/en/
+[SEUS]: https://www.patreon.com/sonicether
+[Sodium Extra]: https://modrinth.com/mod/sodium-extra
+[Sodium]: https://modrinth.com/mod/sodium
 
 
 
