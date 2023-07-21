@@ -7,25 +7,25 @@
 
 ## Current setup:
 *updated 2023-07-23*
-  - [MultiMC] loader
-  - [Fabric] - Both the Fabric API and the Fabric Loader.
-  - [Sodium] - boosts rendering performance.  May also require Indium for some mods to work.
-  - [Indium] - addon for Sodium, providing support for the Fabric Rendering API.
-  - [Iris] - for loading shaders
-  - [ModMenu]
-  - [BetterF3]
-  - [Continuity] - allows connected textures (e.g. seamless glass).  built for Fabric API, works with Optifine CTM stuff.
-  - [Dynamic FPS] - allows background FPS limiting
+  - [MultiMC] - Game launcher with extra features, such as the ability to manage multiple instances of the game.
+  - [Fabric] - Core tech for using mods.  This includes the Fabric Loader and the Fabric API. 
+  - [Sodium] - Improves rendering performance.  May also require Indium for some mods to work.
+  - [Indium] - Addon for Sodium, providing support for the Fabric Rendering API.
+  - [Iris] - For loading shader mods (an alternative to OptiFine).  Requires Sodium.
+  - [ModMenu] - Adds an in-game GUI for configuring mods.
+  - [BetterF3] - Configure the F3 HUD with all kinds of useful data.
+  - [Continuity] - Allows connected textures (e.g. seamless glass).  Built for Fabric API, also works with Optifine CTM stuff.
+  - [Dynamic FPS] - Allows background FPS limiting
 
 ## Other mods maybe worth checking out:
   - Sodium Extra
-  - Lithium
-  - Phosphor
+  - Lithium - improves performance of various aspects of the game
+  - Phosphor - improves performance of lighting
   - [Quilt] modloader (I guess a Fabric spinoff?)
 
 ## Shaders:
-  - [SEUS Renewed 1.0.1](https://www.sonicether.com/seus/)
-  - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558)
+  - [SEUS Renewed 1.0.1](https://www.sonicether.com/seus/) - maybe my favorite
+  - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558) - beautiful but with a couple glitchy issues
   - [BSL](https://bitslablab.com/bslshaders/)
 
 <!-- Page Links ---------->
