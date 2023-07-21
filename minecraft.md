@@ -32,6 +32,61 @@
   - [custom window title](https://www.curseforge.com/minecraft/mc-mods/custom-window-title) - useful for sending AutoHotkey scripts to a uniquely titled window.
   - [List: Optifine replacement mods](https://lambdaurora.dev/optifine_alternatives/) - Mods which perform some of the functions offered by Optifine.
 
+## Minecraft Gameplay Notes
+
+*updated August 2020*
+
+### little tricks
+- F3+T - reloads resource packs, audio devices, and who knows what else
+- F3+P - toggle pause on lost focus
+- F3+O - shader options (if applicable)
+- __inventory tricks:__
+  - ctrl+Q - drop stack at cursor (hold down for multiple stacks)
+  - double-click with item on cursor - transfer all stacks of that item
+     
+### contraptions
+
+#### item sorter
+- [tutorials @ wiki](https://minecraft.gamepedia.com/Tutorials/Hopper)
+- [video - compact sorter (2015)](https://www.youtube.com/watch?v=bx4VULALtqE)
+
+<details>
+<summary>my mining station's sorter categories:</summary>
+<ol>
+  <li> cobblestone
+  <li> stone
+  <li> diorite
+  <li> granite
+  <li> andesite
+  <li> dirt
+  <li> gravel
+  <li> coal
+  <li>iron
+  <li>  gold
+  <li>  redstone dust
+  <li>  lapis lazuli
+  <li>  diamond
+  <li>  flint
+  <li>  obsidian
+  <li>  unsorted:
+  <ul>
+    <li> emerald
+    <li> all ores
+  </ul>
+</ol>
+</details>
+
+### mob farms
+
+#### slime farm
+
+[ilmango's Very Efficient Slime Farm - 18,200 slimeballs/h (youtube 2017)](https://youtu.be/NBTN_oniHMo)
+
+### AutoHotkey scripts
+
+auto-click: F8 stops/starts -- clicks thrice every 140 seconds. \
+[script file](assets/MC_clicker_2_1.16.ahk)
+
 <!-- Page Links ---------->
 
 [Amidst]: https://github.com/toolbox4minecraft/amidst
