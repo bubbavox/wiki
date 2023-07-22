@@ -21,16 +21,17 @@
   - [SEUS Renewed 1.0.1](https://www.sonicether.com/seus/) - this is what I usually use
   - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558) - beautiful ray tracing! but there are some glitchy issues.
   - [BSL](https://bitslablab.com/bslshaders/)
-
+### Resource Packs:
+  - [VanillaTweaks.net](https://www.vanillatweaks.net) - mix and match packs.  e.g. *Borderless Glass + Clean Glass*. Also has data packs.
 ## Other things maybe worth checking out:
   - Sodium Extra
   - Lithium - improves performance of various aspects of the game
   - Phosphor - improves performance of lighting
   - [Quilt] modloader (I guess a Fabric spinoff?)
   - MiniHUD
-  - [Lamb Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights) - Adds dynamic lights (if not using Optifine).
-  - [custom window title](https://www.curseforge.com/minecraft/mc-mods/custom-window-title) - useful for sending AutoHotkey scripts to a uniquely titled window.
-  - [List: Optifine replacement mods](https://lambdaurora.dev/optifine_alternatives/) - Mods which perform some of the functions offered by Optifine.
+  - [Lamb Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights) - Adds dynamic lights.
+  - [custom window title](https://www.curseforge.com/minecraft/mc-mods/custom-window-title) - Useful for sending AutoHotkey scripts to a uniquely titled window.
+  - [List: Optifine replacement mods](https://lambdaurora.dev/optifine_alternatives/) - List of mods which perform some of the functions offered by Optifine, compiled by the creator of OptiFabric.
 
 ## Minecraft Gameplay Notes
 
@@ -42,7 +43,8 @@
 - F3+O - shader options (if applicable)
 - __inventory tricks:__
   - ctrl+Q - drop stack at cursor (hold down for multiple stacks)
-  - double-click with item on cursor - transfer all stacks of that item
+  - double-shift-click with item on cursor - transfer all stacks of that item
+  - [Inventory Controls @ Minecraft Wiki](https://minecraft.fandom.com/wiki/Inventory#Managing_inventory)
      
 ### contraptions
 
