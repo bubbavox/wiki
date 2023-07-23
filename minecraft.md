@@ -14,7 +14,8 @@
   - [Indium] - Addon for Sodium, providing support for the Fabric Rendering API.
   - [Iris] - For loading shader mods (an alternative to OptiFine).  Requires Sodium.
   - [ModMenu] - Adds an in-game GUI for configuring mods.
-  - [BetterF3] - Configure the F3 HUD with all kinds of useful data.
+  - [BetterF3] - Custom HUD with all kinds of useful info. I use this one for coordinates, biome type, etc. I like the text coloring.
+  - [MiniHUD] - Custom HUD with all kinds of useful info.  I use the graphical overlays, e.g. chunk borders, light levels. Easier to customize that BetterF3, but no custom text colors.  Requires [MaLiLib].
   - [Continuity] - Allows connected textures (e.g. seamless glass).  Built for Fabric API, also works with Optifine CTM stuff.
   - [Dynamic FPS] - Allows background FPS limiting
 ### Shaders:
@@ -98,6 +99,8 @@ auto-click: F8 stops/starts -- clicks thrice every 140 seconds. \
 [Fabric]: https://fabricmc.net/
 [Indium]: https://modrinth.com/mod/indium
 [Iris]: https://irisshaders.dev/
+[MaLiLib]: https://legacy.curseforge.com/minecraft/mc-mods/malilib
+[MiniHUD]: https://www.curseforge.com/minecraft/mc-mods/minihud
 [ModMenu]: https://modrinth.com/mod/modmenu
 [MultiMC]: https://multimc.org/
 [Quilt]: https://quiltmc.org/en/
