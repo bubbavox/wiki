@@ -49,38 +49,37 @@
      
 ### contraptions
 
-#### item sorter
+**item sorter:**
 - [tutorials @ wiki](https://minecraft.gamepedia.com/Tutorials/Hopper)
 - [video - compact sorter (2015)](https://www.youtube.com/watch?v=bx4VULALtqE)
-
-<details>
-<summary>my mining station's sorter categories:</summary>
-<ol>
-  <li> cobblestone
-  <li> stone
-  <li> diorite
-  <li> granite
-  <li> andesite
-  <li> dirt
-  <li> gravel
-  <li> coal
-  <li>iron
-  <li>  gold
-  <li>  redstone dust
-  <li>  lapis lazuli
-  <li>  diamond
-  <li>  flint
-  <li>  obsidian
-  <li>  unsorted:
-  <ul>
-    <li> emerald
-    <li> all ores
-  </ul>
-</ol>
-</details>
+- <details>
+  <summary>my mining station's sorter categories:</summary>
+  <ol>
+    <li> cobblestone
+    <li> stone
+    <li> diorite
+    <li> granite
+    <li> andesite
+    <li> dirt
+    <li> gravel
+    <li> coal
+    <li>iron
+    <li>  gold
+    <li>  redstone dust
+    <li>  lapis lazuli
+    <li>  diamond
+    <li>  flint
+    <li>  obsidian
+    <li>  unsorted:
+    <ul>
+      <li> emerald
+      <li> all ores
+    </ul>
+  </ol>
+  </details>
 
 [ilmango's Very Efficient Slime Farm - 18,200 slimeballs/h (youtube 2017)](https://youtu.be/NBTN_oniHMo)
-
+___
 [AutoHotkey script: auto-click](assets/MC_clicker_2_1.16.ahk) - clicks thrice every 140 seconds. F8 starts/stops -- but the toggle doesn't always work. (I usually use 'reload script' instead). Uses AHK v1.
 
 <!-- Page Links ---------->
