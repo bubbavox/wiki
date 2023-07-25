@@ -18,6 +18,8 @@
   - [MiniHUD] - Custom HUD with all kinds of useful info.  I use the graphical overlays, e.g. chunk borders, light levels. Easier to customize that BetterF3, but no custom text colors.  Requires [MaLiLib].
   - [Continuity] - Allows connected textures (e.g. seamless glass).  Built for Fabric API, also works with Optifine CTM stuff.
   - [Dynamic FPS] - Allows background FPS limiting
+  - [Sodium Extra] - *"Sodium Extra aims to bring most of OptiFine's eye-candy options to Sodium; in addition to providing some features such as visual bug fixes and other performance options that are not yet available on Sodium."*
+  - [Reece's Sodium Options] - *"Replaces Sodium's Options Screen with intention of improving UX (from the Creator of Sodium Extra)."*
 ### Shaders:
   - [SEUS Renewed 1.0.1](https://www.sonicether.com/seus/) - this is what I usually use
   - [SEUS PTGI Shaders HRR 3](https://www.patreon.com/posts/download-seus-3-60268558) - beautiful ray tracing! but there are some glitchy issues.
@@ -25,15 +27,13 @@
 ### Resource Packs:
   - [VanillaTweaks.net](https://www.vanillatweaks.net) - mix and match packs.  e.g. *Borderless Glass + Clean Glass*. Also has data packs.
 ## Other things maybe worth checking out:
-  - Sodium Extra
-  - Lithium - improves performance of various aspects of the game
-  - Phosphor - improves performance of lighting
+  - [Lithium] - *No-compromises game logic/server optimization mod*
+  - [Phosphor] - *No-compromises lighting engine optimization mod*
+  - [Nvidium] - *"Replacement rendering backend for sodium that uses nvidia only opengl extensions to increase fps by a significant amount... This mod is in very early alpha, expect many issues and crashes."*
   - [Quilt] modloader (I guess a Fabric spinoff?)
-  - MiniHUD
   - [Lamb Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights) - Adds dynamic lights.
   - [custom window title](https://www.curseforge.com/minecraft/mc-mods/custom-window-title) - Useful for sending AutoHotkey scripts to a uniquely titled window.
   - [List: Optifine replacement mods](https://lambdaurora.dev/optifine_alternatives/) - List of mods which perform some of the functions offered by Optifine, compiled by the creator of OptiFabric.
-
 ## Minecraft Gameplay Notes
 
 *updated August 2020*
@@ -79,16 +79,9 @@
 </ol>
 </details>
 
-### mob farms
-
-#### slime farm
-
 [ilmango's Very Efficient Slime Farm - 18,200 slimeballs/h (youtube 2017)](https://youtu.be/NBTN_oniHMo)
 
-### AutoHotkey scripts
-
-auto-click: F8 stops/starts -- clicks thrice every 140 seconds. \
-[script file](assets/MC_clicker_2_1.16.ahk)
+[AutoHotkey script: auto-click](assets/MC_clicker_2_1.16.ahk) - clicks thrice every 140 seconds. F8 starts/stops -- but the toggle doesn't always work. (I usually use 'reload script' instead). Uses AHK v1.
 
 <!-- Page Links ---------->
 
@@ -99,11 +92,15 @@ auto-click: F8 stops/starts -- clicks thrice every 140 seconds. \
 [Fabric]: https://fabricmc.net/
 [Indium]: https://modrinth.com/mod/indium
 [Iris]: https://irisshaders.dev/
+[Lithium]: https://modrinth.com/mod/lithium
 [MaLiLib]: https://legacy.curseforge.com/minecraft/mc-mods/malilib
 [MiniHUD]: https://www.curseforge.com/minecraft/mc-mods/minihud
 [ModMenu]: https://modrinth.com/mod/modmenu
 [MultiMC]: https://multimc.org/
+[Nvidium]: https://modrinth.com/mod/nvidium
+[Phosphor]: https://modrinth.com/mod/phosphor
 [Quilt]: https://quiltmc.org/en/
+[Reece's Sodium Options]: https://modrinth.com/mod/reeses-sodium-options
 [SEUS]: https://www.patreon.com/sonicether
 [Sodium Extra]: https://modrinth.com/mod/sodium-extra
 [Sodium]: https://modrinth.com/mod/sodium
