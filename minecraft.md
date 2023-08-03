@@ -3,7 +3,7 @@
 ## Useful links:
 *updated 2023-07-18*
 - AMIDST map explorer - [github](https://github.com/toolbox4minecraft/amidst#amidst) / [forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2970854-amidst-map-explorer-for-minecraft-1-14-and-later)
-- Minecraft design tool
+- [Minecraft design tool]
 __________________
 
 ## Current setup:
