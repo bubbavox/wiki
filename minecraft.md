@@ -3,6 +3,7 @@
 ## Useful links:
 *updated 2023-07-18*
 - AMIDST map explorer - [github](https://github.com/toolbox4minecraft/amidst#amidst) / [forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/2970854-amidst-map-explorer-for-minecraft-1-14-and-later)
+- Minecraft design tool
 __________________
 
 ## Current setup:
@@ -99,6 +100,7 @@ ___
 [Lithium]: https://modrinth.com/mod/lithium
 [MaLiLib]: https://legacy.curseforge.com/minecraft/mc-mods/malilib
 [MiniHUD]: https://www.curseforge.com/minecraft/mc-mods/minihud
+[Minecraft design tool]: https://mcdesign.michd.me/
 [ModMenu]: https://modrinth.com/mod/modmenu
 [MultiMC]: https://multimc.org/
 [Nvidium]: https://modrinth.com/mod/nvidium
