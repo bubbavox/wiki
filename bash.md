@@ -1,3 +1,13 @@
+---
+title: bash
+description: 
+published: true
+date: 2023-07-22T17:43:06.409Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:01.218Z
+---
+
 # bash
 
 [linux shell wiki](https://bash.cyberciti.biz/guide/Main_Page) \

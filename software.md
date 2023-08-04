@@ -1,3 +1,13 @@
+---
+title: software
+description: 
+published: true
+date: 2023-07-22T17:44:02.400Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:33.533Z
+---
+
 ## documents
 - [Pandoc](https://pandoc.org) - universal document converter (cross-platform)
 - [StackEdit](https://stackedit.io/app#) - **online** markdown editor by [benweet](https://github.com/benweet)

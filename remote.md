@@ -1,3 +1,13 @@
+---
+title: remote
+description: 
+published: true
+date: 2023-07-22T17:43:42.452Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:22.402Z
+---
+
 ## SSH
 - [Guide: How to set up SSH keys on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04) (Digital Ocean 2020-04-23)
 - [Guide: How to use SSH to Connect to a Remote Server in Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-to-connect-to-a-remote-server-in-ubuntu) (Digital Ocean 2013-02-10)

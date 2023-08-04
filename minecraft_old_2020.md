@@ -1,3 +1,13 @@
+---
+title: minecraft_old_2020
+description: 
+published: true
+date: 2023-07-22T17:43:31.077Z
+tags: 
+editor: markdown
+dateCreated: 2023-07-22T17:43:28.268Z
+---
+
 # minecraft notes & hows-to
 
 This page is a log of my Minecraft activities, and a compendium of my research.  Further down the page is a [detailed log of my setup](minecraft.md#my-setup), which might serve as a guide.  There is also good information on the [MultiMC wiki](https://github.com/MultiMC/MultiMC5/wiki).

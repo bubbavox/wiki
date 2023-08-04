@@ -1,3 +1,13 @@
+---
+title: wood_finishes
+description: 
+published: true
+date: 2023-07-22T17:44:36.009Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:54.583Z
+---
+
 - shellac
 - paste wax
 

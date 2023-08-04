@@ -1,3 +1,13 @@
+---
+title: ruby
+description: 
+published: true
+date: 2023-07-22T17:43:52.390Z
+tags: 
+editor: markdown
+dateCreated: 2023-07-22T17:43:49.778Z
+---
+
 # Ruby
 
 Related: [Sketchup + Ruby](sketchup_ruby.md) | [VS Code](vscode.md) | [WSL](wsl.md) 

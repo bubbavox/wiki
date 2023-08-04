@@ -1,3 +1,13 @@
+---
+title: video_work
+description: 
+published: true
+date: 2023-07-22T17:44:25.294Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:46.760Z
+---
+
 # video work
 
 ## video editors

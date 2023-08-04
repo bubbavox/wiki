@@ -1,3 +1,13 @@
+---
+title: electrical
+description: 
+published: true
+date: 2023-07-22T17:43:09.093Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:04.070Z
+---
+
 related: [soldering](soldering.md)
 
 https://www.fluke.com/en-us/learn

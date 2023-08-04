@@ -1,3 +1,13 @@
+---
+title: asciidoc
+description: 
+published: true
+date: 2023-07-22T17:43:02.769Z
+tags: 
+editor: markdown
+dateCreated: 2023-07-22T17:42:59.582Z
+---
+
 # AsciiDoc
 
 https://asciidoc.org/

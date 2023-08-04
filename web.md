@@ -1,3 +1,13 @@
+---
+title: web
+description: 
+published: true
+date: 2023-07-22T17:44:30.124Z
+tags: 
+editor: markdown
+dateCreated: 2023-07-22T17:44:27.796Z
+---
+
 ## browser extensions
 
 Potential cookie / privacy addons, untested:

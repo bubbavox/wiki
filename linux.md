@@ -1,3 +1,13 @@
+---
+title: linux
+description: 
+published: true
+date: 2023-07-22T17:43:19.660Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:14.477Z
+---
+
 ## DISTROS
 
 - debian slim - [recommended by Avdi Grimm for deployment]

@@ -1,3 +1,13 @@
+---
+title: sketchup
+description: 
+published: true
+date: 2023-08-04T19:47:28.186Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:27.539Z
+---
+
 
 # SketchUp        <!-- omit in toc -->
 

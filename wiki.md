@@ -1,3 +1,13 @@
+---
+title: wiki
+description: 
+published: true
+date: 2023-07-22T17:44:33.661Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:51.969Z
+---
+
 # wiki
 
 [phi's wiki comparison spreadsheet](https://docs.google.com/spreadsheets/d/1db0EUtSRvEg_nBHQZWlgogTwoui3iXdllapLlj4ES78/edit?usp=sharing)

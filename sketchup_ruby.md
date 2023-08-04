@@ -1,3 +1,13 @@
+---
+title: sketchup_ruby
+description: 
+published: true
+date: 2023-07-22T17:43:59.596Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:30.878Z
+---
+
 
 # SketchUp + Ruby     <!-- omit in toc -->
 

@@ -1,3 +1,13 @@
+---
+title: vscode
+description: 
+published: true
+date: 2023-07-22T17:44:27.752Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:20:49.388Z
+---
+
 # VS Code
 
 ## contents       <!-- omit in toc -->

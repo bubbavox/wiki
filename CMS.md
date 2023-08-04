@@ -1,3 +1,13 @@
+---
+title: CMS
+description: 
+published: true
+date: 2023-07-22T17:42:51.766Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:19:48.138Z
+---
+
 ### content management systems
 
 - Hugo - [website](http://gohugo.io/) - [GitHub](https://github.com/gohugoio) - [guide to installing on Windows](https://gohugo.io/getting-started/installing#windows)

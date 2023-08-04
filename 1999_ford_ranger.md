@@ -1,3 +1,13 @@
+---
+title: 1999_ford_ranger
+description: 
+published: true
+date: 2023-07-22T17:42:44.875Z
+tags: 
+editor: markdown
+dateCreated: 2021-01-27T23:19:41.813Z
+---
+
 # 1999 Ford Ranger XLT 3.0L V6 5-speed
 
 -------------
