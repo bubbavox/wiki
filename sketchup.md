@@ -10,13 +10,16 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 - [My setup](#my-setup)
 - [controls](#controls)
 - [backups](#backups)
-- [saving & restoring settings](#saving--restoring-settings)
+- [saving \& restoring settings](#saving--restoring-settings)
+- [best practices](#best-practices)
+- [workflows](#workflows)
+  - [**Remodel / Addition:**  From conceptual design to construction documents.](#remodel--addition--from-conceptual-design-to-construction-documents)
 - [materials](#materials)
-  - [nested materials & the *default* material:](#nested-materials--the-default-material)
+  - [nested materials \& the *default* material:](#nested-materials--the-default-material)
   - [component materials workflow](#component-materials-workflow)
   - [Managing materials](#managing-materials)
     - [Custom materials](#custom-materials)
-- [Axes & Inference](#axes--inference)
+- [Axes \& Inference](#axes--inference)
 - [tips](#tips)
 - [techniques](#techniques)
   - [proxy modeling](#proxy-modeling)
@@ -27,7 +30,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 
 ## extensions
 
-**My existentially essential extensions:**
+**My existentially essential extensions (MEEE):**
 
 - [Selection Toys]
 - [Eneroth Solid Tools] -- _"Solid tools designed to feel native to SketchUp."_
@@ -179,6 +182,7 @@ alt-A       | UI - Show Outliner Tab
 alt-S       | UI - Show Layers Tab
 alt-D       | UI - Show Scenes Tab
 shift-R     | Reverse Faces (must have a face selected to create shortcut)
+alt-I       | Show Model Info -- esp. useful for a quick 'Purge Unused'.
   
 </details>
 
@@ -201,6 +205,66 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 
 --------------
 
+## best practices
+*updated 2023-08-04*
+
+- Simple heirarchies: Leverage groups & tags, but only create as much complexity as needed.
+  - This facilitates faster navigation of the model, faster modification of entities, and makes it easier to *change* the heirarchy if needed.
+  - e.g. for concept modeling, have simple 'shell' walls, and put door/window components inside them, so that doors/windows can be easily selected and moved along with raw openings in the wall. Likewise, minimize groupings in doors/windows, so that it's easy to resize them, by selecting raw geometry with a selection box.
+- Don't repeat yourself ([D.R.Y.])
+  - components
+  - templates
+  - material collections
+  - style collections
+- Always have 'Untagged' set as the active tag.
+- Customize [keyboard shortcuts](#controls) for your workflow.
+- Name things & use Outliner.  Give outliner an easy keybind (I use alt+S).
+- Make [backups](#backups).
+- **LayOut specific best practices:**
+  - Work in raster when possible, then later change to vector/hybrid. (performance)
+  - Render low- or medium-res, output high-res. (performance)
+  - Use Layers.  Just remember to change the active layer.  Or mimic SketchUp's 'Untagged' layer and work on that by default, manually assigning Layers to elements.
+    - example layers:  `dimensions, labels, page notes, on every page, model-A, model-B`
+  - I get a frequent crash in 2023, when I render views.  I think I've found a workaround, see this [post](https://forums.sketchup.com/t/layout-crashing-frequently-su-2023/234944) on SU forums.
+--------------
+## workflows
+*updated 2023-08-04*
+
+### **Remodel / Addition:**  From conceptual design to construction documents.
+Potential requirements:
+- show proposed / existing / demo elements -- both independently and simultaneously.  
+- rapid prototyping of different layouts & materials
+- export model to external software (e.g. rendering)
+- generate reports (e.g. material lists, areas)
+- work w/ LayOut in all stages, for creation of various presentations.  Whenever possible, make changes in SketchUp, rather than in LayOut ([D.R.Y.], and also LO can be a pain)
+- be accessible to others via SketchUp, 3Dwarehouse, or SketchUp Viewer.
+
+In the early conceptual phase, assemblies (floors, walls) will be simple 'shell' solids with minimal sub-groups, to make it easy to experiment with layouts, window placement, etc.
+
+Once the basic schematic design is established, structural details will be added, and construction documents made. Sometimes the shell assemblies will suffice with minimal change, but sometimes it's necessary to add sub-assemblies (e.g. `floor framing`, `floor sheathing`, `floor finish`). Sometimes I *replace* the shell entities with these detailed assemblies -- other times I *combine* them.  Example: `wall shell` is 5 in. thick to represent the full wall assembly, then later represents the `wall cladding` (int. gypsum and/or ext. siding), with `wall framing` and `wall sheathing` inside it.
+
+I like to maintain just one SketchUp model for any given project, when possible.  One of the exceptions might be when using rendering software -- it might be necessary to heavily modify the heirarchies or materials in a model, in order to make rendering easier.  And sometimes after the concept phase is complete, I make a new model for structural design & documentation.
+
+  Note on sections:
+  Sometimes I don't want to cut everything in the model -- e.g. cut walls & stairs but  not 2D dashes showing objects above the cut.  One option is to make a 'section group' which contains the groups I want to cut (e.g. it contains `walls`, `stairs`, `columns`).  Another option is copying a section and *pasting-in-place* between different groups (e.g. from `proposed` to `existing` or from `wall group` to `column group`. It helps to name sections with a common prefix (e.g. `sec`), to be able to find them quickly via Outliner (e.g. `sec_P1` for cut(s) of main level plan views).
+
+**heirarchies** (via grouping / tagging):
+
+- **A**
+  - build state (`proposed` / `existing` / `demo`)
+    - assemblies (`wall assy.` etc)
+      - sub-assemblies (`wall framing`, `wall cladding ext.` etc)
+
+
+- **B**
+  - optional `section group` which contains multiple assemblies / groups to be sectioned with one cut (e.g. walls, stairs, columns)
+    - assemblies (`floor assy.` etc)
+      - section cuts as needed
+      - build state (`proposed` / `existing` / `demo`)
+        - sub-assemblies (`floor framing` etc)
+
+--------------
+
 ## materials
 plugin: [Material Replacer] - requires [TT_Lib²] \
 plugin: [Material Tools] - requires [TT_Lib²] \
@@ -220,15 +284,15 @@ In other words, if an entity is unpainted (painted with *default*), it's like an
 
 ### component materials workflow
 If you paint a component, it doesn't apply to that component's copies -- you're painting the instance of the component (its container).  You must go a level deeper.  Here are 2 example heirarchies which let you easily paint all copies of a component in bulk.
-- workflow A: *brute force* 
+- workflow A: *paint the raw geometry*
   - *component* - `default material`
     - *raw geometry* - `your material` (you can quickly paint all faces by holding `shift`, or select multiple faces before painting)
 - workflow B: *create a group within the component for the purpose of painting.*
   - *component* - `default material`
     - *group* - `your material`
-      - *raw geometry* - default material
+      - *raw geometry* - `default material`, and optionally individual faces with a unique material.
 
-Sometimes you need to reset certain layers (containers or entities) to the default material.  There are plugins which make this easier.
+Sometimes you need to reset numerous entities (groups, components, faces) to the default material.  There are plugins which make this easier.
 
 ### Managing materials
 ...
@@ -301,7 +365,12 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 
 <!-- Page Links ---------->
 
+<!-- Misc -->
+
+[D.R.Y.]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself "Don't repeat yourself: Every piece of knowledge must have a single, unambiguous, authoritative representation within a system..."
 [SharpKeys]: https://www.randyrants.com/category/sharpkeys/
+
+<!-- Extensions -->
 
 [TT_Lib²]: https://sketchucation.com/plugin/726-tt_lib
 [LibFredo]: https://sketchucation.com/plugin/903-libfredo6
