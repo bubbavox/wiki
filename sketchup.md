@@ -217,11 +217,19 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
   - material collections
   - style collections
 - Always have 'Untagged' set as the active tag.
+- Simplify geometry as much as possible.  This will make it easier to modify, and also will improve performance.  
+- Be careful when using models from other users, or imported from other software -- they might have overly complex geometry, might contain unusual groupings or component cloning, or might introduce new tags & materials into your model.
 - Customize [keyboard shortcuts](#controls) for your workflow.
-- Name things & use Outliner.  Give outliner an easy keybind (I use alt+S).
+- Name things, and use Outliner.  Give Outliner an easy keybind (I use alt+S).
 - Make [backups](#backups).
 - **LayOut specific best practices:**
-  - Work in raster when possible, then later change to vector/hybrid. (performance)
+  - When possible, make changes in SketchUp, rather than in LayOut. Because [D.R.Y.], and also because SU has better performance/stability and is easier to use.
+    - Use SketchUp scenes to control what is visible in a viewport.
+    - Draw 2D lines in SU when practical. This minimizes what needs to be managed in LayOut, and carries those lines into copied viewports, etc. 
+      - For example, 2D dashes indicating hidden geometry can be placed in the same group as a corresponding 3D element, and assigned a tag such as `2D-dashed`. This way, if you move the 3D objects, the 2D dashed lines will also move. If the lines are specific to a single document view, they could be tagged with something like `2D-dashed-P1`..
+  - Minimize what is shown in each view.  Select only necessary tags. In the SU model, use entities with simple geometry, or even 2D.
+    - I maintain a collection of custom components -- things like sofas, toilets, shower enclosures -- each of which contains a 3D object tagged `>3D`, and a corresponding 2D object tagged `>2D` for use in plan views. Sometimes they also contain dashed lines tagged with `>2D dashed`.  The `>` prefix is for the sorting of my tag list. I always use those tags, and my SU/LO templates are set up accordingly.  
+  - Work in raster when possible, then later change to vector/hybrid if necessary. (performance)
   - Render low- or medium-res, output high-res. (performance)
   - Use Layers.  Just remember to change the active layer.  Or mimic SketchUp's 'Untagged' layer and work on that by default, manually assigning Layers to elements.
     - example layers:  `dimensions, labels, page notes, on every page, model-A, model-B`
