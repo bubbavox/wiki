@@ -25,15 +25,13 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 - [workflows](#workflows)
   - [**Remodel / Addition:**  From conceptual design to construction documents.](#remodel--addition--from-conceptual-design-to-construction-documents)
 - [materials](#materials)
-  - [nested materials \& the *default* material:](#nested-materials--the-default-material)
+  - [basics: nested materials \& the *default* material:](#basics-nested-materials--the-default-material)
   - [component materials workflow](#component-materials-workflow)
-  - [Managing materials](#managing-materials)
-    - [Custom materials](#custom-materials)
+  - [misc. Materials tips:](#misc-materials-tips)
 - [Axes \& Inference](#axes--inference)
-- [tips](#tips)
+- [misc. tips](#misc-tips)
 - [techniques](#techniques)
   - [proxy modeling](#proxy-modeling)
-  - [conceptual design](#conceptual-design)
 - [My to do](#my-to-do)
 
 --------------
@@ -50,10 +48,11 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 - [Turn Off Layer In All Scenes (TOLIAS)] --  Turns off the _active_ layer in all scenes.  I'm working on my own modified version which also turns _on_ a layer in all scenes.
 - [SketchUp Shapes]
 - [Eneroth Legacy Save]
+- [Material Replacer] -- requires [TT_Lib²] -- _"Replace one material for another by picking material in the model"_. __SketchUp has [material replacement built-in](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material) but it seems to only work within a modelling context, i.e. within a group...(investigate)__
 
 
 **Some more of my favorite plugins:**
-- [Material Replacer] -- requires [TT_Lib²] -- _"Replace one material for another by picking material in the model"_. __SketchUp has [material replacement built-in](https://help.sketchup.com/en/sketchup/adding-colors-and-textures-materials#replace-material) but it seems to only work within a modelling context, i.e. within a group...(investigate)__
+
 - [Attribute Inspector] (Aerilius) - [github](https://github.com/Aerilius/sketchup-attribute-inspector) -  *A viewer and editor for entity and model attributes*
 - [Eneroth Visual Merge] -- $ / trial -- automagically hides lines & faces where selected groups touch, making them appear to be seamless.
 - [Component Properties] -- requires [TT_Lib²]
@@ -154,7 +153,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 
 I think keyboard shortcuts are essential to efficient, fluid work.
 
-I use a W-A-S-D hand position (gaming-style), and have chosen key assignments based on ergonomics / frequency of use.
+I use a WASD hand position (gamer-style), and have chosen key assignments based on ergonomics / frequency of use.
 
 To further ergonomify, I've swapped a few keys around on the keyboard, using [SharpKeys]: \
 `Ctrl` <--> `Caps` \
@@ -196,10 +195,12 @@ alt-I       | Show Model Info -- esp. useful for a quick 'Purge Unused'.
   
 </details>
 
+Note that keyboard shortcuts can only be set while they are usable.  For example, to assign a shortcut to *Reverse Faces* you must first select a face.
+
 -------------
 
 ## backups
-By default, SketchUp autosaves to a temp file, and if the program crashes it offers to load that file.  I save my files directly to a cloud folder (OneDrive), although this can be risky. For extra protection, I use [Bvckup2](https://bvckup2.com/) to automatically save a timestamped copy of the current project folder every 20 minutes (6 copies at a time).  I also keep an external backup of my work folders, updated frequently.
+By default, SketchUp autosaves to a temp file, and if the program crashes it offers to load that file.  I save my files directly to a cloud folder (OneDrive), although this can sometimes be finicky (OneDrive has been fine for me, but Google Drive gave me trouble in the past). For extra protection, I use [Bvckup2](https://bvckup2.com/) to automatically maintain a 1:1 backup of my entire *projects* folder, as well as archive timestamped copies of any files which are modified or deleted (to a different local drive).  I also use it to make less frequent backups to an external drive.  Many times I have been saved by either my archived backups, or by OneDrive's online file history.
 
 -----------
 
@@ -207,11 +208,10 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 
 [helpful thread @ SketchUp forums](https://forums.sketchup.com/t/toolbars-and-setup-when-updating/115002/4)
 
-- **keyboard shortcuts & folder locations:** these settings can be imported / exported to a single file, separately or combined.
-- **custom UI:**  I think this might be possible, but it's not straightforward, and I've not tested it sufficiently. On a fresh install, I customize the UI from scratch.
-- **plugins:** SketchUp installs plugins in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Plugins`.  I typically save the plugin download `.rbz` files, and reinstall from these using the Extension Manager. The safest method is to re-download each plugin.  Note that sometimes plugins are compatible with the newest version of Sketchup, even if they don't say so.
-- **templates:** Stored in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Templates`. Note: this folder location cannot be customized in SketchUp preferences.
-- Layout ...
+- **keyboard shortcuts & folder locations:** these settings can be imported / exported to a single file.
+- **custom UI:**  I think it's possible to backup your UI config, but it's not straightforward, and I've not tested it sufficiently. On a fresh install, I always customize the UI from scratch.
+- **plugins:** SketchUp installs plugins in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Plugins`.  While it might work to simply backup & restore this folder, I play it safe and either reinstall fresh plugins from the Extension Warehouse, or install my backed up `.rbz` files using the Extension Manager.
+- **templates:** Stored in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Templates`. Note: this folder location cannot be customized in SketchUp preferences.  I place a helpful shortcut to this folder in my personal templates folder, and copy templates over as needed.  If you really wanted to use a custom location, you could probably do it with symlinks[https://en.wikipedia.org/wiki/Symbolic_link], but that's pretty advanced.
 
 --------------
 
@@ -241,10 +241,12 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
     - I maintain a collection of custom components -- things like sofas, toilets, shower enclosures -- each of which contains a 3D object tagged `>3D`, and a corresponding 2D object tagged `>2D` for use in plan views. Sometimes they also contain dashed lines tagged with `>2D dashed`.  The `>` prefix is for the sorting of my tag list. I always use those tags, and my SU/LO templates are set up accordingly.  
   - Work in raster when possible, then later change to vector/hybrid if necessary. (performance)
   - Render low- or medium-res, output high-res. (performance)
-  - Use Layers.  Just remember to change the active layer.  Or mimic SketchUp's 'Untagged' layer and work on that by default, manually assigning Layers to elements.
-    - example layers:  `dimensions, labels, page notes, on every page, model-A, model-B`
+  - Use Layers.  Consider adopting a similar workflow as with SketchUp Tags: working always in the Default layer, and manually assigning Layers to elements after they are created.  In LayOut, it's even easier for Layers to get out of control, than in SketchUp.
+    - example layers:  `Default, on every page, page notes, labels, dimensions, drawn-A, model-A, drawn-B, model-B`
   - I get a frequent crash in 2023, when I render views.  I think I've found a workaround, see this [post](https://forums.sketchup.com/t/layout-crashing-frequently-su-2023/234944) on SU forums.
+  
 --------------
+
 ## workflows
 *updated 2023-08-04*
 
@@ -263,9 +265,6 @@ Once the basic schematic design is established, structural details will be added
 
 I like to maintain just one SketchUp model for any given project, when possible.  One of the exceptions might be when using rendering software -- it might be necessary to heavily modify the heirarchies or materials in a model, in order to make rendering easier.  And sometimes after the concept phase is complete, I make a new model for structural design & documentation.
 
-  Note on sections:
-  Sometimes I don't want to cut everything in the model -- e.g. cut walls & stairs but  not 2D dashes showing objects above the cut.  One option is to make a 'section group' which contains the groups I want to cut (e.g. it contains `walls`, `stairs`, `columns`).  Another option is copying a section and *pasting-in-place* between different groups (e.g. from `proposed` to `existing` or from `wall group` to `column group`. It helps to name sections with a common prefix (e.g. `sec`), to be able to find them quickly via Outliner (e.g. `sec_P1` for cut(s) of main level plan views).
-
 **heirarchies** (via grouping / tagging):
 
 - **A**
@@ -277,9 +276,11 @@ I like to maintain just one SketchUp model for any given project, when possible.
 - **B**
   - optional `section group` which contains multiple assemblies / groups to be sectioned with one cut (e.g. walls, stairs, columns)
     - assemblies (`floor assy.` etc)
-      - section cuts as needed
       - build state (`proposed` / `existing` / `demo`)
         - sub-assemblies (`floor framing` etc)
+
+ Note on sections:
+  If it's a simple model, it can work to put sections in a top-level group.  But sometimes I don't want to cut everything in the model -- e.g. cut walls & stairs but not 2D dashes showing objects above the cut.  One option is to make a 'section group' which contains the groups I want to cut (e.g. it contains `walls`, `stairs`, `columns`).  Another option is copying a section and *pasting-in-place* between different groups (e.g. from `proposed` to `existing` or from `wall group` to `column group`. It helps to name sections with a common prefix (e.g. `sec`), to be able to find them quickly via Outliner (e.g. `sec_P1` for cut(s) of main level plan views).
 
 --------------
 
@@ -290,15 +291,17 @@ plugin: [TIG: SKM Tools, Material Tools, and Image Tools] \
 plugin: [Eneroth Material Extractor] \
 article: [batch convert jpgs to skm (sketchup materials)](https://sites.google.com/site/sagesuwiki/tutorials/plugins/tutorials/batch-convert-jpgs-to-skm)
 
-### nested materials & the *default* material:
+### basics: nested materials & the *default* material:
 
 The *Default* material is a special material.  It's sort of a blank; a `nil` value for an object's material; an invisible placeholder (that by default displays as white on the front face, and blue on the back face.)
 
-If an entity (group, component, face, etc) contains different materials within its child entities, SketchUp has a way of prioritizing what materials are actually shown. 
+If an entity (group, component, face, etc) contains different materials within its child entities, SketchUp has a way of prioritizing which materials are actually rendered.
 
 If an entity is painted with a material, that material is also rendered on each child entity unless that child entity has non-default material of its own.
 
-In other words, if an entity is unpainted (painted with *default*), it's like an invisible primer, which shows the material underneath, and can be painted over.  But if an entity is painted with a normal material, it won't stick to other materials, and likewise can't be painted over.
+In other words, SketchUp prioritizes materials assigned to child entities over materials assigned to parent entities.
+
+Example:  I have roof/ceiling assembly -- a simple solid -- which includes roof, ceiling, and fascia.  I paint the `assembly` entity white, but then open it and paint the individual top roof faces with a shingle material.  This will render the ceiling & fascia as white, and the roof as shingles.
 
 ### component materials workflow
 If you paint a component, it doesn't apply to that component's copies -- you're painting the instance of the component (its container).  You must go a level deeper.  Here are 2 example heirarchies which let you easily paint all copies of a component in bulk.
@@ -310,13 +313,10 @@ If you paint a component, it doesn't apply to that component's copies -- you're 
     - *group* - `your material`
       - *raw geometry* - `default material`, and optionally individual faces with a unique material.
 
-Sometimes you need to reset numerous entities (groups, components, faces) to the default material.  There are plugins which make this easier.
+### misc. Materials tips:
 
-### Managing materials
-...
-
-#### Custom materials
-...
+- Sometimes you need to reset numerous entities (groups, components, faces) to the default material.  There are plugins which make this faster -- e.g. Thomthom's *Material Tools*, or *Material Replacer*.
+- I will often create a material collection for a project, and make most or all the materials in the model unique to that project.  Materials will be named for their purpose, e.g. `wall- salmon`.  This makes it easy to try out different materials (using Material pane or the *Material Replacer* plugin).
 
 ---------------
 
@@ -340,16 +340,17 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 
 -------------
 
-## tips
+## misc. tips
 
+- You can move a vertex by *selecting none*, then using the move tool on the vertex.  More advanced operations can be achieved with the plugin *Vertex Tools*.
+- Keyboard shortcuts can only be set while they are usable.  For example, to assign a shortcut to *Reverse Faces* you must first select a face.
+- Painting a component doesn't apply the material to other instances.  So I will often create a group within the component, and apply material to that group.  This way, it is applied to the other components, without needing to paint the raw geometry.
 - Fix for disappearing SketchUp windows (*Materials, Entity info*, etc):
   - Activate the dialog, so that it has the focus
   - Hit ALT + SPACE
   - Tap M, then tap any arrow key
   - Now, without clicking, move the mouse around until the dialog reappears on your screen.  Click to place the window.
-  - OR use my [AutoHotkey script](assets/Move_SketchUp_Window.ahk). First, install [AutoHotkey](https://www.autohotkey.com/), then just double-click the script.
-- Keyboard shortcuts can only be set while they are usable.  For example, to assign a shortcut to *Reverse Faces* you must first select a face.
-- Painting a component doesn't apply the material to other instances.  So I will often create a group within the component, and apply material to that group.  This way, it is applied to the other components, without needing to paint the raw geometry.
+  - Or try my old [AutoHotkey script](assets/Move_SketchUp_Window.ahk). It's probably made for AHK version 1.
 
 -------------
 
@@ -361,10 +362,6 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 - [Article: Always Use Proxy Components in Sketchup for Faster Rendering](http://sketchup-ur-space.com/2017/dec/always-use-proxy-components-in-sketchup-for-faster-rendering.html)
 - [Fredo Ghost extension](https://sketchucation.com/plugin/2191-fredoghost)
 
-### conceptual design
-
-... Make good use of components, tags, and scenes!
-
 -------------------
 
 ## My to do
@@ -374,11 +371,14 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
   - Sandbox
   - Classifier / IFC
   - quads & subdivision
-- Clean up:
-  - Styles
-  - Materials
+- Clean up & standardize:
+  - Components collections
+  - Styles collections
+  - Materials collections
   - Templates
   - Folder structure
+- Plugins:
+  - Make custom version of *Auto-Invisible Layers* which is enabled by default.
 
 
 <!-- Page Links ---------->
