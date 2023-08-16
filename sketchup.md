@@ -250,6 +250,12 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 ## workflows
 *updated 2023-08-04*
 
+semantics preface:
+"object" vs. "entity"  I use them somewhat sloppily.  I usually use 'entity' to mean "a sketchup thing".  In the SketchUp docs, it is mentioned that 'object' refers to a group, component, or a section plane.  Shrug.
+"Entity" and "Object" are important words for programmers who write SketchUp extensions in the Ruby language, which is an object-oriented language.  I think it's funny how some words exist to define something as loosely as possible, but in technical contexts are very strictly defined.  
+"container" = my generic term for a group or component.
+"group" vs. "component"; Usually a statement about a group also applies to components -- a component is a group with extra features.
+
 ### **Remodel / Addition:**  From conceptual design to construction documents.
 Potential requirements:
 - show proposed / existing / demo elements -- both independently and simultaneously.  
@@ -266,21 +272,47 @@ Once the basic schematic design is established, structural details will be added
 I like to maintain just one SketchUp model for any given project, when possible.  One of the exceptions might be when using rendering software -- it might be necessary to heavily modify the heirarchies or materials in a model, in order to make rendering easier.  And sometimes after the concept phase is complete, I make a new model for structural design & documentation.
 
 **heirarchies** (via grouping / tagging):
+*WIP 2023-08-09*
 
-- **A**
+SketchUp tags aren't like most tagging systems: In SketchUp, any given object can have only 1 tag. You can work around this to an extent, by putting that object in another container, and then giving that parent container a different tag.
+For example, here is a tree list showing a group structure with their tags. Note that my tags often have prefixes, such as numbers, which are designed to be sorted alphanumerically in the Tags pane.
+```
+- House
+  - Floor Group                   (untagged, but might be closely represented by tag *folder* `Floor`)
+    - Floor Assembly- House
+      - Floor Framing Assembly    (tag: 101 Floor Framing)
+        - joist object
+          - raw geometry
+        - girder object
+          - raw geometry
+      - Floor Sheathing           (tag: 102 Floor Sheathing)
+    - Floor Assembly- Porch
+      - Floor Framing Assembly    (tag: 101 Floor Framing)
+        - joists
+        - girders
+        - etc.
+```
+
+There is a tradeoff between simplicity and flexibility. 
+
+Here are outlines of some heirarchies that I use.  For me, this is mostly about the tags, and grouping is secondary.  I group things as needed, to achieve this heirarchy.
+
+- **A**: Tags the structure by its build state, creating & nesting groups as needed.  This works when the old/new/demolished parts of the building are fairly separate, without too much overlap.  But this is limiting, for example, I wouldn't be able to show ALL proposed elements but only SOME existing elements.
   - build state (`proposed` / `existing` / `demo`)
     - assemblies (`wall assy.` etc)
       - sub-assemblies (`wall framing`, `wall cladding ext.` etc)
-
-
-- **B**
+  -  
+- **B**: 
   - optional `section group` which contains multiple assemblies / groups to be sectioned with one cut (e.g. walls, stairs, columns)
     - assemblies (`floor assy.` etc)
       - build state (`proposed` / `existing` / `demo`)
         - sub-assemblies (`floor framing` etc)
 
+- **C**: Verbose.  Cramming lots of conditions into one tag. Resulting in more flexibility but a lot more tags.
+  - assemblies + build state + (`proposed floor assy.` etc)
+
  Note on sections:
-  If it's a simple model, it can work to put sections in a top-level group.  But sometimes I don't want to cut everything in the model -- e.g. cut walls & stairs but not 2D dashes showing objects above the cut.  One option is to make a 'section group' which contains the groups I want to cut (e.g. it contains `walls`, `stairs`, `columns`).  Another option is copying a section and *pasting-in-place* between different groups (e.g. from `proposed` to `existing` or from `wall group` to `column group`. It helps to name sections with a common prefix (e.g. `sec`), to be able to find them quickly via Outliner (e.g. `sec_P1` for cut(s) of main level plan views).
+  If it's a simple model, it can work to put sections in a top-level group.  But sometimes I don't want to cut everything in the model -- e.g. cut walls & stairs but not 2D dashes showing objects above the cut.  One option is to make a 'section group' which contains the groups I want to cut (e.g. it contains `walls`, `stairs`, `columns`).  Another, more versatile solution is copying a section and *pasting-in-place* between different groups (e.g. from `proposed` to `existing` or from `wall group` to `column group`).  This is easy enough that I don't worry about sections when choosing a heirarchy. It helps to name sections with a common prefix (e.g. `sec`), to be able to find them quickly via Outliner (e.g. `sec_P1` for all the cut(s) of main level plan views).
 
 --------------
 
@@ -367,9 +399,11 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 ## My to do
 
 - Learn:
+  - Outliner: recently added features.  Try using it for visibility control.
+  - Locking objects
+  - Classifier / IFC
   - Proxy modelling
   - Sandbox
-  - Classifier / IFC
   - quads & subdivision
 - Clean up & standardize:
   - Components collections
@@ -377,8 +411,9 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
   - Materials collections
   - Templates
   - Folder structure
+  - Tags... print my standards, and look into tag management plugins
 - Plugins:
-  - Make custom version of *Auto-Invisible Layers* which is enabled by default.
+  - Make custom version of *Auto-Invisible Layers*, to make it enabled upon startup.
 
 
 <!-- Page Links ---------->
