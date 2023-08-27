@@ -153,7 +153,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 
 I think keyboard shortcuts are essential to efficient, fluid work.
 
-I use a WASD hand position (gamer-style), and have chosen key assignments based on ergonomics / frequency of use.
+I use a WASD hand position (gamer-style), and have chosen key assignments based on ergonomics / frequency of use.  This means that my fingers generally stay resting on the WASD keys, and my right hand generally stays on the mouse.
 
 To further ergonomify, I've swapped a few keys around on the keyboard, using [SharpKeys]: \
 `Ctrl` <--> `Caps` \
@@ -200,7 +200,7 @@ Note that keyboard shortcuts can only be set while they are usable.  For example
 -------------
 
 ## backups
-By default, SketchUp autosaves to a temp file, and if the program crashes it offers to load that file.  I save my files directly to a cloud folder (OneDrive), although this can sometimes be finicky (OneDrive has been fine for me, but Google Drive gave me trouble in the past). For extra protection, I use [Bvckup2](https://bvckup2.com/) to automatically maintain a 1:1 backup of my entire *projects* folder, as well as archive timestamped copies of any files which are modified or deleted (to a different local drive).  I also use it to make less frequent backups to an external drive.  Many times I have been saved by either my archived backups, or by OneDrive's online file history.
+By default, SketchUp autosaves to a temp file, and if the program crashes it offers to load that file.  I save my files directly to a cloud folder (OneDrive).  For extra protection, I use [Bvckup2](https://bvckup2.com/) to automatically keep a 1:1 backup of my entire *projects* folder, as well as archive timestamped copies of any files which are modified or deleted (to a different local drive).  I also use the software to make occasional to an external drive.  These backups have saved me a lot of trouble.
 
 -----------
 
@@ -210,7 +210,7 @@ By default, SketchUp autosaves to a temp file, and if the program crashes it off
 
 - **keyboard shortcuts & folder locations:** these settings can be imported / exported to a single file.
 - **custom UI:**  I think it's possible to backup your UI config, but it's not straightforward, and I've not tested it sufficiently. On a fresh install, I always customize the UI from scratch.
-- **plugins:** SketchUp installs plugins in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Plugins`.  While it might work to simply backup & restore this folder, I play it safe and either reinstall fresh plugins from the Extension Warehouse, or install my backed up `.rbz` files using the Extension Manager.
+- **plugins:** SketchUp installs plugins in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Plugins`.  While it seems to work to simply backup & restore this folder, I play it safe and either reinstall fresh plugins from the Extension Warehouse, or install my backed up `.rbz` files using the Extension Manager.
 - **templates:** Stored in `%appdata%\SketchUp\SketchUp 2021\SketchUp\Templates`. Note: this folder location cannot be customized in SketchUp preferences.  I place a helpful shortcut to this folder in my personal templates folder, and copy templates over as needed.  If you really wanted to use a custom location, you could probably do it with symlinks[https://en.wikipedia.org/wiki/Symbolic_link], but that's pretty advanced.
 
 --------------
