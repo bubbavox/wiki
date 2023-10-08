@@ -55,6 +55,7 @@ related: [SketchUp + Ruby](sketchup_ruby.md), [Rendering](rendering.md), [VR](VR
 
 - [Attribute Inspector] (Aerilius) - [github](https://github.com/Aerilius/sketchup-attribute-inspector) -  *A viewer and editor for entity and model attributes*
 - [Eneroth Visual Merge] -- $ / trial -- automagically hides lines & faces where selected groups touch, making them appear to be seamless.
+- [Eneroth Texture Positioning Tools] -- quickly rotate textures or align texture with an edge
 - [Component Properties] -- requires [TT_Lib²]
 - [SubD] -- $ / trial
   - [website](https://evilsoftwareempire.com/subd)
@@ -448,6 +449,7 @@ Axes can be adjusted: You can set the origin and the direction of each of the 3 
 [Eneroth Pipe]: https://extensions.sketchup.com/extension/80637e4a-8f8a-438f-85f0-da53a69314d8/eneroth-pipe
 [Eneroth Solid Tools]: https://extensions.sketchup.com/extension/b1fc993f-42ac-44ab-8655-3037ccdfc36e/eneroth-solid-tools
 [Eneroth Swift Layer Visibility Control]: https://extensions.sketchup.com/extension/cfa47a7e-1d7e-4899-a225-32e1399c44cd/eneroth-swift-layer-visibility-control
+[Eneroth Texture Positioning Tools]: https://extensions.sketchup.com/extension/9d566697-9b02-4f3c-b769-9e1c57af7750/eneroth-texture-positioning-tools
 [Eneroth Tool Memory]: https://extensions.sketchup.com/extension/fb385104-103e-4176-b1e5-92e114bad57a/eneroth-tool-memory
 [Eneroth Visual Merge]: https://extensions.sketchup.com/extension/6b8d9d0f-3f8b-4101-9e0f-37dbf4372339/eneroth-visual-merge
 [Face Centroid and Area Properties]: https://extensions.sketchup.com/extension/fef39953-7374-48aa-812d-c0df1c24870e/face-centroid-and-area-properties
